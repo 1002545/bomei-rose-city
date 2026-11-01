@@ -1,0 +1,69 @@
+{
+  "reference": "docs/asset-references/interior-v27/treadmill.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92821,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 534408,
+    "number_of_vertices": 148198,
+    "time": {
+      "remove background": 3.81441330909729,
+      "shape generation": 7.506333112716675,
+      "export to trimesh": 0.0795297622680664,
+      "total": 11.402662515640259
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 24000,
+  "vertices": 15602,
+  "bounds": [
+    [
+      -0.8029146954480844,
+      -0.7543470625033993,
+      -0.9985627715436861
+    ],
+    [
+      0.3578006556139217,
+      0.7242307332476045,
+      0.9590904386389674
+    ]
+  ],
+  "imageBounds": [
+    [
+      126,
+      15,
+      699,
+      532
+    ],
+    [
+      141,
+      10,
+      699,
+      503
+    ],
+    [
+      2,
+      12,
+      679,
+      510
+    ],
+    [
+      2,
+      2,
+      682,
+      494
+    ]
+  ],
+  "sha256": "0a98bb3df0d99c9f32592d5b73c03bf59df8ad4b22eb16b87d0a11ec2b61ea0b",
+  "repair": "Pet-height deck/console fitting; runtime uses a uniform physical coated-metal material and separate animated belt"
+}

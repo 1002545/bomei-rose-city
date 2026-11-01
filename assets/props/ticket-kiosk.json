@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/interior-v27/ticket-kiosk.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92822,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 390168,
+    "number_of_vertices": 103466,
+    "time": {
+      "remove background": 3.7754459381103516,
+      "shape generation": 7.6221089363098145,
+      "export to trimesh": 0.052664756774902344,
+      "total": 11.453525066375732
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 24000,
+  "vertices": 14757,
+  "bounds": [
+    [
+      -0.40836185216903687,
+      -0.9983117951829144,
+      -0.3296480744136599
+    ],
+    [
+      0.3690181509056522,
+      0.9591203077834921,
+      0.27829126557548833
+    ]
+  ],
+  "imageBounds": [
+    [
+      216,
+      13,
+      443,
+      575
+    ],
+    [
+      215,
+      2,
+      446,
+      576
+    ],
+    [
+      205,
+      13,
+      384,
+      575
+    ],
+    [
+      206,
+      2,
+      386,
+      576
+    ]
+  ],
+  "sha256": "c2a4d711ccba9a7446135e073f1929add57bc37cdbe6d5d26f2b8472348a29ea"
+}

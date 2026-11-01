@@ -1,0 +1,70 @@
+{
+  "reference": "docs/asset-references/interior-v27/window-frame.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92820,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 364424,
+    "number_of_vertices": 115106,
+    "time": {
+      "remove background": 3.4694559574127197,
+      "shape generation": 6.707965850830078,
+      "export to trimesh": 0.052095651626586914,
+      "total": 10.231538772583008
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 24000,
+  "vertices": 20418,
+  "bounds": [
+    [
+      -0.7098426857580599,
+      -0.9982647776848195,
+      -0.15221546115284917
+    ],
+    [
+      0.6166547024631461,
+      0.9592658957221081,
+      0.11101145928903246
+    ]
+  ],
+  "imageBounds": [
+    [
+      139,
+      12,
+      558,
+      600
+    ],
+    [
+      138,
+      12,
+      554,
+      597
+    ],
+    [
+      254,
+      12,
+      337,
+      598
+    ],
+    [
+      246,
+      12,
+      361,
+      600
+    ]
+  ],
+  "sha256": "dd364ce9d3cf47ae7c2b840515a746c65d861f3e630467e80923fd25c6e3b375",
+  "glazing_apertures": 10,
+  "repair": "Image-segmented pane apertures cut through HF geometry using manifold Boolean difference"
+}

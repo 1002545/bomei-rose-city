@@ -1,0 +1,868 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "hangzhou/westlake",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "hz-bench-park": {
+   "file": "hz-bench-park.glb",
+   "bytes": 28764,
+   "sha256": "3d90afc352ceaf9c06e36bde64c67ef487a0bb65d7036060dfeb27923183c055",
+   "tris": 512,
+   "size_m": [
+    1.8,
+    0.863,
+    0.491
+   ],
+   "bounds_lo": [
+    -0.9,
+    0.0,
+    -0.246
+   ],
+   "bounds_hi": [
+    0.9,
+    0.863,
+    0.245
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "ends",
+    "slats"
+   ],
+   "materials": [
+    "metal",
+    "wood"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-bike-dock": {
+   "file": "hz-bike-dock.glb",
+   "bytes": 26856,
+   "sha256": "628e4c45fc080a0a6ed2e70369642f97944219f6d82b54831fb5307f6f17a70e",
+   "tris": 468,
+   "size_m": [
+    3.3,
+    1.1,
+    0.7
+   ],
+   "bounds_lo": [
+    -1.5,
+    0.0,
+    -0.35
+   ],
+   "bounds_hi": [
+    1.8,
+    1.1,
+    0.35
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "rail",
+    "kiosk",
+    "accent"
+   ],
+   "materials": [
+    "lacquer",
+    "plastic",
+    "steel-brushed"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-boat-electric-far": {
+   "file": "hz-boat-electric-far.glb",
+   "bytes": 16468,
+   "sha256": "8a5a5ea6ab7a0effe1149d69e457c7ea7393313a0992ec0b1595d20b228e976e",
+   "tris": 232,
+   "size_m": [
+    2.3,
+    2.66,
+    9.4
+   ],
+   "bounds_lo": [
+    -1.15,
+    0.05,
+    -4.5
+   ],
+   "bounds_hi": [
+    1.15,
+    2.71,
+    4.9
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "hull",
+    "canopy"
+   ],
+   "materials": [
+    "paint"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-boat-rowing": {
+   "file": "hz-boat-rowing.glb",
+   "bytes": 112888,
+   "sha256": "dae47b911a58c6cbd13bb1cad3ac69932b72717d7ca326fab57ca200a6ffcd03",
+   "tris": 2662,
+   "size_m": [
+    5.628,
+    1.267,
+    5.232
+   ],
+   "bounds_lo": [
+    -2.814,
+    0.088,
+    -2.616
+   ],
+   "bounds_hi": [
+    2.814,
+    1.355,
+    2.616
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "hull",
+    "trim",
+    "canopy",
+    "seats",
+    "oar-l",
+    "oar-r"
+   ],
+   "materials": [
+    "bamboo",
+    "lacquer",
+    "wood"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-bridge-arch-a": {
+   "file": "hz-bridge-arch-a.glb",
+   "bytes": 334744,
+   "sha256": "13e60fbca72b08ca32b2a8a36adc5e2b357e7623c325c95962cb3602a5f91677",
+   "tris": 6692,
+   "size_m": [
+    13.972,
+    3.692,
+    3.2
+   ],
+   "bounds_lo": [
+    -6.986,
+    -0.092,
+    -1.6
+   ],
+   "bounds_hi": [
+    6.986,
+    3.6,
+    1.6
+   ],
+   "anchor": "ground-crown-centre",
+   "parts": [
+    "masonry",
+    "deck",
+    "parapet",
+    "post-caps"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-bridge-arch-b": {
+   "file": "hz-bridge-arch-b.glb",
+   "bytes": 269232,
+   "sha256": "ccd27612275e71c09f2f57a80ed4b78e1aedf732d513838b8773cc7a1882fc5e",
+   "tris": 5576,
+   "size_m": [
+    10.372,
+    2.992,
+    2.6
+   ],
+   "bounds_lo": [
+    -5.186,
+    -0.092,
+    -1.3
+   ],
+   "bounds_hi": [
+    5.186,
+    2.9,
+    1.3
+   ],
+   "anchor": "ground-crown-centre",
+   "parts": [
+    "masonry",
+    "deck",
+    "parapet",
+    "post-caps"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-bridge-arch-c": {
+   "file": "hz-bridge-arch-c.glb",
+   "bytes": 217236,
+   "sha256": "6c7c4c09fc9eede10baa5261ab52debde70c3c9822ca39bfa516b1bb36063d7f",
+   "tris": 4688,
+   "size_m": [
+    7.372,
+    2.392,
+    2.2
+   ],
+   "bounds_lo": [
+    -3.686,
+    -0.092,
+    -1.1
+   ],
+   "bounds_hi": [
+    3.686,
+    2.3,
+    1.1
+   ],
+   "anchor": "ground-crown-centre",
+   "parts": [
+    "masonry",
+    "deck",
+    "parapet",
+    "post-caps"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-dock": {
+   "file": "hz-dock.glb",
+   "bytes": 48512,
+   "sha256": "f0657fd0a8f3a33201f69ed64e2cc0b8d95783f7e305f5d07f19485f26e2a8a6",
+   "tris": 960,
+   "size_m": [
+    4.0,
+    1.6,
+    1.592
+   ],
+   "bounds_lo": [
+    -2.0,
+    -0.8,
+    -0.786
+   ],
+   "bounds_hi": [
+    2.0,
+    0.8,
+    0.806
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "planks",
+    "posts"
+   ],
+   "materials": [
+    "wood"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-lamp-castiron": {
+   "file": "hz-lamp-castiron.glb",
+   "bytes": 29000,
+   "sha256": "053d72141442ed86590e140dcf013b60007a2e91ef78cbb18511e229e07afc18",
+   "tris": 680,
+   "size_m": [
+    0.48,
+    3.53,
+    0.48
+   ],
+   "bounds_lo": [
+    -0.24,
+    0.0,
+    -0.24
+   ],
+   "bounds_hi": [
+    0.24,
+    3.53,
+    0.24
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "post",
+    "glass"
+   ],
+   "materials": [
+    "led",
+    "metal"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-moongate-wall": {
+   "file": "hz-moongate-wall.glb",
+   "bytes": 122064,
+   "sha256": "f8cf5a44161f8a5cdd272cc0cf3305058d41d49f00bca4e6be2119bb8a6d1e6b",
+   "tris": 2208,
+   "size_m": [
+    4.24,
+    3.35,
+    0.64
+   ],
+   "bounds_lo": [
+    -2.12,
+    -0.07,
+    -0.32
+   ],
+   "bounds_hi": [
+    2.12,
+    3.28,
+    0.32
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "wall",
+    "ring",
+    "coping"
+   ],
+   "materials": [
+    "roof-tile",
+    "stone",
+    "plaster"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-oriole": {
+   "file": "hz-oriole.glb",
+   "bytes": 27952,
+   "sha256": "e816962630fc78ba3d54310a1e463308e9902a7b83d245cbad7413d9b0582c56",
+   "tris": 812,
+   "size_m": [
+    0.122,
+    0.22,
+    0.337
+   ],
+   "bounds_lo": [
+    -0.061,
+    0.0,
+    -0.211
+   ],
+   "bounds_hi": [
+    0.061,
+    0.22,
+    0.126
+   ],
+   "anchor": "perch-feet",
+   "parts": [
+    "body",
+    "beak",
+    "eye"
+   ],
+   "materials": [
+    "beak",
+    "plumage",
+    "eye"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-pagoda-baochu": {
+   "file": "hz-pagoda-baochu.glb",
+   "bytes": 33608,
+   "sha256": "53e3b823141af6a9d0eeea45d798cdd851d5c1cf5b747da7ad073f63381d42c8",
+   "tris": 668,
+   "size_m": [
+    4.32,
+    26.8,
+    4.32
+   ],
+   "bounds_lo": [
+    -2.16,
+    0.0,
+    -2.16
+   ],
+   "bounds_hi": [
+    2.16,
+    26.8,
+    2.16
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "body",
+    "eaves",
+    "finial"
+   ],
+   "materials": [
+    "plaster",
+    "roof-tile",
+    "stone"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-pagoda-leifeng": {
+   "file": "hz-pagoda-leifeng.glb",
+   "bytes": 25420,
+   "sha256": "02b3e0d328c3779a9b1939c3db247090d52ec12c7065596b4bf18b3c12ae9de6",
+   "tris": 492,
+   "size_m": [
+    8.64,
+    26.22,
+    8.64
+   ],
+   "bounds_lo": [
+    -4.32,
+    0.0,
+    -4.32
+   ],
+   "bounds_hi": [
+    4.32,
+    26.22,
+    4.32
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "body",
+    "eaves",
+    "finial"
+   ],
+   "materials": [
+    "plaster",
+    "roof-tile",
+    "stone"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-pagoda-santan": {
+   "file": "hz-pagoda-santan.glb",
+   "bytes": 82660,
+   "sha256": "e571b124981b2a5105a748d76ca6be2ab8a87998fd1ed6caba8178d30bcafb18",
+   "tris": 2284,
+   "size_m": [
+    1.104,
+    2.16,
+    1.146
+   ],
+   "bounds_lo": [
+    -0.539,
+    0.0,
+    -0.573
+   ],
+   "bounds_hi": [
+    0.565,
+    2.16,
+    0.573
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "caps"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-pavilion-long": {
+   "file": "hz-pavilion-long.glb",
+   "bytes": 62992,
+   "sha256": "23859e7b607346f7441061746bc53ef98a0907c5070a81d760c34e78c7919415",
+   "tris": 1760,
+   "size_m": [
+    9.0,
+    4.58,
+    4.8
+   ],
+   "bounds_lo": [
+    -4.5,
+    0.0,
+    -2.4
+   ],
+   "bounds_hi": [
+    4.5,
+    4.58,
+    2.4
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "platform",
+    "columns",
+    "roof",
+    "beams"
+   ],
+   "materials": [
+    "wood",
+    "lacquer",
+    "stone",
+    "roof-tile"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-pavilion-square": {
+   "file": "hz-pavilion-square.glb",
+   "bytes": 72584,
+   "sha256": "9c1697191edadd7c404d41f3d992403fbed930154be63d352984bd2641782842",
+   "tris": 1824,
+   "size_m": [
+    6.0,
+    5.25,
+    6.0
+   ],
+   "bounds_lo": [
+    -3.0,
+    0.0,
+    -3.0
+   ],
+   "bounds_hi": [
+    3.0,
+    5.25,
+    3.0
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "platform",
+    "columns",
+    "roof",
+    "beams",
+    "seat-rail"
+   ],
+   "materials": [
+    "wood",
+    "lacquer",
+    "stone",
+    "roof-tile"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-peach-tree": {
+   "file": "hz-peach-tree.glb",
+   "bytes": 212728,
+   "sha256": "361fe5eed8627736603b60d8f0336e926b1198ef9642f215fd498079b24142d0",
+   "tris": 3832,
+   "size_m": [
+    3.653,
+    4.123,
+    3.784
+   ],
+   "bounds_lo": [
+    -1.855,
+    -0.013,
+    -2.502
+   ],
+   "bounds_hi": [
+    1.798,
+    4.11,
+    1.282
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "branches",
+    "blossoms",
+    "leaves"
+   ],
+   "materials": [
+    "petal",
+    "wood",
+    "plant"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-revetment": {
+   "file": "hz-revetment.glb",
+   "bytes": 79952,
+   "sha256": "5e5445c06d813c91b62dabb8f1d3760c1dcd5314b712afe9398d514e00e47f92",
+   "tris": 1756,
+   "size_m": [
+    3.218,
+    1.705,
+    0.7
+   ],
+   "bounds_lo": [
+    -1.609,
+    0.025,
+    -0.35
+   ],
+   "bounds_hi": [
+    1.609,
+    1.73,
+    0.35
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "blocks",
+    "capstone",
+    "balustrade"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-signboard-guide": {
+   "file": "hz-signboard-guide.glb",
+   "bytes": 17960,
+   "sha256": "15cabe00ed27a7edd3ebe8c0b02aa66f7205e69677e533b6864a64fd4d42503c",
+   "tris": 368,
+   "size_m": [
+    1.5,
+    2.28,
+    0.4
+   ],
+   "bounds_lo": [
+    -0.75,
+    0.0,
+    -0.2
+   ],
+   "bounds_hi": [
+    0.75,
+    2.28,
+    0.2
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "posts",
+    "board",
+    "roof"
+   ],
+   "materials": [
+    "paint",
+    "wood",
+    "roof-tile"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-telescope": {
+   "file": "hz-telescope.glb",
+   "bytes": 22344,
+   "sha256": "0afbbb1fa7002fe8c291a9907cbe499f31ccebfaa2cbfcdbfa40273b0c8eb5a6",
+   "tris": 488,
+   "size_m": [
+    0.36,
+    1.482,
+    0.915
+   ],
+   "bounds_lo": [
+    -0.18,
+    0.0,
+    -0.454
+   ],
+   "bounds_hi": [
+    0.18,
+    1.482,
+    0.461
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "pedestal",
+    "fork",
+    "tube"
+   ],
+   "materials": [
+    "metal",
+    "lacquer"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-umbrella-closed": {
+   "file": "hz-umbrella-closed.glb",
+   "bytes": 18024,
+   "sha256": "d24d6b5eb83238a0d8d4a948d4ab2b1cd81ca3057dfcc2c83a80fedd900db961",
+   "tris": 272,
+   "size_m": [
+    0.18,
+    1.003,
+    0.174
+   ],
+   "bounds_lo": [
+    -0.09,
+    0.0,
+    -0.087
+   ],
+   "bounds_hi": [
+    0.09,
+    1.003,
+    0.087
+   ],
+   "anchor": "handle-base",
+   "parts": [
+    "shaft",
+    "canopy"
+   ],
+   "materials": [
+    "paper",
+    "bamboo"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-umbrella-oilpaper": {
+   "file": "hz-umbrella-oilpaper.glb",
+   "bytes": 24540,
+   "sha256": "66616b4ff120dca58d55db69468c9be801e77124f6c26c5a8b275b2bd9cf5dc5",
+   "tris": 492,
+   "size_m": [
+    1.842,
+    1.15,
+    1.84
+   ],
+   "bounds_lo": [
+    -0.921,
+    0.0,
+    -0.92
+   ],
+   "bounds_hi": [
+    0.921,
+    1.15,
+    0.92
+   ],
+   "anchor": "handle-base",
+   "parts": [
+    "shaft",
+    "canopy",
+    "ribs"
+   ],
+   "materials": [
+    "paper",
+    "bamboo"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-wall-lattice": {
+   "file": "hz-wall-lattice.glb",
+   "bytes": 95792,
+   "sha256": "4ddbf50f67bfbb0f67a77104dab518c0a3a395ea9d7a9a4f6d0a696f34355c3d",
+   "tris": 1720,
+   "size_m": [
+    3.24,
+    2.96,
+    0.59
+   ],
+   "bounds_lo": [
+    -1.62,
+    0.0,
+    -0.295
+   ],
+   "bounds_hi": [
+    1.62,
+    2.96,
+    0.295
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "wall",
+    "lattice",
+    "coping"
+   ],
+   "materials": [
+    "roof-tile",
+    "stone",
+    "plaster"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-wall-white": {
+   "file": "hz-wall-white.glb",
+   "bytes": 15436,
+   "sha256": "9ed86bed69c5d5ff5fe14a844847d29c83b9db750cf60d78b082b69c78306403",
+   "tris": 388,
+   "size_m": [
+    2.24,
+    2.96,
+    0.59
+   ],
+   "bounds_lo": [
+    -1.12,
+    0.0,
+    -0.295
+   ],
+   "bounds_hi": [
+    1.12,
+    2.96,
+    0.295
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "wall",
+    "coping"
+   ],
+   "materials": [
+    "roof-tile",
+    "plaster"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-willow-lod": {
+   "file": "hz-willow-lod.glb",
+   "bytes": 56512,
+   "sha256": "9f9f88aabbf720e14c84519bdd164ce3f1950ac8f1ab9731a9d8c429f76dca6a",
+   "tris": 1056,
+   "size_m": [
+    5.803,
+    5.408,
+    4.517
+   ],
+   "bounds_lo": [
+    -3.165,
+    -0.324,
+    -2.532
+   ],
+   "bounds_hi": [
+    2.638,
+    5.084,
+    1.985
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "trunk",
+    "foliage"
+   ],
+   "materials": [
+    "plant",
+    "wood"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  },
+  "hz-willow-near": {
+   "file": "hz-willow-near.glb",
+   "bytes": 372032,
+   "sha256": "5a28bc1ce26a78ac87652804a479cb7821c112936ea4e81336988415cbc72784",
+   "tris": 7776,
+   "size_m": [
+    6.094,
+    6.092,
+    4.051
+   ],
+   "bounds_lo": [
+    -2.677,
+    -0.133,
+    -2.379
+   ],
+   "bounds_hi": [
+    3.417,
+    5.959,
+    1.672
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "trunk",
+    "foliage"
+   ],
+   "materials": [
+    "plant",
+    "wood"
+   ],
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "bf390d88-9afc-4e00-9dff-0d5be04aab3a",
+   "worker": "Asking635/bomei-blender-worker-2",
+   "kind": "hz_lake",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "735f885e0f92d98f00973736c448ef5310e84f891639c190593f8aa611742d15",
+   "service_sha256": "fcadfce7e0af3457fda4a2c4c667764bd33088f4174367efdf0c36f46e9aacbe",
+   "result_sha256": "6271f3da8054f0f0c95ef444231cfbd8605a7d8cacc4e9ec047544fea875ae2d",
+   "seconds": 154.2,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 26,
+  "tris": 50666,
+  "bytes": 2426300
+ }
+}

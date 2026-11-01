@@ -1,0 +1,198 @@
+{
+ "schema": "office-npcs-manifest.v1",
+ "status": "INCOMPLETE: office character GLBs not built yet (Blender stage on the worker Spaces not deployed: permission denied in this session). Do not wire characters until characters[] is filled.",
+ "characters": [],
+ "pending_characters": [
+  {
+   "id": "gm",
+   "cn": "总经理",
+   "kind": "cat (British Shorthair, waistcoat + tie)",
+   "reference": "source-assets/office-characters/refs/gm/",
+   "shape": "source-assets/office-characters/3d/gm/hy-attempt-2/raw-shape.glb.gz",
+   "build_request": "image-blaster/pipeline/jobs/office-gm.json"
+  },
+  {
+   "id": "pom_orange",
+   "cn": "橙橙",
+   "kind": "pomeranian (orange sable, blue shirt, lanyard)",
+   "reference": "source-assets/office-characters/refs/pom_orange/",
+   "shape": "source-assets/office-characters/3d/pom_orange/hy-attempt-2/raw-shape.glb.gz",
+   "build_request": "image-blaster/pipeline/jobs/office-pom_orange.json"
+  },
+  {
+   "id": "pom_choco",
+   "cn": "可可",
+   "kind": "pomeranian (milk-chocolate, yellow shirt, lanyard)",
+   "reference": "source-assets/office-characters/refs/pom_choco/",
+   "shape": "source-assets/office-characters/3d/pom_choco/hy-attempt-2/raw-shape.glb.gz",
+   "build_request": "image-blaster/pipeline/jobs/office-pom_choco.json"
+  },
+  {
+   "id": "cat_calico",
+   "cn": "花花",
+   "kind": "cat (calico, pink blouse, lanyard)",
+   "reference": "source-assets/office-characters/refs/cat_calico/",
+   "shape": "source-assets/office-characters/3d/cat_calico/hy-attempt-2/raw-shape.glb.gz",
+   "build_request": "image-blaster/pipeline/jobs/office-cat_calico.json"
+  },
+  {
+   "id": "cat_tuxedo",
+   "cn": "墨墨",
+   "kind": "cat (tuxedo, mint shirt, lanyard)",
+   "reference": "source-assets/office-characters/refs/cat_tuxedo/",
+   "shape": "source-assets/office-characters/3d/cat_tuxedo/hy-attempt-2/raw-shape.glb.gz",
+   "build_request": "image-blaster/pipeline/jobs/office-cat_tuxedo.json"
+  }
+ ],
+ "planned_character_contract": {
+  "files": "<id>.glb.gz (game LOD, ~26k body + 45k fur tris) and <id>-hq.glb.gz (video LOD, 225k fur tris)",
+  "height_m": {
+   "gm": 0.84,
+   "others": 0.78
+  },
+  "clips": [
+   "idle",
+   "walk",
+   "type_seated",
+   "door_open",
+   "head_peek",
+   "hit_stagger",
+   "angry_stand"
+  ],
+  "shape_keys": {
+   "Body": [
+    "JawOpen",
+    "Smile",
+    "Frown",
+    "MouthO",
+    "EyeWide_L",
+    "EyeWide_R"
+   ],
+   "Lids": [
+    "Blink_L",
+    "Blink_R",
+    "Squint_L",
+    "Squint_R",
+    "Angry_L",
+    "Angry_R",
+    "Dazed_L",
+    "Dazed_R",
+    "Wide_L",
+    "Wide_R"
+   ],
+   "Tongue": [
+    "JawOpen"
+   ],
+   "Fur": "same as Body"
+  },
+  "no_tails": true
+ },
+ "protagonist": {
+  "file": "protagonist-clips.json",
+  "sha256": "fadecd1433630f797a36d01ea20579ae44ac7b3cb8d08bf486ea7f0e7af637ca",
+  "adapter": "protagonist-clips.mjs",
+  "adapter_sha256": "224817e4ff8d2270383556f09e34d450527f91508542248b2e738d657a8efa61",
+  "rig": "existing procedural dog rig via bomeiR48 actions (no new skeleton; coat/animations untouched)",
+  "clips": {
+   "angry": {
+    "seconds": 2.4,
+    "loop": true,
+    "root": true,
+    "events": [],
+    "prop": null
+   },
+   "laptop-slam": {
+    "seconds": 1.7,
+    "loop": false,
+    "root": true,
+    "events": [
+     {
+      "t": 0.58,
+      "name": "contact"
+     }
+    ],
+    "prop": null
+   },
+   "keyboard-grab": {
+    "seconds": 1.9,
+    "loop": false,
+    "root": true,
+    "events": [
+     {
+      "t": 0.85,
+      "name": "grip"
+     }
+    ],
+    "prop": "keyboard"
+   },
+   "keyboard-carry": {
+    "seconds": 1.2,
+    "loop": true,
+    "root": false,
+    "events": [],
+    "prop": "keyboard"
+   },
+   "keyboard-swing": {
+    "seconds": 1.6,
+    "loop": false,
+    "root": true,
+    "events": [
+     {
+      "t": 0.66,
+      "name": "impact"
+     }
+    ],
+    "prop": "keyboard"
+   },
+   "sit-in-taxi": {
+    "seconds": 6,
+    "loop": true,
+    "root": false,
+    "events": [],
+    "prop": null
+   },
+   "phone-tap": {
+    "seconds": 2.4,
+    "loop": true,
+    "root": false,
+    "events": [
+     {
+      "t": 0.35,
+      "name": "tap"
+     },
+     {
+      "t": 0.65,
+      "name": "tap"
+     },
+     {
+      "t": 0.95,
+      "name": "tap"
+     },
+     {
+      "t": 1.55,
+      "name": "tap"
+     },
+     {
+      "t": 1.85,
+      "name": "tap"
+     }
+    ],
+    "prop": "phone"
+   }
+  },
+  "existing_reused": [
+   "close-laptop",
+   "tap",
+   "kick",
+   "pull",
+   "pick-up-office",
+   "shelf-pick",
+   "drink",
+   "eat",
+   "last-sip",
+   "seat poses (commute/flight/garden-rest)",
+   "rest/swim/driver"
+  ],
+  "verification": "source-assets/office-characters/renders/protagonist-clips/dogclip-*.png (headless SwiftShader three.js, real pomeranian-refined.glb + v33 coat + public/dog-rig.js; not phone, not the shipped bundle)"
+ }
+}

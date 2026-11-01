@@ -1,0 +1,760 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "hangzhou/hotel",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "fs-bonsai": {
+   "file": "fs-bonsai.glb",
+   "bytes": 27128,
+   "sha256": "333db1d40793fa1079382aef223ca1d386424f330335e1602a6e100f945f5e6d",
+   "tris": 622,
+   "size_m": [
+    0.918,
+    1.199,
+    0.468
+   ],
+   "bounds_lo": [
+    -0.43,
+    0.0,
+    -0.241
+   ],
+   "bounds_hi": [
+    0.488,
+    1.199,
+    0.227
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "pot",
+    "trunk",
+    "needles"
+   ],
+   "materials": [
+    "plant",
+    "lacquer",
+    "wood"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-bridge-zigzag": {
+   "file": "fs-bridge-zigzag.glb",
+   "bytes": 93736,
+   "sha256": "3cb15ebb7bacfdd8a760bdf6853f7cd7f485e24e671d83217955b935daf7ca4d",
+   "tris": 2024,
+   "size_m": [
+    9.28,
+    0.67,
+    3.5
+   ],
+   "bounds_lo": [
+    -4.64,
+    0.0,
+    -1.75
+   ],
+   "bounds_hi": [
+    4.64,
+    0.67,
+    1.75
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "planks",
+    "rail"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-concierge-desk": {
+   "file": "fs-concierge-desk.glb",
+   "bytes": 13236,
+   "sha256": "e1643b1e15351d756e24da20b7411c3a34a8c09ae5238f383747b6cf4866656c",
+   "tris": 268,
+   "size_m": [
+    1.3,
+    1.09,
+    0.68
+   ],
+   "bounds_lo": [
+    -0.65,
+    0.0,
+    -0.32
+   ],
+   "bounds_hi": [
+    0.65,
+    1.09,
+    0.36
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "fittings"
+   ],
+   "materials": [
+    "wood",
+    "brass"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dining-chair": {
+   "file": "fs-dining-chair.glb",
+   "bytes": 25228,
+   "sha256": "3bbd85f5bc8755e2ed1d6e7dae311e51844a170090bf4a5139b445e430362277",
+   "tris": 444,
+   "size_m": [
+    0.54,
+    0.951,
+    0.46
+   ],
+   "bounds_lo": [
+    -0.27,
+    0.0,
+    -0.24
+   ],
+   "bounds_hi": [
+    0.27,
+    0.951,
+    0.22
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "seat"
+   ],
+   "materials": [
+    "wood",
+    "fabric"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dining-table-round": {
+   "file": "fs-dining-table-round.glb",
+   "bytes": 22704,
+   "sha256": "70aedd2ac97df135aa7bd83cffeeb4ddac03af41ff7ed2ad96e25c2beecf872d",
+   "tris": 464,
+   "size_m": [
+    1.6,
+    0.79,
+    1.6
+   ],
+   "bounds_lo": [
+    -0.8,
+    0.0,
+    -0.8
+   ],
+   "bounds_hi": [
+    0.8,
+    0.79,
+    0.8
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "table",
+    "glass-plate",
+    "turntable"
+   ],
+   "materials": [
+    "glass",
+    "wood"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-dimsum-stand": {
+   "file": "fs-dish-dimsum-stand.glb",
+   "bytes": 55828,
+   "sha256": "c1befa669a2f7c6e908d9fa06ac3a9b967f5ab475cdce47e3ebe03e020c5c0ec",
+   "tris": 1624,
+   "size_m": [
+    0.24,
+    0.432,
+    0.24
+   ],
+   "bounds_lo": [
+    -0.12,
+    0.0,
+    -0.12
+   ],
+   "bounds_hi": [
+    0.12,
+    0.432,
+    0.12
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "stand"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "brass"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-dongpo-pork": {
+   "file": "fs-dish-dongpo-pork.glb",
+   "bytes": 43656,
+   "sha256": "85be56010568719a6722d6e5ee0ec875ad2dc86fb8bf24f54732aa61f620aacf",
+   "tris": 896,
+   "size_m": [
+    0.26,
+    0.062,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.062,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-longjing-shrimp": {
+   "file": "fs-dish-longjing-shrimp.glb",
+   "bytes": 59484,
+   "sha256": "abd4f81c9c326d7f556338b387f514f873bb68ad510dafca59b9213939e6bdaf",
+   "tris": 1100,
+   "size_m": [
+    0.26,
+    0.072,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.072,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-lotus-root": {
+   "file": "fs-dish-lotus-root.glb",
+   "bytes": 75568,
+   "sha256": "745e910bfb8d0dded781f179380d70396384fc72077e7bbd1a373fc844b585d2",
+   "tris": 1784,
+   "size_m": [
+    0.26,
+    0.034,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.034,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-osmanthus-cake": {
+   "file": "fs-dish-osmanthus-cake.glb",
+   "bytes": 51584,
+   "sha256": "a55479bdd381ec15d596b237ce96baec0f90f1117bdbf665de0bbf86b094fd3e",
+   "tris": 944,
+   "size_m": [
+    0.26,
+    0.052,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.052,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-rice-bowl": {
+   "file": "fs-dish-rice-bowl.glb",
+   "bytes": 43980,
+   "sha256": "b54cc3926dbcd6b23c039c4d05b6184caa38974b0a15d13f0d5290c5e9a5b9b5",
+   "tris": 1132,
+   "size_m": [
+    0.23,
+    0.09,
+    0.22
+   ],
+   "bounds_lo": [
+    -0.11,
+    0.0,
+    -0.11
+   ],
+   "bounds_hi": [
+    0.12,
+    0.09,
+    0.11
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "bowl"
+   ],
+   "materials": [
+    "ceramic",
+    "food"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-seasonal-greens": {
+   "file": "fs-dish-seasonal-greens.glb",
+   "bytes": 41240,
+   "sha256": "0092dc1755903b792670d66a39423139c9a4b932b013a8296d582aaff0f47f0b",
+   "tris": 848,
+   "size_m": [
+    0.26,
+    0.064,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.064,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food"
+   ],
+   "materials": [
+    "food",
+    "ceramic"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-soup-tureen": {
+   "file": "fs-dish-soup-tureen.glb",
+   "bytes": 37040,
+   "sha256": "2aafab26d6ccde30d616e73c843b86d3126ca7da3cdf9ebedacc65430faedf29",
+   "tris": 970,
+   "size_m": [
+    0.394,
+    0.229,
+    0.34
+   ],
+   "bounds_lo": [
+    -0.17,
+    0.0,
+    -0.17
+   ],
+   "bounds_hi": [
+    0.224,
+    0.229,
+    0.17
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "tureen",
+    "lid"
+   ],
+   "materials": [
+    "food",
+    "ceramic"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-dish-vinegar-fish": {
+   "file": "fs-dish-vinegar-fish.glb",
+   "bytes": 36444,
+   "sha256": "4919650b0e63026998cd89dac81b2d7b53974796ac9574832352ce0f266c47cd",
+   "tris": 832,
+   "size_m": [
+    0.406,
+    0.101,
+    0.3
+   ],
+   "bounds_lo": [
+    -0.203,
+    0.0,
+    -0.15
+   ],
+   "bounds_hi": [
+    0.203,
+    0.101,
+    0.15
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "food",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-front-desk": {
+   "file": "fs-front-desk.glb",
+   "bytes": 39112,
+   "sha256": "068de4ed88f048620d9e6b813a4f02af39dccf41c5b5927a08090a36b4e86f57",
+   "tris": 840,
+   "size_m": [
+    3.3,
+    1.53,
+    0.86
+   ],
+   "bounds_lo": [
+    -1.65,
+    0.0,
+    -0.41
+   ],
+   "bounds_hi": [
+    1.65,
+    1.53,
+    0.45
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "front",
+    "top",
+    "lamp"
+   ],
+   "materials": [
+    "wood",
+    "brass",
+    "marble"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-gatehouse": {
+   "file": "fs-gatehouse.glb",
+   "bytes": 35048,
+   "sha256": "1e39cff25782f629f3c39ad6d4f597735b982308c9edc1eb1497ccd98a3057e6",
+   "tris": 928,
+   "size_m": [
+    7.6,
+    5.6,
+    4.6
+   ],
+   "bounds_lo": [
+    -3.8,
+    0.0,
+    -2.3
+   ],
+   "bounds_hi": [
+    3.8,
+    5.6,
+    2.3
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "walls",
+    "roof",
+    "beams",
+    "plinth"
+   ],
+   "materials": [
+    "wood",
+    "stone",
+    "roof-tile",
+    "plaster"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-lantern-brass": {
+   "file": "fs-lantern-brass.glb",
+   "bytes": 15548,
+   "sha256": "3d4e1efb1594c7f81f437275f1bee77bce69717904e1d257854980d6257cc02e",
+   "tris": 302,
+   "size_m": [
+    0.403,
+    1.306,
+    0.404
+   ],
+   "bounds_lo": [
+    -0.17,
+    -0.006,
+    -0.202
+   ],
+   "bounds_hi": [
+    0.233,
+    1.3,
+    0.202
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "frame",
+    "glow"
+   ],
+   "materials": [
+    "brass",
+    "led"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-luggage-cart": {
+   "file": "fs-luggage-cart.glb",
+   "bytes": 28248,
+   "sha256": "8f5e8f2f042261128ead8150f0a60748314c449820ea04bb9cee1b4258cbdee5",
+   "tris": 616,
+   "size_m": [
+    0.984,
+    1.793,
+    0.746
+   ],
+   "bounds_lo": [
+    -0.512,
+    0.0,
+    -0.458
+   ],
+   "bounds_hi": [
+    0.472,
+    1.793,
+    0.288
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "decks"
+   ],
+   "materials": [
+    "wood",
+    "brass"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-rock-taihu-a": {
+   "file": "fs-rock-taihu-a.glb",
+   "bytes": 54996,
+   "sha256": "d0572324c4f509d50df9ff73da04d1e7cc12ef0f7b0b9eda382d737676f49d54",
+   "tris": 2160,
+   "size_m": [
+    0.981,
+    2.035,
+    0.879
+   ],
+   "bounds_lo": [
+    -0.494,
+    0.094,
+    -0.43
+   ],
+   "bounds_hi": [
+    0.487,
+    2.129,
+    0.449
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "rock"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-rock-taihu-b": {
+   "file": "fs-rock-taihu-b.glb",
+   "bytes": 54560,
+   "sha256": "3281a09381b91230f82802b6e0162840d7db3cf517d34666b89ecd9d35226504",
+   "tris": 2160,
+   "size_m": [
+    1.208,
+    1.579,
+    1.013
+   ],
+   "bounds_lo": [
+    -0.6,
+    0.044,
+    -0.503
+   ],
+   "bounds_hi": [
+    0.608,
+    1.623,
+    0.51
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "rock"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-rock-taihu-c": {
+   "file": "fs-rock-taihu-c.glb",
+   "bytes": 55928,
+   "sha256": "57652c7b68affa6c8ce0871709272ef63643a9ea9517280c252705ccebaccb3e",
+   "tris": 2160,
+   "size_m": [
+    0.919,
+    2.599,
+    0.79
+   ],
+   "bounds_lo": [
+    -0.456,
+    0.106,
+    -0.392
+   ],
+   "bounds_hi": [
+    0.463,
+    2.705,
+    0.398
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "rock"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-vase-lotus-pink": {
+   "file": "fs-vase-lotus-pink.glb",
+   "bytes": 22772,
+   "sha256": "11169600bf241ea44ca4b62a61d1ce27cd65d62bc9d1b55c38c4b6cb03aba605",
+   "tris": 660,
+   "size_m": [
+    0.34,
+    0.82,
+    0.338
+   ],
+   "bounds_lo": [
+    -0.17,
+    0.0,
+    -0.169
+   ],
+   "bounds_hi": [
+    0.17,
+    0.82,
+    0.169
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "vase"
+   ],
+   "materials": [
+    "lacquer"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  },
+  "fs-wall-pink": {
+   "file": "fs-wall-pink.glb",
+   "bytes": 67388,
+   "sha256": "18b0e9bbb14e02b356b952e50714fce1b8f86c22820d025631073f40d72c8ac4",
+   "tris": 1160,
+   "size_m": [
+    3.24,
+    3.08,
+    0.64
+   ],
+   "bounds_lo": [
+    -1.62,
+    0.0,
+    -0.32
+   ],
+   "bounds_hi": [
+    1.62,
+    3.08,
+    0.32
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "wall",
+    "coping",
+    "frame"
+   ],
+   "materials": [
+    "roof-tile",
+    "stone",
+    "plaster"
+   ],
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "fdc578d1-249a-4992-8ff5-209598dcd10b",
+   "worker": "Asking635/bomei-blender-worker-3",
+   "kind": "hz_hotel",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "735f885e0f92d98f00973736c448ef5310e84f891639c190593f8aa611742d15",
+   "service_sha256": "fcadfce7e0af3457fda4a2c4c667764bd33088f4174367efdf0c36f46e9aacbe",
+   "result_sha256": "c35b590ea9b5b63d2296d342f6a64901772e61f2909c6c943ba1e22d853043e4",
+   "seconds": 139.9,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 23,
+  "tris": 24938,
+  "bytes": 1000456
+ }
+}

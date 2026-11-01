@@ -1,0 +1,26 @@
+[
+  {
+    "file": "ktx-parse-LICENSE",
+    "source": "https://raw.githubusercontent.com/donmccurdy/ktx-parse/main/LICENSE",
+    "sha256": "79847431f9ecef9cf399085cb863452e71a6dab99738f4f0c1ea06c6484b5692",
+    "bytes": 1078
+  },
+  {
+    "file": "zstddec-LICENSE",
+    "source": "https://raw.githubusercontent.com/donmccurdy/zstddec/main/LICENSE",
+    "sha256": "8d078b49fc02bd63c1beaf4ddc629a8b48e4ba6a435415408c8209e2a5c3aacf",
+    "bytes": 2617
+  },
+  {
+    "file": "basis-universal-LICENSE",
+    "source": "https://raw.githubusercontent.com/BinomialLLC/basis_universal/master/LICENSE",
+    "sha256": "065fcf48d6af21c0b75e23be5ed5753aee75c892e1c2cf178fa6736305614a5c",
+    "bytes": 11347
+  },
+  {
+    "file": "three-LICENSE",
+    "source": "installed official three@0.180.0/LICENSE",
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "bytes": 1081
+  }
+]

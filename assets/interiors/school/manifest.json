@@ -1,0 +1,667 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "interiors/school",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "school-abacus": {
+   "file": "school-abacus.glb",
+   "bytes": 190868,
+   "sha256": "7b0ed0ef9465c15a19ec1f340b45e5bb32a4c064480bf93aac6b97ba0622b61e",
+   "tris": 6632,
+   "size_m": [
+    0.4,
+    0.22,
+    0.02
+   ],
+   "bounds_lo": [
+    -0.2,
+    0.0,
+    -0.01
+   ],
+   "bounds_hi": [
+    0.2,
+    0.22,
+    0.01
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "frame",
+    "beads",
+    "rods"
+   ],
+   "materials": [
+    "lacquer",
+    "wood",
+    "steel-brushed"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-blackboard": {
+   "file": "school-blackboard.glb",
+   "bytes": 28840,
+   "sha256": "c800be0b72f362c75d1d8ff9ea571a10cd7b5161b1e2467af193c80348c4a413",
+   "tris": 540,
+   "size_m": [
+    4.8,
+    1.225,
+    0.117
+   ],
+   "bounds_lo": [
+    -2.4,
+    0.825,
+    -0.026
+   ],
+   "bounds_hi": [
+    2.4,
+    2.05,
+    0.091
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "board",
+    "tray",
+    "chalk"
+   ],
+   "materials": [
+    "blackboard",
+    "paint",
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-bookshelf": {
+   "file": "school-bookshelf.glb",
+   "bytes": 216324,
+   "sha256": "7f1916a04e520b8ad51eb4aa550367b6601a5566f33242c4f650f7afd02e2096",
+   "tris": 4720,
+   "size_m": [
+    1.62,
+    1.605,
+    0.35
+   ],
+   "bounds_lo": [
+    -0.81,
+    0.0,
+    -0.175
+   ],
+   "bounds_hi": [
+    0.81,
+    1.605,
+    0.175
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "shelf",
+    "books"
+   ],
+   "materials": [
+    "paper",
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-ceiling-fan": {
+   "file": "school-ceiling-fan.glb",
+   "bytes": 19224,
+   "sha256": "3bbd4e80ea6fd4075d21b9ee4b273e296416d0cfc69b0430fe0ad92425fd1a6a",
+   "tris": 324,
+   "size_m": [
+    0.935,
+    0.52,
+    1.08
+   ],
+   "bounds_lo": [
+    -0.355,
+    -0.52,
+    -0.54
+   ],
+   "bounds_hi": [
+    0.58,
+    0.0,
+    0.54
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "motor",
+    "rod",
+    "blades"
+   ],
+   "materials": [
+    "wood",
+    "metal",
+    "steel-brushed"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-chalk-eraser": {
+   "file": "school-chalk-eraser.glb",
+   "bytes": 12264,
+   "sha256": "8a7deaf295a34314045bdb758708c55b5a5aea9aadac7420d00e2af4b52afb27",
+   "tris": 184,
+   "size_m": [
+    0.205,
+    0.035,
+    0.05
+   ],
+   "bounds_lo": [
+    -0.08,
+    0.0,
+    -0.025
+   ],
+   "bounds_hi": [
+    0.125,
+    0.035,
+    0.025
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "chalk",
+    "eraser"
+   ],
+   "materials": [
+    "paint",
+    "felt"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-chart-board": {
+   "file": "school-chart-board.glb",
+   "bytes": 11496,
+   "sha256": "bf07c9738b471f90481e8e5e1f3edf6560d16da8eaf319f2d2b25f7760d1a0e7",
+   "tris": 188,
+   "size_m": [
+    1.4,
+    1.0,
+    0.03
+   ],
+   "bounds_lo": [
+    -0.7,
+    0.9,
+    -0.015
+   ],
+   "bounds_hi": [
+    0.7,
+    1.9,
+    0.015
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "chart"
+   ],
+   "materials": [
+    "paper",
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-desk-double": {
+   "file": "school-desk-double.glb",
+   "bytes": 30972,
+   "sha256": "85b6dba815efaed72f05899cb944bd6071a19e7044d23698e22c97194432bd5a",
+   "tris": 508,
+   "size_m": [
+    1.08,
+    0.6,
+    0.44
+   ],
+   "bounds_lo": [
+    -0.54,
+    0.0,
+    -0.22
+   ],
+   "bounds_hi": [
+    0.54,
+    0.6,
+    0.22
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "legs",
+    "lid-l",
+    "lid-r"
+   ],
+   "materials": [
+    "wood",
+    "steel-brushed"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-door-classroom": {
+   "file": "school-door-classroom.glb",
+   "bytes": 27068,
+   "sha256": "e8729fe5735dd3cf0e9d8259b65c2a9f2805d1f3d4c4e1058490cd347dde3791",
+   "tris": 498,
+   "size_m": [
+    1.0,
+    2.14,
+    0.12
+   ],
+   "bounds_lo": [
+    -0.5,
+    0.0,
+    -0.06
+   ],
+   "bounds_hi": [
+    0.5,
+    2.14,
+    0.06
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "door",
+    "window",
+    "handle"
+   ],
+   "materials": [
+    "wood",
+    "steel-brushed",
+    "glass"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-electric-bell": {
+   "file": "school-electric-bell.glb",
+   "bytes": 21104,
+   "sha256": "f507078af11b7039c43031fd935f94acea1fe3b2ec4b2efe4c5d14e819b177ae",
+   "tris": 564,
+   "size_m": [
+    0.2,
+    0.27,
+    0.107
+   ],
+   "bounds_lo": [
+    -0.1,
+    0.0,
+    -0.025
+   ],
+   "bounds_hi": [
+    0.1,
+    0.27,
+    0.082
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "gong",
+    "box",
+    "button"
+   ],
+   "materials": [
+    "plastic",
+    "lacquer"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-globe": {
+   "file": "school-globe.glb",
+   "bytes": 40704,
+   "sha256": "ec39e263c97ea52aa58d25daf0db4feb99629fc7c1788c70f1837f7107b6f9a2",
+   "tris": 1320,
+   "size_m": [
+    0.278,
+    0.4,
+    0.23
+   ],
+   "bounds_lo": [
+    -0.139,
+    0.0,
+    -0.115
+   ],
+   "bounds_hi": [
+    0.139,
+    0.4,
+    0.115
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "sphere",
+    "base",
+    "axis"
+   ],
+   "materials": [
+    "brass",
+    "wood",
+    "lacquer"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-hand-bell": {
+   "file": "school-hand-bell.glb",
+   "bytes": 19712,
+   "sha256": "9804e4fbb9edae54830341ef80ea6ea882d86f640636667efbd04f60d046f2bc",
+   "tris": 640,
+   "size_m": [
+    0.1,
+    0.17,
+    0.1
+   ],
+   "bounds_lo": [
+    -0.05,
+    0.018,
+    -0.05
+   ],
+   "bounds_hi": [
+    0.05,
+    0.188,
+    0.05
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "bell",
+    "handle",
+    "clapper"
+   ],
+   "materials": [
+    "brass",
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-locker-bank": {
+   "file": "school-locker-bank.glb",
+   "bytes": 46104,
+   "sha256": "17c4703516f9a1f01ee68b5c96b7b95d4cefb23a5e8f0e908022322bed677aa0",
+   "tris": 724,
+   "size_m": [
+    1.22,
+    1.82,
+    0.422
+   ],
+   "bounds_lo": [
+    -0.61,
+    0.0,
+    -0.2
+   ],
+   "bounds_hi": [
+    0.61,
+    1.82,
+    0.222
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "vents",
+    "handles",
+    "door-1",
+    "door-2",
+    "door-3",
+    "door-4"
+   ],
+   "materials": [
+    "paint",
+    "steel-brushed"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-notice-board": {
+   "file": "school-notice-board.glb",
+   "bytes": 11448,
+   "sha256": "1e5b285fbea79bf7f80a52f37f33ea5f062c11e0a7bb4a4ef0fbe6327978918e",
+   "tris": 188,
+   "size_m": [
+    1.2,
+    0.9,
+    0.03
+   ],
+   "bounds_lo": [
+    -0.6,
+    1.05,
+    -0.015
+   ],
+   "bounds_hi": [
+    0.6,
+    1.95,
+    0.015
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "cork"
+   ],
+   "materials": [
+    "cork",
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-podium": {
+   "file": "school-podium.glb",
+   "bytes": 14756,
+   "sha256": "dd1ee6ffc4640322ef948a52bdfdc92cea90c818ad143cc81b97d1eebf42d476",
+   "tris": 180,
+   "size_m": [
+    6.5,
+    0.182,
+    1.61
+   ],
+   "bounds_lo": [
+    -3.0,
+    0.0,
+    -0.8
+   ],
+   "bounds_hi": [
+    3.5,
+    0.182,
+    0.81
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "platform",
+    "ramp-mat"
+   ],
+   "materials": [
+    "wood",
+    "rubber"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-shoe-cabinet": {
+   "file": "school-shoe-cabinet.glb",
+   "bytes": 50068,
+   "sha256": "79da82514c82be81c3c041c8d09eb94bbdef0772d6e2b65cc7cbd8fb5adfc92f",
+   "tris": 1068,
+   "size_m": [
+    1.2,
+    0.9,
+    0.36
+   ],
+   "bounds_lo": [
+    -0.6,
+    0.0,
+    -0.18
+   ],
+   "bounds_hi": [
+    0.6,
+    0.9,
+    0.18
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "cabinet"
+   ],
+   "materials": [
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-step-stool": {
+   "file": "school-step-stool.glb",
+   "bytes": 5248,
+   "sha256": "7110aa0f33875fc7e0ff971dee08a5cecd6b59e8882b346d0c3cb362ff98770f",
+   "tris": 88,
+   "size_m": [
+    0.35,
+    0.3,
+    0.25
+   ],
+   "bounds_lo": [
+    -0.175,
+    0.0,
+    -0.125
+   ],
+   "bounds_hi": [
+    0.175,
+    0.3,
+    0.125
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "stool"
+   ],
+   "materials": [
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-stool-wood": {
+   "file": "school-stool-wood.glb",
+   "bytes": 11212,
+   "sha256": "c2371eb3aad905ac2fed20bc17fbdf18cb01d628e29628f27302e2a039d24be9",
+   "tris": 164,
+   "size_m": [
+    0.3,
+    0.381,
+    0.28
+   ],
+   "bounds_lo": [
+    -0.15,
+    -0.001,
+    -0.14
+   ],
+   "bounds_hi": [
+    0.15,
+    0.38,
+    0.14
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "stool"
+   ],
+   "materials": [
+    "wood"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-teacher-desk": {
+   "file": "school-teacher-desk.glb",
+   "bytes": 20368,
+   "sha256": "126e21bb5ffb80a3242e842d4cd228caaa0434abb26df5719bd4d4472dd6f79b",
+   "tris": 440,
+   "size_m": [
+    1.3,
+    0.75,
+    0.65
+   ],
+   "bounds_lo": [
+    -0.65,
+    0.01,
+    -0.325
+   ],
+   "bounds_hi": [
+    0.65,
+    0.76,
+    0.325
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "desk",
+    "pulls"
+   ],
+   "materials": [
+    "wood",
+    "brass"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-wall-clock": {
+   "file": "school-wall-clock.glb",
+   "bytes": 32252,
+   "sha256": "381d5a6334563c061093e01e99f7e1c1d64025c7ae1386dbaa8458b1e4d6daa5",
+   "tris": 528,
+   "size_m": [
+    0.316,
+    0.316,
+    0.034
+   ],
+   "bounds_lo": [
+    -0.158,
+    -0.158,
+    -0.002
+   ],
+   "bounds_hi": [
+    0.158,
+    0.158,
+    0.032
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "face",
+    "rim",
+    "hand-hour",
+    "hand-min"
+   ],
+   "materials": [
+    "paint",
+    "plastic"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  },
+  "school-water-fountain": {
+   "file": "school-water-fountain.glb",
+   "bytes": 14932,
+   "sha256": "389960a8ecf5c0cfca147d56681a707f240e34484dac03f085e1ca1979aefd6f",
+   "tris": 240,
+   "size_m": [
+    0.5,
+    0.982,
+    0.44
+   ],
+   "bounds_lo": [
+    -0.25,
+    0.0,
+    -0.2
+   ],
+   "bounds_hi": [
+    0.25,
+    0.982,
+    0.24
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "basin",
+    "body"
+   ],
+   "materials": [
+    "steel-brushed",
+    "paint"
+   ],
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "2f680598-3170-4809-8d3b-6e96b8442d9a",
+   "worker": "Asking635/bomei-blender-worker-3",
+   "kind": "school",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "01a4562ee34edb9b1bb29e9297f61caeb9c090bbbe203d301ad6146df71f79e5",
+   "service_sha256": "88d24857a6d2e5d7b0012bfd92a0112e29ee779be9754ade52964970f1261e53",
+   "result_sha256": "94b6c768966ff5bdbbd18dcf44cdb8363b47b10d8993b90a3cc050bda0f5fff3",
+   "seconds": 55.7,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 20,
+  "tris": 19738,
+  "bytes": 824964
+ }
+}

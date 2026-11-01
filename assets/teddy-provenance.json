@@ -1,0 +1,19 @@
+{
+  "method": "Hand-authored continuous SDF sculpt using generated six-view proportions; no HF inference",
+  "vertices": 24084,
+  "triangles": 48640,
+  "connected_components": 1,
+  "reference": "teddy-six-views.png",
+  "bounds": [
+    [
+      -0.205806,
+      0.005,
+      -0.137789
+    ],
+    [
+      0.205787,
+      0.5388085,
+      0.1849375
+    ]
+  ]
+}

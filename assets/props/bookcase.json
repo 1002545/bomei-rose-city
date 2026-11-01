@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/interior-v27/bookcase.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92822,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 960368,
+    "number_of_vertices": 293130,
+    "time": {
+      "remove background": 3.9719622135162354,
+      "shape generation": 7.624106407165527,
+      "export to trimesh": 0.14035916328430176,
+      "total": 11.741374492645264
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 31998,
+  "vertices": 19681,
+  "bounds": [
+    [
+      -1.0026729810503237,
+      -0.9995103576222204,
+      -0.2568364749021771
+    ],
+    [
+      0.9707003831863403,
+      0.9598224299130326,
+      0.21901988135506115
+    ]
+  ],
+  "imageBounds": [
+    [
+      106,
+      15,
+      647,
+      531
+    ],
+    [
+      101,
+      9,
+      649,
+      534
+    ],
+    [
+      275,
+      14,
+      394,
+      537
+    ],
+    [
+      273,
+      9,
+      395,
+      539
+    ]
+  ],
+  "sha256": "6d11df519d8bfa854151d4b77889066d94efd23ed5f611ec0128e1c355e493d2"
+}

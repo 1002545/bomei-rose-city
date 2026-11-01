@@ -1,0 +1,969 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "interiors/tea",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "dimsum-bao-s0": {
+   "file": "dimsum-bao-s0.glb",
+   "bytes": 13944,
+   "sha256": "6d59c0328572eb8fb3e211297547d57c7ce1a7886873fdd06a3e2944d4c5e0ea",
+   "tris": 484,
+   "size_m": [
+    0.064,
+    0.03,
+    0.064
+   ],
+   "bounds_lo": [
+    -0.032,
+    0.0,
+    -0.032
+   ],
+   "bounds_hi": [
+    0.032,
+    0.03,
+    0.032
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-bao-s1": {
+   "file": "dimsum-bao-s1.glb",
+   "bytes": 14232,
+   "sha256": "f4d3d15dc6fb0a4d1e26f70f40be1c7a173310915cbe2055a2c65cb625ee885c",
+   "tris": 484,
+   "size_m": [
+    0.064,
+    0.03,
+    0.064
+   ],
+   "bounds_lo": [
+    -0.032,
+    0.0,
+    -0.032
+   ],
+   "bounds_hi": [
+    0.032,
+    0.03,
+    0.032
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-bao-s2": {
+   "file": "dimsum-bao-s2.glb",
+   "bytes": 16104,
+   "sha256": "9ff6ebd8f4ea06ccea91e39d49cb3acd8bf599ce1a28439060912e159dcb9ec5",
+   "tris": 484,
+   "size_m": [
+    0.064,
+    0.028,
+    0.064
+   ],
+   "bounds_lo": [
+    -0.032,
+    0.0,
+    -0.032
+   ],
+   "bounds_hi": [
+    0.032,
+    0.028,
+    0.032
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-hargow-s0": {
+   "file": "dimsum-hargow-s0.glb",
+   "bytes": 11864,
+   "sha256": "37bc723ecf09046b02846fac57d71f220564889042fb9cde44b1b2f36e7f4bf7",
+   "tris": 400,
+   "size_m": [
+    0.052,
+    0.016,
+    0.034
+   ],
+   "bounds_lo": [
+    -0.026,
+    0.0,
+    -0.017
+   ],
+   "bounds_hi": [
+    0.026,
+    0.016,
+    0.017
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-hargow-s1": {
+   "file": "dimsum-hargow-s1.glb",
+   "bytes": 12312,
+   "sha256": "f3d81443b95f08aa0bc6fbbb42603871713e6a303adc993c21b2d3545f74b0ea",
+   "tris": 400,
+   "size_m": [
+    0.052,
+    0.018,
+    0.034
+   ],
+   "bounds_lo": [
+    -0.026,
+    -0.002,
+    -0.017
+   ],
+   "bounds_hi": [
+    0.026,
+    0.016,
+    0.017
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-hargow-s2": {
+   "file": "dimsum-hargow-s2.glb",
+   "bytes": 13648,
+   "sha256": "36eea0a870a87bc0ae0baa634302dc008008cbff94f422f13696b1538cf49f6d",
+   "tris": 400,
+   "size_m": [
+    0.052,
+    0.015,
+    0.035
+   ],
+   "bounds_lo": [
+    -0.026,
+    -0.002,
+    -0.017
+   ],
+   "bounds_hi": [
+    0.026,
+    0.013,
+    0.018
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-siumai-s0": {
+   "file": "dimsum-siumai-s0.glb",
+   "bytes": 14620,
+   "sha256": "04a6e9f896e7effa0e39b2c9318d76f5c468eb969b86ba54c089dc123aa488dc",
+   "tris": 356,
+   "size_m": [
+    0.058,
+    0.032,
+    0.058
+   ],
+   "bounds_lo": [
+    -0.029,
+    0.0,
+    -0.029
+   ],
+   "bounds_hi": [
+    0.029,
+    0.032,
+    0.029
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-siumai-s1": {
+   "file": "dimsum-siumai-s1.glb",
+   "bytes": 14872,
+   "sha256": "25b1ece79485db8849a0c36ebb4f6d7c38bf87f664fa5b11e87703dca8f07ddc",
+   "tris": 356,
+   "size_m": [
+    0.063,
+    0.033,
+    0.058
+   ],
+   "bounds_lo": [
+    -0.029,
+    0.0,
+    -0.029
+   ],
+   "bounds_hi": [
+    0.034,
+    0.033,
+    0.029
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "dimsum-siumai-s2": {
+   "file": "dimsum-siumai-s2.glb",
+   "bytes": 14620,
+   "sha256": "2f209e9ae2b7e6aa5192bb6f44ec21c153968bd91e5768df7cde233786c89b56",
+   "tris": 356,
+   "size_m": [
+    0.063,
+    0.035,
+    0.058
+   ],
+   "bounds_lo": [
+    -0.029,
+    0.0,
+    -0.029
+   ],
+   "bounds_hi": [
+    0.034,
+    0.035,
+    0.029
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "food"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-bamboo-basin": {
+   "file": "tea-bamboo-basin.glb",
+   "bytes": 30672,
+   "sha256": "8d23164e7f5412d239888b124e4be11d7cb85f9377162e9a7ed14724b4b7e0d5",
+   "tris": 610,
+   "size_m": [
+    1.083,
+    0.95,
+    0.66
+   ],
+   "bounds_lo": [
+    -0.603,
+    0.0,
+    -0.33
+   ],
+   "bounds_hi": [
+    0.48,
+    0.95,
+    0.33
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "basin",
+    "spout",
+    "water"
+   ],
+   "materials": [
+    "stone",
+    "bamboo",
+    "water"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-booth": {
+   "file": "tea-booth.glb",
+   "bytes": 145852,
+   "sha256": "967202cf19ad8990d9d473309fd3cf37ea3739cdcfdc94cc968f50e49f10e25f",
+   "tris": 2504,
+   "size_m": [
+    2.41,
+    1.33,
+    1.66
+   ],
+   "bounds_lo": [
+    -1.205,
+    0.0,
+    -0.83
+   ],
+   "bounds_hi": [
+    1.205,
+    1.33,
+    0.83
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "cushion",
+    "table",
+    "trim"
+   ],
+   "materials": [
+    "fabric",
+    "wood",
+    "marble",
+    "brass"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-copper-urn": {
+   "file": "tea-copper-urn.glb",
+   "bytes": 52152,
+   "sha256": "c560103d39b6afff0ca6115528be312663e2c2419eb8c16de73ab1081b5eabe1",
+   "tris": 1348,
+   "size_m": [
+    0.77,
+    0.95,
+    0.708
+   ],
+   "bounds_lo": [
+    -0.385,
+    0.0,
+    -0.3
+   ],
+   "bounds_hi": [
+    0.385,
+    0.95,
+    0.408
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "tap",
+    "base"
+   ],
+   "materials": [
+    "stone",
+    "metal",
+    "brass"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-counter": {
+   "file": "tea-counter.glb",
+   "bytes": 68956,
+   "sha256": "a29594823485384e621d18910588c02c79f884f821a4d3e5e20e9e9d155c288e",
+   "tris": 1464,
+   "size_m": [
+    4.0,
+    0.97,
+    0.76
+   ],
+   "bounds_lo": [
+    -2.0,
+    0.0,
+    -0.35
+   ],
+   "bounds_hi": [
+    2.0,
+    0.97,
+    0.41
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "top",
+    "trim"
+   ],
+   "materials": [
+    "wood",
+    "marble",
+    "brass"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-cup-celadon": {
+   "file": "tea-cup-celadon.glb",
+   "bytes": 15712,
+   "sha256": "cd7e00fb1abf8b83bc8f2c3634eb2efde1ae5d5f1e61f20b67b5aad31ff094a2",
+   "tris": 432,
+   "size_m": [
+    0.104,
+    0.049,
+    0.104
+   ],
+   "bounds_lo": [
+    -0.052,
+    0.0,
+    -0.052
+   ],
+   "bounds_hi": [
+    0.052,
+    0.049,
+    0.052
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "cup"
+   ],
+   "materials": [
+    "ceramic"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-dimsum-cart": {
+   "file": "tea-dimsum-cart.glb",
+   "bytes": 345452,
+   "sha256": "d4cffb8939dffec4884fb38f90a889ffd341917a6c95273b356b3397dcd83499",
+   "tris": 8092,
+   "size_m": [
+    1.053,
+    1.063,
+    0.516
+   ],
+   "bounds_lo": [
+    -0.46,
+    0.0,
+    -0.258
+   ],
+   "bounds_hi": [
+    0.593,
+    1.063,
+    0.258
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "trim",
+    "steamers",
+    "bands"
+   ],
+   "materials": [
+    "bamboo",
+    "steel-brushed",
+    "wood"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-drawer-wall": {
+   "file": "tea-drawer-wall.glb",
+   "bytes": 366040,
+   "sha256": "9ef4128e548a91622b5baebbb15829bec460de20b9100972753bde6849fa468f",
+   "tris": 7968,
+   "size_m": [
+    6.06,
+    2.4,
+    0.52
+   ],
+   "bounds_lo": [
+    -3.03,
+    0.0,
+    -0.25
+   ],
+   "bounds_hi": [
+    3.03,
+    2.4,
+    0.27
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "pulls",
+    "labels"
+   ],
+   "materials": [
+    "wood",
+    "paint",
+    "brass"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-dumbwaiter": {
+   "file": "tea-dumbwaiter.glb",
+   "bytes": 35304,
+   "sha256": "bdfe0818f4693dd28b496ed1777c7b8637c3b625a9f9c4dc323ea0b378722668",
+   "tris": 724,
+   "size_m": [
+    1.16,
+    1.2,
+    0.15
+   ],
+   "bounds_lo": [
+    -0.5,
+    0.1,
+    -0.05
+   ],
+   "bounds_hi": [
+    0.66,
+    1.3,
+    0.1
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "door",
+    "bell",
+    "surround"
+   ],
+   "materials": [
+    "brass",
+    "steel-brushed",
+    "wood"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-kungfu-table": {
+   "file": "tea-kungfu-table.glb",
+   "bytes": 79496,
+   "sha256": "aee7fae7e814163460c8236996b41edd5448f0f1d887364112d19931082a8c53",
+   "tris": 1632,
+   "size_m": [
+    2.4,
+    0.754,
+    0.9
+   ],
+   "bounds_lo": [
+    -1.2,
+    0.0,
+    -0.45
+   ],
+   "bounds_hi": [
+    1.2,
+    0.754,
+    0.45
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "grate",
+    "inlay",
+    "well"
+   ],
+   "materials": [
+    "wood",
+    "bamboo",
+    "marble",
+    "steel-brushed"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-lantern-paper": {
+   "file": "tea-lantern-paper.glb",
+   "bytes": 104840,
+   "sha256": "e85a47669ca6c48321d30cf75cd9a11a0f5f0c4a9bb35edf7acc2360e5fe14fd",
+   "tris": 2656,
+   "size_m": [
+    0.388,
+    0.835,
+    0.386
+   ],
+   "bounds_lo": [
+    -0.194,
+    -0.485,
+    -0.193
+   ],
+   "bounds_hi": [
+    0.194,
+    0.35,
+    0.193
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "paper",
+    "ribs",
+    "caps"
+   ],
+   "materials": [
+    "brass",
+    "lantern",
+    "bamboo"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-manchu-window": {
+   "file": "tea-manchu-window.glb",
+   "bytes": 21236,
+   "sha256": "f2dc1e4d1dc8f30d3a2f5ad5ef45af488047a25c4ded038abf7cd3c62223ff4c",
+   "tris": 388,
+   "size_m": [
+    1.2,
+    2.0,
+    0.07
+   ],
+   "bounds_lo": [
+    -0.6,
+    0.0,
+    -0.035
+   ],
+   "bounds_hi": [
+    0.6,
+    2.0,
+    0.035
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "glass"
+   ],
+   "materials": [
+    "brass",
+    "glass-tint"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-plum-tree": {
+   "file": "tea-plum-tree.glb",
+   "bytes": 452500,
+   "sha256": "c951eac17328d7dd0f77e1bd4134f0b67573f6bb95f0bbaca3daee1f6284e369",
+   "tris": 8676,
+   "size_m": [
+    2.504,
+    3.652,
+    2.269
+   ],
+   "bounds_lo": [
+    -1.194,
+    -0.018,
+    -1.345
+   ],
+   "bounds_hi": [
+    1.31,
+    3.634,
+    0.924
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "branches",
+    "blossoms"
+   ],
+   "materials": [
+    "petal",
+    "wood"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-round-table": {
+   "file": "tea-round-table.glb",
+   "bytes": 41196,
+   "sha256": "08069e8a95fa6036c0d5bc9eb3e74d841324b3827b8934c59bd26025004b08c2",
+   "tris": 912,
+   "size_m": [
+    1.1,
+    0.718,
+    1.1
+   ],
+   "bounds_lo": [
+    -0.55,
+    0.022,
+    -0.55
+   ],
+   "bounds_hi": [
+    0.55,
+    0.74,
+    0.55
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "top",
+    "legs"
+   ],
+   "materials": [
+    "wood",
+    "marble"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-scale-brass": {
+   "file": "tea-scale-brass.glb",
+   "bytes": 15820,
+   "sha256": "426938f60aaf935fd466ebb00cc43546e483b5f6259d70e6a79806db715ec955",
+   "tris": 420,
+   "size_m": [
+    0.464,
+    0.305,
+    0.14
+   ],
+   "bounds_lo": [
+    -0.232,
+    0.0,
+    -0.07
+   ],
+   "bounds_hi": [
+    0.232,
+    0.305,
+    0.07
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "stand",
+    "beam"
+   ],
+   "materials": [
+    "brass"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-service-gongfu": {
+   "file": "tea-service-gongfu.glb",
+   "bytes": 97940,
+   "sha256": "c5ec76a5d3fb9465954edbe24b6f4d6d1e50aab5353ca10454be42498b70177a",
+   "tris": 2456,
+   "size_m": [
+    0.46,
+    0.119,
+    0.3
+   ],
+   "bounds_lo": [
+    -0.23,
+    0.0,
+    -0.15
+   ],
+   "bounds_hi": [
+    0.23,
+    0.119,
+    0.15
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "tray",
+    "cups",
+    "pitcher",
+    "pot"
+   ],
+   "materials": [
+    "ceramic",
+    "glass",
+    "enamel",
+    "bamboo"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-steamer": {
+   "file": "tea-steamer.glb",
+   "bytes": 123928,
+   "sha256": "c2cfb71ae5f56bed95e0c1a4bbb3ea2899c8c1ccca4e7edb1ea7cde855db394c",
+   "tris": 3012,
+   "size_m": [
+    0.224,
+    0.169,
+    0.224
+   ],
+   "bounds_lo": [
+    -0.112,
+    0.0,
+    -0.112
+   ],
+   "bounds_hi": [
+    0.112,
+    0.169,
+    0.112
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "tiers",
+    "bands",
+    "lid"
+   ],
+   "materials": [
+    "bamboo"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-steamer-open": {
+   "file": "tea-steamer-open.glb",
+   "bytes": 56108,
+   "sha256": "2f95f6ffdae3287427b25c88b2b1bf9dd748e4b02362e52f892383289a32ad8a",
+   "tris": 1328,
+   "size_m": [
+    0.216,
+    0.056,
+    0.216
+   ],
+   "bounds_lo": [
+    -0.108,
+    0.0,
+    -0.108
+   ],
+   "bounds_hi": [
+    0.108,
+    0.056,
+    0.108
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "tier",
+    "bands",
+    "liner"
+   ],
+   "materials": [
+    "bamboo",
+    "paper"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-stool-drum": {
+   "file": "tea-stool-drum.glb",
+   "bytes": 53848,
+   "sha256": "b729fbfa703f90ccd6d73fd55100e74bb853893e8ae89647a8b0b31e0ecf33ad",
+   "tris": 1224,
+   "size_m": [
+    0.41,
+    0.472,
+    0.41
+   ],
+   "bounds_lo": [
+    -0.205,
+    0.0,
+    -0.205
+   ],
+   "bounds_hi": [
+    0.205,
+    0.472,
+    0.205
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "studs",
+    "cushion"
+   ],
+   "materials": [
+    "wood",
+    "fabric",
+    "brass"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-stool-square": {
+   "file": "tea-stool-square.glb",
+   "bytes": 30008,
+   "sha256": "0d5f916a88b49ee8dfb51254ae16b60a20541e9f5c198a89f5cb786d53c98705",
+   "tris": 468,
+   "size_m": [
+    0.34,
+    0.41,
+    0.34
+   ],
+   "bounds_lo": [
+    -0.17,
+    0.0,
+    -0.17
+   ],
+   "bounds_hi": [
+    0.17,
+    0.41,
+    0.17
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "seat"
+   ],
+   "materials": [
+    "wood",
+    "bamboo"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-tin": {
+   "file": "tea-tin.glb",
+   "bytes": 14816,
+   "sha256": "0411af092d97dbd3988f29c4a50bc4a00daa436fe2c40f94cbcc56ba3dc3caaa",
+   "tris": 352,
+   "size_m": [
+    0.124,
+    0.162,
+    0.122
+   ],
+   "bounds_lo": [
+    -0.062,
+    0.0,
+    -0.061
+   ],
+   "bounds_hi": [
+    0.062,
+    0.162,
+    0.061
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "body",
+    "lid"
+   ],
+   "materials": [
+    "enamel"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  },
+  "tea-tower": {
+   "file": "tea-tower.glb",
+   "bytes": 78120,
+   "sha256": "8aef227fb35145d0f4393751ca69fb0f992bec4a912ad30c011dc0f64ee63290",
+   "tris": 2296,
+   "size_m": [
+    0.31,
+    0.542,
+    0.31
+   ],
+   "bounds_lo": [
+    -0.155,
+    0.0,
+    -0.155
+   ],
+   "bounds_hi": [
+    0.155,
+    0.542,
+    0.155
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "stand",
+    "plates"
+   ],
+   "materials": [
+    "ceramic",
+    "brass"
+   ],
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "e2a63b90-e68d-4da0-b162-44f7a7f0e5ca",
+   "worker": "Asking635/bomei-blender-worker-2",
+   "kind": "tea",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "01a4562ee34edb9b1bb29e9297f61caeb9c090bbbe203d301ad6146df71f79e5",
+   "service_sha256": "88d24857a6d2e5d7b0012bfd92a0112e29ee779be9754ade52964970f1261e53",
+   "result_sha256": "90e11315568e4c4bbef26839f4ab6c65d3b119ade3fe8553da08587e0a9a51b5",
+   "seconds": 84.7,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 30,
+  "tris": 52682,
+  "bytes": 2356212
+ }
+}

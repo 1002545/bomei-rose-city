@@ -1,0 +1,6 @@
+*.glb -filter -diff -merge -text
+*.bin -filter -diff -merge -text
+*.png -filter -diff -merge -text
+*.jpg -filter -diff -merge -text
+*.webp -filter -diff -merge -text
+*.mp4 -filter -diff -merge -text

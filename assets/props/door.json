@@ -1,0 +1,68 @@
+{
+  "reference": "views-door.png",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92824,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 164004,
+    "number_of_vertices": 57340,
+    "time": {
+      "remove background": 3.642198085784912,
+      "shape generation": 7.254889965057373,
+      "export to trimesh": 0.02458643913269043,
+      "total": 10.924223184585571
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 65000,
+  "vertices": 45814,
+  "bounds": [
+    [
+      -0.691282392898709,
+      -0.9984806590049894,
+      -0.196756511926651
+    ],
+    [
+      0.6454688906669617,
+      0.9589793227470261,
+      0.17424606746038934
+    ]
+  ],
+  "imageBounds": [
+    [
+      140,
+      6,
+      554,
+      621
+    ],
+    [
+      118,
+      2,
+      587,
+      553
+    ],
+    [
+      234,
+      13,
+      368,
+      621
+    ],
+    [
+      260,
+      2,
+      394,
+      560
+    ]
+  ],
+  "sha256": "4435e30236ed5ecf6b9413589cc106bfefb0a1808a2d5d821949c4aa34a18c2c"
+}

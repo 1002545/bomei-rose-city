@@ -1,0 +1,849 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "hangzhou/village",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "hz-bamboo-tray": {
+   "file": "hz-bamboo-tray.glb",
+   "bytes": 97752,
+   "sha256": "5b3ec6890107deaaaf75daa12f7475832aa4e5747d73e85476f29dcd778d51eb",
+   "tris": 1392,
+   "size_m": [
+    0.928,
+    0.032,
+    0.928
+   ],
+   "bounds_lo": [
+    -0.464,
+    0.011,
+    -0.464
+   ],
+   "bounds_hi": [
+    0.464,
+    0.043,
+    0.464
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "weave",
+    "rim"
+   ],
+   "materials": [
+    "bamboo"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-bell": {
+   "file": "hz-bell.glb",
+   "bytes": 51752,
+   "sha256": "d4e6c6a8eaac674418a71de7dbed481a2f092e003e2f5bb521db2c911bbd51c0",
+   "tris": 1264,
+   "size_m": [
+    0.84,
+    1.297,
+    0.84
+   ],
+   "bounds_lo": [
+    -0.42,
+    -1.17,
+    -0.42
+   ],
+   "bounds_hi": [
+    0.42,
+    0.127,
+    0.42
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "bell",
+    "loop",
+    "striker"
+   ],
+   "materials": [
+    "metal",
+    "wood"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-bell-pavilion": {
+   "file": "hz-bell-pavilion.glb",
+   "bytes": 50192,
+   "sha256": "74ddf0d42bfceaceb287d7edb692bf80942054d4ac2fc0290eef3824b95c15b6",
+   "tris": 1404,
+   "size_m": [
+    5.4,
+    5.58,
+    5.4
+   ],
+   "bounds_lo": [
+    -2.7,
+    0.0,
+    -2.7
+   ],
+   "bounds_hi": [
+    2.7,
+    5.58,
+    2.7
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "base",
+    "columns",
+    "roof",
+    "beams"
+   ],
+   "materials": [
+    "stone",
+    "wood",
+    "lacquer",
+    "roof-tile"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-calligraphy-desk": {
+   "file": "hz-calligraphy-desk.glb",
+   "bytes": 23420,
+   "sha256": "15f91447d14ee9a87b8fb623df9e910a5db624fca1396aa060d909740f6bf1ad",
+   "tris": 384,
+   "size_m": [
+    1.8,
+    0.952,
+    0.8
+   ],
+   "bounds_lo": [
+    -0.9,
+    0.0,
+    -0.4
+   ],
+   "bounds_hi": [
+    0.9,
+    0.952,
+    0.4
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "table",
+    "scroll",
+    "inkstone",
+    "brushes"
+   ],
+   "materials": [
+    "bamboo",
+    "stone",
+    "paper",
+    "wood"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-camphor-tree": {
+   "file": "hz-camphor-tree.glb",
+   "bytes": 124752,
+   "sha256": "41fd6f3842635081fd65980e2ef8706819fe71b1302c7d5ab5883531a1d57afa",
+   "tris": 3068,
+   "size_m": [
+    8.526,
+    11.997,
+    8.287
+   ],
+   "bounds_lo": [
+    -4.031,
+    0.0,
+    -4.715
+   ],
+   "bounds_hi": [
+    4.495,
+    11.997,
+    3.572
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "trunk",
+    "crown"
+   ],
+   "materials": [
+    "plant",
+    "wood"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-candle-rack": {
+   "file": "hz-candle-rack.glb",
+   "bytes": 50136,
+   "sha256": "b3b1db19365773fb7b375cf539094b9d827257b49659d075dfdca732924d7b32",
+   "tris": 1020,
+   "size_m": [
+    0.9,
+    1.09,
+    0.54
+   ],
+   "bounds_lo": [
+    -0.45,
+    0.0,
+    -0.27
+   ],
+   "bounds_hi": [
+    0.45,
+    1.09,
+    0.27
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "frame",
+    "candles"
+   ],
+   "materials": [
+    "paint",
+    "metal"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-chime-qing": {
+   "file": "hz-chime-qing.glb",
+   "bytes": 23508,
+   "sha256": "94ac127219d50b88fb54aa91b8bce061c6edb19364638260dfa2e558b491ae9e",
+   "tris": 540,
+   "size_m": [
+    0.481,
+    0.182,
+    0.36
+   ],
+   "bounds_lo": [
+    -0.18,
+    0.0,
+    -0.18
+   ],
+   "bounds_hi": [
+    0.301,
+    0.182,
+    0.18
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "bowl",
+    "cushion",
+    "striker"
+   ],
+   "materials": [
+    "metal",
+    "fabric",
+    "wood"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-glass-cup": {
+   "file": "hz-glass-cup.glb",
+   "bytes": 22684,
+   "sha256": "f39dbe2597215d9cd74d9ae3b1bec43fa8fc44d98fc54fca40ffd20881b728e0",
+   "tris": 412,
+   "size_m": [
+    0.072,
+    0.123,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.036,
+    0.123,
+    0.036
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "glass",
+    "tea",
+    "leaves"
+   ],
+   "materials": [
+    "glass",
+    "plant",
+    "glass-tint"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-hall-temple": {
+   "file": "hz-hall-temple.glb",
+   "bytes": 159896,
+   "sha256": "5db76aea66df973fa839967de1020b5bc7d64abc5748c04dfbfacc88bf433bdb",
+   "tris": 3820,
+   "size_m": [
+    17.2,
+    10.28,
+    13.85
+   ],
+   "bounds_lo": [
+    -8.6,
+    0.0,
+    -6.6
+   ],
+   "bounds_hi": [
+    8.6,
+    10.28,
+    7.25
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "terrace",
+    "columns",
+    "roof",
+    "beams",
+    "walls",
+    "doors"
+   ],
+   "materials": [
+    "wood",
+    "lacquer",
+    "roof-tile",
+    "stone",
+    "plaster"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-house-fayun-a": {
+   "file": "hz-house-fayun-a.glb",
+   "bytes": 72848,
+   "sha256": "d7e93aaec9f8d7fe1c01d58a4e5eb55380c5256be07ebfbc6254682b5b904de4",
+   "tris": 1630,
+   "size_m": [
+    9.4,
+    5.3,
+    7.4
+   ],
+   "bounds_lo": [
+    -4.7,
+    0.0,
+    -3.7
+   ],
+   "bounds_hi": [
+    4.7,
+    5.3,
+    3.7
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "walls",
+    "timber",
+    "roof",
+    "plinth",
+    "door",
+    "glass"
+   ],
+   "materials": [
+    "wood",
+    "glass",
+    "stone",
+    "roof-tile",
+    "plaster"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-house-fayun-b": {
+   "file": "hz-house-fayun-b.glb",
+   "bytes": 108152,
+   "sha256": "87686c96e87b4ad0f6e7b55350bcf08b28a1b0df68e324739764fd0ed26adf47",
+   "tris": 2346,
+   "size_m": [
+    7.4,
+    7.6,
+    6.912
+   ],
+   "bounds_lo": [
+    -3.7,
+    0.0,
+    -3.2
+   ],
+   "bounds_hi": [
+    3.7,
+    7.6,
+    3.712
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "walls",
+    "timber",
+    "roof",
+    "plinth",
+    "glass",
+    "door"
+   ],
+   "materials": [
+    "wood",
+    "glass",
+    "stone",
+    "roof-tile",
+    "plaster"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-incense-burner": {
+   "file": "hz-incense-burner.glb",
+   "bytes": 53920,
+   "sha256": "14bdb0aaaa7dc6c92f0c86a9468c47a7327a22e88ab474d9d52117e663acc963",
+   "tris": 1154,
+   "size_m": [
+    0.81,
+    0.732,
+    0.632
+   ],
+   "bounds_lo": [
+    -0.405,
+    -0.012,
+    -0.3
+   ],
+   "bounds_hi": [
+    0.405,
+    0.72,
+    0.332
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "body",
+    "ash",
+    "lid"
+   ],
+   "materials": [
+    "plaster",
+    "metal"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-kettle-iron": {
+   "file": "hz-kettle-iron.glb",
+   "bytes": 17428,
+   "sha256": "136a94228cd6deada98c7905fe39342ef08474883f66410eed77d60480827733",
+   "tris": 398,
+   "size_m": [
+    0.272,
+    0.265,
+    0.21
+   ],
+   "bounds_lo": [
+    -0.105,
+    0.0,
+    -0.105
+   ],
+   "bounds_hi": [
+    0.167,
+    0.265,
+    0.105
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "kettle"
+   ],
+   "materials": [
+    "metal"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-mountain-gate": {
+   "file": "hz-mountain-gate.glb",
+   "bytes": 64564,
+   "sha256": "6fec34b4069fe6c74d119d312a3c70653c20b4ead2f59568e9e06a6ead86edc5",
+   "tris": 1600,
+   "size_m": [
+    14.2,
+    6.5,
+    6.25
+   ],
+   "bounds_lo": [
+    -7.1,
+    0.0,
+    -2.4
+   ],
+   "bounds_hi": [
+    7.1,
+    6.5,
+    3.85
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "steps",
+    "walls",
+    "roof",
+    "beams",
+    "door",
+    "arch"
+   ],
+   "materials": [
+    "stone",
+    "wood",
+    "roof-tile",
+    "plaster"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-paper-lantern": {
+   "file": "hz-paper-lantern.glb",
+   "bytes": 91440,
+   "sha256": "8988165a287496491aeefc00460644e5b116b34a14992da686a91589c32ce884",
+   "tris": 2296,
+   "size_m": [
+    0.308,
+    0.68,
+    0.308
+   ],
+   "bounds_lo": [
+    -0.154,
+    -0.38,
+    -0.154
+   ],
+   "bounds_hi": [
+    0.154,
+    0.3,
+    0.154
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "paper",
+    "ribs"
+   ],
+   "materials": [
+    "lantern",
+    "bamboo"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-stairs-stone": {
+   "file": "hz-stairs-stone.glb",
+   "bytes": 25260,
+   "sha256": "3271ffc20b3cac26c215eb205fc7d639fd11ebfaa4ac8d2363ec4f2a4b7834c2",
+   "tris": 528,
+   "size_m": [
+    2.4,
+    1.846,
+    3.122
+   ],
+   "bounds_lo": [
+    -1.2,
+    -0.073,
+    -1.561
+   ],
+   "bounds_hi": [
+    1.2,
+    1.773,
+    1.561
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "steps"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-stone-lantern": {
+   "file": "hz-stone-lantern.glb",
+   "bytes": 20204,
+   "sha256": "9f7dbf18705907fa5dd76e7629d8a9c15eecc1e9bc45b862ec6603fe77ed6ba2",
+   "tris": 320,
+   "size_m": [
+    0.64,
+    1.24,
+    0.554
+   ],
+   "bounds_lo": [
+    -0.32,
+    0.0,
+    -0.277
+   ],
+   "bounds_hi": [
+    0.32,
+    1.24,
+    0.277
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "stone",
+    "glow"
+   ],
+   "materials": [
+    "led",
+    "stone"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-tea-basket": {
+   "file": "hz-tea-basket.glb",
+   "bytes": 37036,
+   "sha256": "567be446a8b8fe78179384a5ed54d5b4987eeb9482ab8d9f1596d54c9a40970d",
+   "tris": 800,
+   "size_m": [
+    0.57,
+    0.709,
+    0.46
+   ],
+   "bounds_lo": [
+    -0.285,
+    0.0,
+    -0.23
+   ],
+   "bounds_hi": [
+    0.285,
+    0.709,
+    0.23
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "basket",
+    "rim",
+    "strap"
+   ],
+   "materials": [
+    "bamboo",
+    "fabric"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-tea-bush-a": {
+   "file": "hz-tea-bush-a.glb",
+   "bytes": 20080,
+   "sha256": "c9c5c0f47aa9f73ca4aeb0ac11cbcecacc16bab93b6f5e1a0a1ad60913a24131",
+   "tris": 524,
+   "size_m": [
+    0.898,
+    0.571,
+    0.795
+   ],
+   "bounds_lo": [
+    -0.416,
+    0.0,
+    -0.413
+   ],
+   "bounds_hi": [
+    0.482,
+    0.571,
+    0.382
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "leaves",
+    "stems"
+   ],
+   "materials": [
+    "plant",
+    "wood"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-tea-bush-b": {
+   "file": "hz-tea-bush-b.glb",
+   "bytes": 25336,
+   "sha256": "6cf76b28d96e508ce08d8476159f3708cb6c4c6d8126c9153092267a71ea3e59",
+   "tris": 692,
+   "size_m": [
+    1.01,
+    0.643,
+    0.877
+   ],
+   "bounds_lo": [
+    -0.436,
+    0.0,
+    -0.44
+   ],
+   "bounds_hi": [
+    0.574,
+    0.643,
+    0.437
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "leaves",
+    "stems"
+   ],
+   "materials": [
+    "plant",
+    "wood"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-tea-bush-c": {
+   "file": "hz-tea-bush-c.glb",
+   "bytes": 30700,
+   "sha256": "fe0f99bb0d34318f31b20ba2bb1684bd5daad0b6853a3e647a71b1b6ddc8b993",
+   "tris": 860,
+   "size_m": [
+    1.251,
+    0.764,
+    1.105
+   ],
+   "bounds_lo": [
+    -0.598,
+    0.0,
+    -0.521
+   ],
+   "bounds_hi": [
+    0.653,
+    0.764,
+    0.584
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "leaves",
+    "stems"
+   ],
+   "materials": [
+    "plant",
+    "wood"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-tea-set-celadon": {
+   "file": "hz-tea-set-celadon.glb",
+   "bytes": 64288,
+   "sha256": "17a47b596eaaec3424c833681bd043ad662d18449d9ef815fed4d6f3b086c8a1",
+   "tris": 1628,
+   "size_m": [
+    0.46,
+    0.102,
+    0.3
+   ],
+   "bounds_lo": [
+    -0.23,
+    0.0,
+    -0.15
+   ],
+   "bounds_hi": [
+    0.23,
+    0.102,
+    0.15
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "tray",
+    "ceramics"
+   ],
+   "materials": [
+    "ceramic",
+    "bamboo"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-tea-wok-stove": {
+   "file": "hz-tea-wok-stove.glb",
+   "bytes": 59080,
+   "sha256": "6a808832b39a79d4b8662596a99243a0c2695bdda6456809ee3b40d3a2cb4175",
+   "tris": 1340,
+   "size_m": [
+    1.535,
+    2.395,
+    0.94
+   ],
+   "bounds_lo": [
+    -0.7,
+    0.005,
+    -0.46
+   ],
+   "bounds_hi": [
+    0.835,
+    2.4,
+    0.48
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "brick",
+    "chimney",
+    "fire-door",
+    "wok"
+   ],
+   "materials": [
+    "stone",
+    "paint",
+    "metal"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-teahouse": {
+   "file": "hz-teahouse.glb",
+   "bytes": 86968,
+   "sha256": "ff8ecb464cb657cc64556f874790280970863c5719f2ef5d51e6b8aece3db979",
+   "tris": 2048,
+   "size_m": [
+    9.8,
+    5.18,
+    6.6
+   ],
+   "bounds_lo": [
+    -4.9,
+    0.0,
+    -3.3
+   ],
+   "bounds_hi": [
+    4.9,
+    5.18,
+    3.3
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "plinth",
+    "columns",
+    "roof",
+    "beams",
+    "blinds",
+    "counter"
+   ],
+   "materials": [
+    "wood",
+    "bamboo",
+    "stone",
+    "roof-tile"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  },
+  "hz-terrace-wall": {
+   "file": "hz-terrace-wall.glb",
+   "bytes": 114076,
+   "sha256": "06e6ae72c9bff9579335306d9cffa4d9644d1f5811d0761f2e93f5bf0583ba66",
+   "tris": 2464,
+   "size_m": [
+    3.004,
+    1.445,
+    0.627
+   ],
+   "bounds_lo": [
+    -1.502,
+    0.001,
+    -0.317
+   ],
+   "bounds_hi": [
+    1.502,
+    1.446,
+    0.31
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "stones"
+   ],
+   "materials": [
+    "stone"
+   ],
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "611e5b01-950b-4c9f-a7c3-786a70bea005",
+   "worker": "Asking635/bomei-blender-worker-3",
+   "kind": "hz_village",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "735f885e0f92d98f00973736c448ef5310e84f891639c190593f8aa611742d15",
+   "service_sha256": "fcadfce7e0af3457fda4a2c4c667764bd33088f4174367efdf0c36f46e9aacbe",
+   "result_sha256": "b9efe4c16192a306d176cadf9813e1eba61194fc1c5b7f86930c09f93211b246",
+   "seconds": 99.4,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 25,
+  "tris": 33932,
+  "bytes": 1495472
+ }
+}

@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/travel-kiosk-v41/travel-kiosk-front.png",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92820,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 398172,
+    "number_of_vertices": 105459,
+    "time": {
+      "remove background": 3.6138038635253906,
+      "shape generation": 6.700197219848633,
+      "export to trimesh": 0.04787039756774902,
+      "total": 10.364456415176392
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 48000,
+  "vertices": 30775,
+  "bounds": [
+    [
+      -0.4666138638041669,
+      -0.9984947197355094,
+      -0.3355013955334246
+    ],
+    [
+      0.4267587291773898,
+      0.9590143601182706,
+      0.3145178887039163
+    ]
+  ],
+  "imageBounds": [
+    [
+      202,
+      29,
+      456,
+      585
+    ],
+    [
+      209,
+      19,
+      454,
+      574
+    ],
+    [
+      208,
+      12,
+      395,
+      573
+    ],
+    [
+      217,
+      25,
+      404,
+      585
+    ]
+  ],
+  "sha256": "1ded150c26f6dcf20ff99149057e31454e8d6b8632a2265f51134ec15cd7e458"
+}

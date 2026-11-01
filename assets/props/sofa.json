@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/interior-v27/sofa.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92820,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 731948,
+    "number_of_vertices": 191260,
+    "time": {
+      "remove background": 3.650092601776123,
+      "shape generation": 8.040841579437256,
+      "export to trimesh": 0.09421706199645996,
+      "total": 11.787920951843262
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 32000,
+  "vertices": 18090,
+  "bounds": [
+    [
+      -1.0015704999820332,
+      -0.6251747900718572,
+      -0.6414367181330279
+    ],
+    [
+      0.961124201294699,
+      0.5827528521047588,
+      0.5548692369283658
+    ]
+  ],
+  "imageBounds": [
+    [
+      31,
+      161,
+      625,
+      517
+    ],
+    [
+      43,
+      123,
+      625,
+      474
+    ],
+    [
+      2,
+      133,
+      574,
+      522
+    ],
+    [
+      2,
+      104,
+      548,
+      499
+    ]
+  ],
+  "sha256": "0a2d26e10dff9fc480af80bbd216617d53737705cdd91aaadc7237116c9fc873"
+}

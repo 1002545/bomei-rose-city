@@ -1,0 +1,57 @@
+{
+  "source": {
+    "path": "public/assets/props/street-tree.glb",
+    "sha256": "38cdd983e6ba4c16bf6f82a54ca469c127172c7d2db1a4326b040c435a1b5abc",
+    "bytes": 2268108
+  },
+  "runtime": {
+    "path": "source-assets/street-tree-lod-2.glb",
+    "sha256": "6eeff434f207fc992c3297b3c404a87c2898cd801fabf686c638226b8470be52",
+    "bytes": 1636208,
+    "triangles": 10990
+  },
+  "method": "Native PBR/UV exact-attribute cleanup + official meshoptimizer.simplifyWithAttributes index-only reduction, no smoothing, no texture rebaking.",
+  "library": {
+    "name": "meshoptimizer",
+    "version": "1.2.0",
+    "source": "https://github.com/zeux/meshoptimizer/tree/master/js",
+    "workspace_prefix": ".sites-runtime/meshopt-tools",
+    "license": "MIT"
+  },
+  "kind": "palm",
+  "reports": [
+    {
+      "source_vertices": 31105,
+      "source_triangles": 23266,
+      "removed_degenerate_triangles": 1,
+      "repaired_zero_normals": 0,
+      "unused_zero_normals_discarded": 0,
+      "exact_attribute_welded_vertices": 0,
+      "locked_feature_vertices": 0,
+      "target_triangles": 5000,
+      "runtime_vertices": 15968,
+      "runtime_triangles": 10990,
+      "meshoptimizer_approximate_relative_error": 0.009957010857760906,
+      "max_relative_error": 0.01,
+      "attribute_weights": [
+        0.1,
+        0.1,
+        0.1,
+        0.15,
+        0.15
+      ],
+      "flags": [
+        "Permissive",
+        "Prune"
+      ],
+      "sloppy": false,
+      "position_and_uv_coordinates_preserved": true,
+      "normal_repair_rule": "Zero normals on referenced vertices use largest-area incident oriented triangle; unused zero-normal vertices are discarded."
+    }
+  ],
+  "pbr_materials_sha256": "611d972ac7dbcc8dc08b25e266cb77e46694af56da74b31288f2c41c0e2e69b0",
+  "embedded_images_unchanged_sha256": [
+    "6625a97159bc20390c44de5162b2469c30710592756040e81270808eebaba16e"
+  ],
+  "visual_review_status": "unreviewed candidate, compare all four views with original master before promotion"
+}

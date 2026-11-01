@@ -1,0 +1,11 @@
+{
+  "generator": "Hugging Face ZeroGPU FLUX.1-schnell reference -> Hunyuan3D-2mv shape_generation",
+  "seed": 4227,
+  "prompt": "One standalone 0.72 m metro recycling bin; powder-blue enamel cylinder, brushed steel rim, plain background; no text",
+  "faces": 24000,
+  "watertight": true,
+  "source_faces": 461044,
+  "source_sha256": "2dc8ad30de3c51e00537cea4f73a726f4e3434da9a9b68893a8c90e268f9f607",
+  "sha256": "78c09a01c006d4e45fb1dcfe8e368392b70aff7a9eae2a3baaa02e94d3706663",
+  "runtime_material": "vertex colors, blue enamel, metal rim, dark openings"
+}

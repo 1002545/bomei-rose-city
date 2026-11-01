@@ -1,0 +1,9 @@
+# 博美 V62 本地整合审查
+
+V62 从已冻结 M2 的独立物理副本开始。运行 `sh preview.sh`，本地入口为 http://127.0.0.1:8062/play-v62.html 。正式站点仍保持 v60，本目录没有发布。
+
+当前游戏行为与 M2 一致，仅将 release 身份从 61 改为 62。新 NPC、suite、harbour pocket 均未激活；待接收产物、实际几何/功能测试与所需 Form/Runtime 验收。见 `PENDING_FEATURES.json` 和 `GATES.json`。
+
+`HANDOFF.md` 是保留的历史 M2 交接背景。V62 当前说明以本文件、`V62_REVIEW.md`、`PROVENANCE.json` 和测试结果为准。
+
+运行 `bash scripts/test-handoff.sh` 检查有限静态、逻辑、导航、支撑、层顺序和 HTTP 回归。它不代表真实浏览器/GPU、手机性能或人工外观验收。

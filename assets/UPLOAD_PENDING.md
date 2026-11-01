@@ -1,0 +1,1 @@
+Required production assets are complete in this v38 repository snapshot. Restore the four large legacy originals with `npm run assets:restore` before serving the game. This historical filename is retained for compatibility; it no longer indicates a pending upload.

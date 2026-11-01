@@ -1,0 +1,1335 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "interiors/restaurant",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "food-baked-pork-rice-s0": {
+   "file": "food-baked-pork-rice-s0.glb",
+   "bytes": 40728,
+   "sha256": "caaad825c5726f83feaa5e11acde4dfd5b753db17f18a14e974c13825d34f662",
+   "tris": 1052,
+   "size_m": [
+    0.392,
+    0.079,
+    0.29
+   ],
+   "bounds_lo": [
+    -0.196,
+    0.0,
+    -0.145
+   ],
+   "bounds_hi": [
+    0.196,
+    0.079,
+    0.145
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "dish",
+    "rice",
+    "pork",
+    "sauce",
+    "cheese"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-baked-pork-rice-s1": {
+   "file": "food-baked-pork-rice-s1.glb",
+   "bytes": 36748,
+   "sha256": "9dfdff350983e600ad30f99550044e656be8fa69cacea41f1d20feaa531e30e6",
+   "tris": 964,
+   "size_m": [
+    0.392,
+    0.068,
+    0.29
+   ],
+   "bounds_lo": [
+    -0.196,
+    0.0,
+    -0.145
+   ],
+   "bounds_hi": [
+    0.196,
+    0.068,
+    0.145
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "dish",
+    "rice",
+    "pork",
+    "sauce",
+    "cheese"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-baked-pork-rice-s2": {
+   "file": "food-baked-pork-rice-s2.glb",
+   "bytes": 29948,
+   "sha256": "305a2e472db136a204725979ff2f6a52f9ebf0ffd9c940bf2f20edff6f138422",
+   "tris": 832,
+   "size_m": [
+    0.392,
+    0.053,
+    0.29
+   ],
+   "bounds_lo": [
+    -0.196,
+    0.0,
+    -0.145
+   ],
+   "bounds_hi": [
+    0.196,
+    0.053,
+    0.145
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "dish",
+    "rice",
+    "sauce",
+    "cheese"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-baked-pork-rice-s3": {
+   "file": "food-baked-pork-rice-s3.glb",
+   "bytes": 19176,
+   "sha256": "8e0b5e7f9e7e57ea75b2afc68da34ca683412a2525b58c72a73ca8e102f43271",
+   "tris": 472,
+   "size_m": [
+    0.392,
+    0.042,
+    0.29
+   ],
+   "bounds_lo": [
+    -0.196,
+    0.0,
+    -0.145
+   ],
+   "bounds_hi": [
+    0.196,
+    0.042,
+    0.145
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "dish",
+    "sauce",
+    "cheese"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-lemon-soda-s0": {
+   "file": "food-lemon-soda-s0.glb",
+   "bytes": 33848,
+   "sha256": "198c9f71ed9e1f50b077bb38cdf615ec4e3288e14a38add545a4dcb68489cd7a",
+   "tris": 664,
+   "size_m": [
+    0.096,
+    0.19,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    -0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.06,
+    0.19,
+    0.036
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "glass",
+    "liquid",
+    "ice",
+    "lemon",
+    "straw"
+   ],
+   "materials": [
+    "glass",
+    "glass-tint",
+    "food",
+    "plastic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-lemon-soda-s1": {
+   "file": "food-lemon-soda-s1.glb",
+   "bytes": 29864,
+   "sha256": "f4f4c6b0de890ac8f91a11908bae77f533c41296acc041dde461a7861b997d68",
+   "tris": 576,
+   "size_m": [
+    0.096,
+    0.19,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    -0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.06,
+    0.19,
+    0.036
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "glass",
+    "liquid",
+    "ice",
+    "lemon",
+    "straw"
+   ],
+   "materials": [
+    "glass",
+    "glass-tint",
+    "food",
+    "plastic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-lemon-soda-s2": {
+   "file": "food-lemon-soda-s2.glb",
+   "bytes": 25884,
+   "sha256": "a49c48aef5a3bef41535e8409aa44977ae98cf8650595bf270da588182545375",
+   "tris": 488,
+   "size_m": [
+    0.096,
+    0.19,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    -0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.06,
+    0.19,
+    0.036
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "glass",
+    "liquid",
+    "ice",
+    "lemon",
+    "straw"
+   ],
+   "materials": [
+    "glass",
+    "glass-tint",
+    "food",
+    "plastic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-lemon-soda-s3": {
+   "file": "food-lemon-soda-s3.glb",
+   "bytes": 18276,
+   "sha256": "d71428c589d0aa1cd0c968e7b2a4a7b105c073b16ad9a22218865d4ed353f5bc",
+   "tris": 356,
+   "size_m": [
+    0.096,
+    0.19,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    -0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.06,
+    0.19,
+    0.036
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "glass",
+    "lemon",
+    "straw"
+   ],
+   "materials": [
+    "glass",
+    "food",
+    "plastic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-milk-tea-s0": {
+   "file": "food-milk-tea-s0.glb",
+   "bytes": 27008,
+   "sha256": "eca4f0de2720f99bf34718fb1a8ba098b258fa5cfd7733fa6b0c891f5e724532",
+   "tris": 616,
+   "size_m": [
+    0.156,
+    0.077,
+    0.156
+   ],
+   "bounds_lo": [
+    -0.078,
+    0.0,
+    -0.078
+   ],
+   "bounds_hi": [
+    0.078,
+    0.077,
+    0.078
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "saucer",
+    "mug",
+    "liquid"
+   ],
+   "materials": [
+    "sauce",
+    "glass",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-milk-tea-s1": {
+   "file": "food-milk-tea-s1.glb",
+   "bytes": 27004,
+   "sha256": "116af956db39462d10a7039ddd6ac3489da8f4abcad656489575ecd73b477af9",
+   "tris": 616,
+   "size_m": [
+    0.156,
+    0.077,
+    0.156
+   ],
+   "bounds_lo": [
+    -0.078,
+    0.0,
+    -0.078
+   ],
+   "bounds_hi": [
+    0.078,
+    0.077,
+    0.078
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "saucer",
+    "mug",
+    "liquid"
+   ],
+   "materials": [
+    "sauce",
+    "glass",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-milk-tea-s2": {
+   "file": "food-milk-tea-s2.glb",
+   "bytes": 27004,
+   "sha256": "cd3cb70c42ec19125159410cb269d84e354313c871c1e900f708f617075eb3d2",
+   "tris": 616,
+   "size_m": [
+    0.156,
+    0.077,
+    0.156
+   ],
+   "bounds_lo": [
+    -0.078,
+    0.0,
+    -0.078
+   ],
+   "bounds_hi": [
+    0.078,
+    0.077,
+    0.078
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "saucer",
+    "mug",
+    "liquid"
+   ],
+   "materials": [
+    "sauce",
+    "glass",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-milk-tea-s3": {
+   "file": "food-milk-tea-s3.glb",
+   "bytes": 26332,
+   "sha256": "bec5035a6d8eeda62e8a6a2419883eac4f6c922dbdd0661db436fff65684b508",
+   "tris": 600,
+   "size_m": [
+    0.156,
+    0.077,
+    0.156
+   ],
+   "bounds_lo": [
+    -0.078,
+    0.0,
+    -0.078
+   ],
+   "bounds_hi": [
+    0.078,
+    0.077,
+    0.078
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "saucer",
+    "mug",
+    "liquid"
+   ],
+   "materials": [
+    "sauce",
+    "glass",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-pineapple-bun-s0": {
+   "file": "food-pineapple-bun-s0.glb",
+   "bytes": 34976,
+   "sha256": "5a9b87af1959dc87c4cf5ea447746a7f78be813caa6ebe4bbdd6e0bca742677e",
+   "tris": 956,
+   "size_m": [
+    0.18,
+    0.048,
+    0.18
+   ],
+   "bounds_lo": [
+    -0.09,
+    0.0,
+    -0.09
+   ],
+   "bounds_hi": [
+    0.09,
+    0.048,
+    0.09
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "bun",
+    "butter"
+   ],
+   "materials": [
+    "food",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-pineapple-bun-s1": {
+   "file": "food-pineapple-bun-s1.glb",
+   "bytes": 35264,
+   "sha256": "f42efb4bae8412b4f0293c7f2c3b80e3812bafd23569e6174d3d98515453897d",
+   "tris": 956,
+   "size_m": [
+    0.18,
+    0.048,
+    0.18
+   ],
+   "bounds_lo": [
+    -0.09,
+    0.0,
+    -0.09
+   ],
+   "bounds_hi": [
+    0.09,
+    0.048,
+    0.09
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "bun",
+    "butter"
+   ],
+   "materials": [
+    "food",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-pineapple-bun-s2": {
+   "file": "food-pineapple-bun-s2.glb",
+   "bytes": 34152,
+   "sha256": "da8cd3359e74e1a3e73680b0aa034862380296490b90f4c8fbee778eb5df6d6f",
+   "tris": 912,
+   "size_m": [
+    0.18,
+    0.035,
+    0.18
+   ],
+   "bounds_lo": [
+    -0.09,
+    0.0,
+    -0.09
+   ],
+   "bounds_hi": [
+    0.09,
+    0.035,
+    0.09
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "bun"
+   ],
+   "materials": [
+    "food",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-pineapple-bun-s3": {
+   "file": "food-pineapple-bun-s3.glb",
+   "bytes": 33732,
+   "sha256": "6e73455df75a052a0cc949462ac8b1921dc6f44c618d46574522cfea8a10355c",
+   "tris": 776,
+   "size_m": [
+    0.18,
+    0.013,
+    0.18
+   ],
+   "bounds_lo": [
+    -0.09,
+    0.0,
+    -0.09
+   ],
+   "bounds_hi": [
+    0.09,
+    0.013,
+    0.09
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "bun"
+   ],
+   "materials": [
+    "food",
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-veg-pasta-s0": {
+   "file": "food-veg-pasta-s0.glb",
+   "bytes": 84040,
+   "sha256": "b03a158a842c8baff4af6e4a4ac90ec05b2bcd1ccbe7c56f9c63abb8d0103d2d",
+   "tris": 1696,
+   "size_m": [
+    0.26,
+    0.067,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.067,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "pasta",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-veg-pasta-s1": {
+   "file": "food-veg-pasta-s1.glb",
+   "bytes": 63052,
+   "sha256": "7e6b3c2fb58d1aa43995e40b3211896e916f3a0ca8c5a650d59534d547d3b1ac",
+   "tris": 1294,
+   "size_m": [
+    0.26,
+    0.055,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.055,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "pasta",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-veg-pasta-s2": {
+   "file": "food-veg-pasta-s2.glb",
+   "bytes": 43480,
+   "sha256": "4f426beb1844ed9c74910cfcb9495a9802eb3d9578737fe17ad2cce558faee79",
+   "tris": 936,
+   "size_m": [
+    0.26,
+    0.044,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.044,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "pasta",
+    "sauce"
+   ],
+   "materials": [
+    "food",
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "food-veg-pasta-s3": {
+   "file": "food-veg-pasta-s3.glb",
+   "bytes": 22848,
+   "sha256": "7929be0a7e35aa0464c6fad10f386df7a7dbe9cddb79b4b6084630cd86573429",
+   "tris": 576,
+   "size_m": [
+    0.26,
+    0.021,
+    0.26
+   ],
+   "bounds_lo": [
+    -0.13,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.13,
+    0.021,
+    0.13
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate",
+    "sauce"
+   ],
+   "materials": [
+    "ceramic",
+    "sauce"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-booth-4": {
+   "file": "rest-booth-4.glb",
+   "bytes": 92092,
+   "sha256": "d52b7eb67378c97062198e14e54ffe046e3d609e7504f5eca6e8d6273a8f6adf",
+   "tris": 1580,
+   "size_m": [
+    2.22,
+    1.265,
+    1.7
+   ],
+   "bounds_lo": [
+    -1.11,
+    0.0,
+    -0.85
+   ],
+   "bounds_hi": [
+    1.11,
+    1.265,
+    0.85
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "seats",
+    "frame",
+    "table",
+    "trim"
+   ],
+   "materials": [
+    "wood",
+    "vinyl",
+    "plastic",
+    "chrome"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-bowl-white": {
+   "file": "rest-bowl-white.glb",
+   "bytes": 15960,
+   "sha256": "02d1478bc536e0a3044754a1a51269a88676c891736b6ef2261796d49daf5074",
+   "tris": 392,
+   "size_m": [
+    0.16,
+    0.061,
+    0.16
+   ],
+   "bounds_lo": [
+    -0.08,
+    0.0,
+    -0.08
+   ],
+   "bounds_hi": [
+    0.08,
+    0.061,
+    0.08
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "bowl"
+   ],
+   "materials": [
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-cash-register": {
+   "file": "rest-cash-register.glb",
+   "bytes": 45544,
+   "sha256": "4f6d26f2d0cc39af7e642a36be1b16fba501d3e26d57a7f62bc0eab2e30ad787",
+   "tris": 906,
+   "size_m": [
+    0.42,
+    0.39,
+    0.421
+   ],
+   "bounds_lo": [
+    -0.21,
+    0.0,
+    -0.2
+   ],
+   "bounds_hi": [
+    0.21,
+    0.39,
+    0.221
+   ],
+   "anchor": "counter-top",
+   "parts": [
+    "body",
+    "drawer",
+    "screen",
+    "keys"
+   ],
+   "materials": [
+    "plastic",
+    "screen"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-cashier-counter": {
+   "file": "rest-cashier-counter.glb",
+   "bytes": 26804,
+   "sha256": "53d408e3e54ecce5944035685ce67da4e18ab9beeaac42691e44051722c0ee98",
+   "tris": 500,
+   "size_m": [
+    2.08,
+    1.16,
+    0.676
+   ],
+   "bounds_lo": [
+    -1.04,
+    0.0,
+    -0.31
+   ],
+   "bounds_hi": [
+    1.04,
+    1.16,
+    0.366
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "top",
+    "body",
+    "jar",
+    "trim"
+   ],
+   "materials": [
+    "paint",
+    "glass",
+    "plastic",
+    "chrome"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-chair-chrome": {
+   "file": "rest-chair-chrome.glb",
+   "bytes": 31024,
+   "sha256": "f9ec58a37d7313f143a16bbc05b8d461993b39ed83c9065b6900aaf9d158f86a",
+   "tris": 468,
+   "size_m": [
+    0.42,
+    0.86,
+    0.437
+   ],
+   "bounds_lo": [
+    -0.21,
+    0.0,
+    -0.227
+   ],
+   "bounds_hi": [
+    0.21,
+    0.86,
+    0.21
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "upholstery"
+   ],
+   "materials": [
+    "chrome",
+    "vinyl"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-cup-saucer": {
+   "file": "rest-cup-saucer.glb",
+   "bytes": 23008,
+   "sha256": "c29c5b097904a136d791abde3bd54bf960039449cad869f334812393d9f06f86",
+   "tris": 568,
+   "size_m": [
+    0.156,
+    0.065,
+    0.156
+   ],
+   "bounds_lo": [
+    -0.078,
+    0.0,
+    -0.078
+   ],
+   "bounds_hi": [
+    0.078,
+    0.065,
+    0.078
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "cup"
+   ],
+   "materials": [
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-cutlery": {
+   "file": "rest-cutlery.glb",
+   "bytes": 17308,
+   "sha256": "30d231819c838eb74f4d00fcb00c3b4ce6b612ff43255064d1ea1c667c7c8fa6",
+   "tris": 356,
+   "size_m": [
+    0.185,
+    0.006,
+    0.086
+   ],
+   "bounds_lo": [
+    -0.09,
+    0.0,
+    -0.043
+   ],
+   "bounds_hi": [
+    0.095,
+    0.006,
+    0.043
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "cutlery"
+   ],
+   "materials": [
+    "chrome"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-glass-tall": {
+   "file": "rest-glass-tall.glb",
+   "bytes": 10652,
+   "sha256": "ac71d0ea0c083bcf48e4a0713826f631322d3a5212bd5d30025254468e3d3545",
+   "tris": 240,
+   "size_m": [
+    0.072,
+    0.151,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.036,
+    0.151,
+    0.036
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "glass"
+   ],
+   "materials": [
+    "glass"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-kitchen-pass": {
+   "file": "rest-kitchen-pass.glb",
+   "bytes": 37944,
+   "sha256": "cdfb5367652d5b160097ded3d5a78df64596abd5d41bce49fec11e53fb1f54a8",
+   "tris": 1016,
+   "size_m": [
+    2.46,
+    1.565,
+    0.76
+   ],
+   "bounds_lo": [
+    -1.23,
+    0.0,
+    -0.36
+   ],
+   "bounds_hi": [
+    1.23,
+    1.565,
+    0.4
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "counter",
+    "lamps",
+    "bell",
+    "rail"
+   ],
+   "materials": [
+    "brass",
+    "steel-brushed",
+    "amber-glass"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-menu-board": {
+   "file": "rest-menu-board.glb",
+   "bytes": 16052,
+   "sha256": "00bc5e017836a208d2e6aefa2c8a332ce41b650e8a455ab9c635d6deac305260",
+   "tris": 276,
+   "size_m": [
+    3.6,
+    1.65,
+    0.12
+   ],
+   "bounds_lo": [
+    -1.8,
+    0.55,
+    -0.06
+   ],
+   "bounds_hi": [
+    1.8,
+    2.2,
+    0.06
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "board",
+    "lightbox"
+   ],
+   "materials": [
+    "felt",
+    "wood",
+    "lightbox"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-milk-tea-pot": {
+   "file": "rest-milk-tea-pot.glb",
+   "bytes": 45460,
+   "sha256": "58f45bdc3d245393e1c1af5520ffd0300bc565b42edd96af97f80a9196bb0d84",
+   "tris": 1080,
+   "size_m": [
+    0.425,
+    0.524,
+    0.254
+   ],
+   "bounds_lo": [
+    -0.213,
+    0.0,
+    -0.127
+   ],
+   "bounds_hi": [
+    0.212,
+    0.524,
+    0.127
+   ],
+   "anchor": "counter-top",
+   "parts": [
+    "pot",
+    "filter",
+    "handle"
+   ],
+   "materials": [
+    "felt",
+    "wood",
+    "steel-brushed"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-napkin-holder": {
+   "file": "rest-napkin-holder.glb",
+   "bytes": 24120,
+   "sha256": "0c0f801ce6676c7f7125d840103ce5b234b37e57d359c655b66c1d9a41098242",
+   "tris": 484,
+   "size_m": [
+    0.132,
+    0.11,
+    0.09
+   ],
+   "bounds_lo": [
+    -0.066,
+    0.0,
+    -0.045
+   ],
+   "bounds_hi": [
+    0.066,
+    0.11,
+    0.045
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "case",
+    "napkins"
+   ],
+   "materials": [
+    "chrome",
+    "paper"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-pendant-amber": {
+   "file": "rest-pendant-amber.glb",
+   "bytes": 17828,
+   "sha256": "7f0991c0781a38eac53006df36cf9f4dcf9c2578d32f255729784a619facc794",
+   "tris": 548,
+   "size_m": [
+    0.33,
+    0.358,
+    0.33
+   ],
+   "bounds_lo": [
+    -0.165,
+    -0.358,
+    -0.165
+   ],
+   "bounds_hi": [
+    0.165,
+    0.0,
+    0.165
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "shade",
+    "cap",
+    "cord"
+   ],
+   "materials": [
+    "brass",
+    "rubber",
+    "amber-glass"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-plate-white": {
+   "file": "rest-plate-white.glb",
+   "bytes": 17524,
+   "sha256": "5e5b99858416784a053c2746c04e64a47dd9e19990d000a33f8307465a539960",
+   "tris": 504,
+   "size_m": [
+    0.266,
+    0.024,
+    0.266
+   ],
+   "bounds_lo": [
+    -0.133,
+    0.0,
+    -0.133
+   ],
+   "bounds_hi": [
+    0.133,
+    0.024,
+    0.133
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "plate"
+   ],
+   "materials": [
+    "ceramic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-soda-fountain": {
+   "file": "rest-soda-fountain.glb",
+   "bytes": 60572,
+   "sha256": "f9501443a346aaeb33f14230c58fd9095a6fc274ac4eb3107f0b92a1e8db9081",
+   "tris": 1224,
+   "size_m": [
+    0.9,
+    0.825,
+    0.5
+   ],
+   "bounds_lo": [
+    -0.45,
+    0.0,
+    -0.25
+   ],
+   "bounds_hi": [
+    0.45,
+    0.825,
+    0.25
+   ],
+   "anchor": "counter-top",
+   "parts": [
+    "body",
+    "nozzles",
+    "tanks",
+    "levers"
+   ],
+   "materials": [
+    "steel-brushed",
+    "plastic",
+    "chrome",
+    "glass-tint"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-steam-cabinet": {
+   "file": "rest-steam-cabinet.glb",
+   "bytes": 25580,
+   "sha256": "95d53cd74dbf5f0ff6aef07e25468b035f568ab5dbc45d1525cf7147d34dac96",
+   "tris": 404,
+   "size_m": [
+    0.96,
+    1.84,
+    0.78
+   ],
+   "bounds_lo": [
+    -0.48,
+    0.0,
+    -0.39
+   ],
+   "bounds_hi": [
+    0.48,
+    1.84,
+    0.39
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "door-l",
+    "door-r",
+    "window",
+    "handles"
+   ],
+   "materials": [
+    "steel-brushed",
+    "chrome",
+    "glass-tint"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-table-2": {
+   "file": "rest-table-2.glb",
+   "bytes": 19848,
+   "sha256": "b60e370030d481b4c6d598851f24f57237a5f85df0c5f5f0815d06fa6242932d",
+   "tris": 376,
+   "size_m": [
+    0.714,
+    0.74,
+    0.714
+   ],
+   "bounds_lo": [
+    -0.357,
+    0.0,
+    -0.357
+   ],
+   "bounds_hi": [
+    0.357,
+    0.74,
+    0.357
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "top",
+    "base"
+   ],
+   "materials": [
+    "chrome",
+    "plastic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-table-4": {
+   "file": "rest-table-4.glb",
+   "bytes": 24632,
+   "sha256": "4728e713315422e5988acf82b09f02ddb2a1f7da9a3e3810e46274c251b91b38",
+   "tris": 504,
+   "size_m": [
+    1.214,
+    0.74,
+    0.764
+   ],
+   "bounds_lo": [
+    -0.607,
+    0.0,
+    -0.382
+   ],
+   "bounds_hi": [
+    0.607,
+    0.74,
+    0.382
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "top",
+    "base"
+   ],
+   "materials": [
+    "chrome",
+    "plastic"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-trolley": {
+   "file": "rest-trolley.glb",
+   "bytes": 37924,
+   "sha256": "7afd9a41153df3c4188550ebead1183e9efbdb836289b7fe93d9af0de1155208",
+   "tris": 728,
+   "size_m": [
+    1.082,
+    0.992,
+    0.516
+   ],
+   "bounds_lo": [
+    -0.45,
+    0.0,
+    -0.258
+   ],
+   "bounds_hi": [
+    0.632,
+    0.992,
+    0.258
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "rails"
+   ],
+   "materials": [
+    "steel-brushed",
+    "brass"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  },
+  "rest-wok-range": {
+   "file": "rest-wok-range.glb",
+   "bytes": 55300,
+   "sha256": "84f3c2715c90fbf6164cdf16a50a295f5b2d5d4b6ee5ebd7705bc9347fa52e35",
+   "tris": 1396,
+   "size_m": [
+    1.772,
+    3.05,
+    1.035
+   ],
+   "bounds_lo": [
+    -0.85,
+    0.0,
+    -0.6
+   ],
+   "bounds_hi": [
+    0.922,
+    3.05,
+    0.435
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "woks",
+    "knobs"
+   ],
+   "materials": [
+    "steel-brushed",
+    "chrome",
+    "metal"
+   ],
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "13b2d398-1a6a-4ab9-8fd3-409178b62ed1",
+   "worker": "Asking635/bomei-blender-worker-3",
+   "kind": "restaurant",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "01a4562ee34edb9b1bb29e9297f61caeb9c090bbbe203d301ad6146df71f79e5",
+   "service_sha256": "88d24857a6d2e5d7b0012bfd92a0112e29ee779be9754ade52964970f1261e53",
+   "result_sha256": "7a558cead70d083d570622e872c7cac5d098c9c11d57069c0258f388e424bf1d",
+   "seconds": 111.7,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 40,
+  "tris": 29504,
+  "bytes": 1338540
+ }
+}

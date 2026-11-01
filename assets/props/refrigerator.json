@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/interior-v27/refrigerator.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92823,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 513064,
+    "number_of_vertices": 136086,
+    "time": {
+      "remove background": 3.4561731815338135,
+      "shape generation": 6.729536533355713,
+      "export to trimesh": 0.06501936912536621,
+      "total": 10.252739429473877
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 24000,
+  "vertices": 15918,
+  "bounds": [
+    [
+      -0.46221899691092794,
+      -0.9986113256150975,
+      -0.4559415064322992
+    ],
+    [
+      0.42433739774557827,
+      0.9590026258310155,
+      0.44292450725856847
+    ]
+  ],
+  "imageBounds": [
+    [
+      182,
+      9,
+      455,
+      587
+    ],
+    [
+      188,
+      16,
+      454,
+      582
+    ],
+    [
+      182,
+      14,
+      451,
+      581
+    ],
+    [
+      171,
+      13,
+      450,
+      585
+    ]
+  ],
+  "sha256": "aecb6d3bf04f42d2e89a9b0566092cfe3affd47c7c3e08d1c8879d4fbb1ee05f"
+}

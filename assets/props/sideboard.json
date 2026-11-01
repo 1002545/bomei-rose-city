@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/interior-v27/sideboard.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92821,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 571066,
+    "number_of_vertices": 152532,
+    "time": {
+      "remove background": 3.669347047805786,
+      "shape generation": 7.678978443145752,
+      "export to trimesh": 0.06597113609313965,
+      "total": 11.417911529541016
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 23999,
+  "vertices": 16250,
+  "bounds": [
+    [
+      -1.0099999904632568,
+      -0.45444855728832345,
+      -0.6884194896376254
+    ],
+    [
+      0.9620571819503877,
+      0.40953703922192836,
+      0.39922336643567063
+    ]
+  ],
+  "imageBounds": [
+    [
+      56,
+      99,
+      766,
+      412
+    ],
+    [
+      58,
+      71,
+      766,
+      390
+    ],
+    [
+      2,
+      99,
+      610,
+      420
+    ],
+    [
+      2,
+      60,
+      623,
+      399
+    ]
+  ],
+  "sha256": "67a8ead8134b14c8c74abe7fa8f797f3bdb72e26d02e046e8bea3091544bbeb7"
+}

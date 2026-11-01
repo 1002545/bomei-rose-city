@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/interior-v27/teddy.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92820,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 995256,
+    "number_of_vertices": 259954,
+    "time": {
+      "remove background": 3.697251081466675,
+      "shape generation": 7.8344502449035645,
+      "export to trimesh": 0.1413106918334961,
+      "total": 11.67579197883606
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 30106,
+  "vertices": 17628,
+  "bounds": [
+    [
+      -0.8875197045465246,
+      -0.9715464210557491,
+      -0.7391623273705437
+    ],
+    [
+      0.8498795986161761,
+      0.9586739602691072,
+      0.7009829933176113
+    ]
+  ],
+  "imageBounds": [
+    [
+      112,
+      49,
+      550,
+      570
+    ],
+    [
+      117,
+      29,
+      543,
+      547
+    ],
+    [
+      120,
+      39,
+      502,
+      574
+    ],
+    [
+      128,
+      23,
+      510,
+      552
+    ]
+  ],
+  "sha256": "2d145249206d9868b2f5ac156840be9ff4cb81e674148e4cb46e37b9cea8a2f2"
+}

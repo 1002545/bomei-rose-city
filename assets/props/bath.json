@@ -1,0 +1,68 @@
+{
+  "reference": "views-bath.png",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92825,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 587532,
+    "number_of_vertices": 246927,
+    "time": {
+      "remove background": 3.784573554992676,
+      "shape generation": 7.511440992355347,
+      "export to trimesh": 0.09875273704528809,
+      "total": 11.397860765457153
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 64821,
+  "vertices": 39250,
+  "bounds": [
+    [
+      -1.0090544496853344,
+      -0.5816650131547161,
+      -0.6658600218885956
+    ],
+    [
+      0.9590572695968312,
+      0.5351855156037895,
+      0.6170003225980516
+    ]
+  ],
+  "imageBounds": [
+    [
+      9,
+      72,
+      621,
+      527
+    ],
+    [
+      20,
+      63,
+      621,
+      487
+    ],
+    [
+      2,
+      61,
+      613,
+      569
+    ],
+    [
+      66,
+      31,
+      603,
+      547
+    ]
+  ],
+  "sha256": "94c48d39a700b88e085b929ab4d641bf8e331c2d27e4a626ffb4c889f822e8e1"
+}

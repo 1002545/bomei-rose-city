@@ -1,0 +1,1078 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "airport",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "ap-aircraft": {
+   "file": "ap-aircraft.glb",
+   "bytes": 309460,
+   "sha256": "7e21b87c0e2ba0ddc98d3c55c5024c00dacd40289d7890335c172db8c0f50b37",
+   "tris": 7300,
+   "size_m": [
+    34.0,
+    9.7,
+    38.55
+   ],
+   "bounds_lo": [
+    -17.0,
+    0.0,
+    -19.8
+   ],
+   "bounds_hi": [
+    17.0,
+    9.7,
+    18.75
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "fuselage",
+    "wings",
+    "windows",
+    "engines",
+    "details",
+    "gear"
+   ],
+   "materials": [
+    "paint",
+    "metal",
+    "rubber",
+    "glass-tint"
+   ],
+   "job_id": "f222953c-ee49-4a4a-8d5c-ec4032d13eed"
+  },
+  "ap-aircraft-far": {
+   "file": "ap-aircraft-far.glb",
+   "bytes": 37872,
+   "sha256": "5445264a66ed0c8eedbf864a61ebf396eb4b1f8254fdd4ca8d7771a1677573f4",
+   "tris": 934,
+   "size_m": [
+    34.0,
+    9.01,
+    38.55
+   ],
+   "bounds_lo": [
+    -17.0,
+    0.69,
+    -19.8
+   ],
+   "bounds_hi": [
+    17.0,
+    9.7,
+    18.75
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "fuselage",
+    "wings",
+    "engines",
+    "details"
+   ],
+   "materials": [
+    "paint",
+    "metal"
+   ],
+   "job_id": "f222953c-ee49-4a4a-8d5c-ec4032d13eed"
+  },
+  "ap-jetbridge": {
+   "file": "ap-jetbridge.glb",
+   "bytes": 90812,
+   "sha256": "6dbfa2f462a35c7dcfa2b3a3bcf41962fdf8a226fce1f2b7e3d5a23103f9212d",
+   "tris": 1948,
+   "size_m": [
+    3.8,
+    5.52,
+    16.541
+   ],
+   "bounds_lo": [
+    -1.9,
+    0.0,
+    -1.9
+   ],
+   "bounds_hi": [
+    1.9,
+    5.52,
+    14.641
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "rotunda",
+    "tunnel-a",
+    "tunnel-b",
+    "cab",
+    "bellows",
+    "windows",
+    "supports",
+    "wheel-bogie"
+   ],
+   "materials": [
+    "rubber",
+    "paint",
+    "steel-brushed",
+    "glass"
+   ],
+   "job_id": "f222953c-ee49-4a4a-8d5c-ec4032d13eed"
+  },
+  "ap-baggage-carousel": {
+   "file": "ap-baggage-carousel.glb",
+   "bytes": 389632,
+   "sha256": "2b8baa3595286b3a035070949d1b81762d34a5cc40bc37b577cb7c1e8ad272e9",
+   "tris": 8536,
+   "size_m": [
+    8.832,
+    2.6,
+    3.768
+   ],
+   "bounds_lo": [
+    -4.132,
+    0.0,
+    -1.884
+   ],
+   "bounds_hi": [
+    4.7,
+    2.6,
+    1.884
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "skirt",
+    "belt",
+    "hood"
+   ],
+   "materials": [
+    "rubber",
+    "paint",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-ceiling-wave-bay": {
+   "file": "ap-ceiling-wave-bay.glb",
+   "bytes": 58188,
+   "sha256": "5ac81b2fa7f0f2a1ddf8c2af597d490478b9aa7662a453fb4d1fac3ca1ba0be6",
+   "tris": 1204,
+   "size_m": [
+    6.0,
+    1.138,
+    6.1
+   ],
+   "bounds_lo": [
+    -3.0,
+    -0.918,
+    -3.05
+   ],
+   "bounds_hi": [
+    3.0,
+    0.22,
+    3.05
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "slats",
+    "panel",
+    "skylight"
+   ],
+   "materials": [
+    "paint",
+    "glass",
+    "wood"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-charging-pillar": {
+   "file": "ap-charging-pillar.glb",
+   "bytes": 11452,
+   "sha256": "69087de3968e3406ad4f97380c07dd5f86523482ba556ac39a5d64e4723731d7",
+   "tris": 172,
+   "size_m": [
+    0.28,
+    0.91,
+    0.285
+   ],
+   "bounds_lo": [
+    -0.14,
+    0.0,
+    -0.14
+   ],
+   "bounds_hi": [
+    0.14,
+    0.91,
+    0.145
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "ports"
+   ],
+   "materials": [
+    "paint",
+    "led"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-checkin-island": {
+   "file": "ap-checkin-island.glb",
+   "bytes": 109136,
+   "sha256": "60af08c7529fdce11750e221d3359efe0fd28d37f3e091f44a52a31f796078aa",
+   "tris": 1948,
+   "size_m": [
+    3.5,
+    1.28,
+    4.05
+   ],
+   "bounds_lo": [
+    -1.75,
+    0.0,
+    -2.05
+   ],
+   "bounds_hi": [
+    1.75,
+    1.28,
+    2.0
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "desk-top",
+    "body",
+    "belts",
+    "steel",
+    "screens",
+    "pos"
+   ],
+   "materials": [
+    "rubber",
+    "paint",
+    "wood",
+    "plastic",
+    "screen",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-checkin-island-head": {
+   "file": "ap-checkin-island-head.glb",
+   "bytes": 15604,
+   "sha256": "3df808de645993697d3e7b7163c9bbf900cce7329867d8641123b1fe92c6e89f",
+   "tris": 216,
+   "size_m": [
+    3.2,
+    3.4,
+    1.6
+   ],
+   "bounds_lo": [
+    -1.6,
+    0.0,
+    -0.9
+   ],
+   "bounds_hi": [
+    1.6,
+    3.4,
+    0.7
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "platform",
+    "pylon",
+    "letter-cube",
+    "kiosk-rail"
+   ],
+   "materials": [
+    "steel-brushed",
+    "led",
+    "wood",
+    "paint"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-column-v": {
+   "file": "ap-column-v.glb",
+   "bytes": 39148,
+   "sha256": "7c5c7f5aeb1c100c3762b7896dce0fc75348d469ad6e2b65b5d52c2f1131251c",
+   "tris": 960,
+   "size_m": [
+    3.302,
+    8.444,
+    3.296
+   ],
+   "bounds_lo": [
+    -1.651,
+    0.0,
+    -1.648
+   ],
+   "bounds_hi": [
+    1.651,
+    8.444,
+    1.648
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "column",
+    "ring"
+   ],
+   "materials": [
+    "paint",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-curtain-wall-bay": {
+   "file": "ap-curtain-wall-bay.glb",
+   "bytes": 22360,
+   "sha256": "6e71b90f9588e50709b2418c1fe17a1fef7e8b65bfc021beb5cb1139ba6e8702",
+   "tris": 442,
+   "size_m": [
+    3.08,
+    9.66,
+    0.2
+   ],
+   "bounds_lo": [
+    -1.54,
+    -0.03,
+    -0.1
+   ],
+   "bounds_hi": [
+    1.54,
+    9.63,
+    0.1
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "mullions",
+    "glass"
+   ],
+   "materials": [
+    "glass",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-elevator-glass": {
+   "file": "ap-elevator-glass.glb",
+   "bytes": 21796,
+   "sha256": "4136ac2dcd768eecc18fb5cdc5eaaf842303300aeb7b759dc4ddce9210510d19",
+   "tris": 404,
+   "size_m": [
+    2.2,
+    4.5,
+    2.2
+   ],
+   "bounds_lo": [
+    -1.1,
+    -0.05,
+    -1.1
+   ],
+   "bounds_hi": [
+    1.1,
+    4.45,
+    1.1
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "glass",
+    "cab"
+   ],
+   "materials": [
+    "paint",
+    "steel-brushed",
+    "glass"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-escalator": {
+   "file": "ap-escalator.glb",
+   "bytes": 87552,
+   "sha256": "38af3f19e3e15f4e09ced47f6634a94956783302198f8eb71f52bda5d38f4232",
+   "tris": 1600,
+   "size_m": [
+    1.4,
+    6.106,
+    9.172
+   ],
+   "bounds_lo": [
+    -0.7,
+    -0.175,
+    -4.586
+   ],
+   "bounds_hi": [
+    0.7,
+    5.931,
+    4.586
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "truss",
+    "steps",
+    "balustrade",
+    "handrail"
+   ],
+   "materials": [
+    "glass",
+    "rubber",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-fids-frame": {
+   "file": "ap-fids-frame.glb",
+   "bytes": 6696,
+   "sha256": "f8b9d80ed0f00a3e20f2c9890996fc2b71cfde91ab227e69029fcca8fdb9402b",
+   "tris": 68,
+   "size_m": [
+    2.9,
+    1.15,
+    0.085
+   ],
+   "bounds_lo": [
+    -1.45,
+    1.025,
+    -0.07
+   ],
+   "bounds_hi": [
+    1.45,
+    2.175,
+    0.015
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "screen",
+    "header"
+   ],
+   "materials": [
+    "paint",
+    "led",
+    "screen"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-gate-desk": {
+   "file": "ap-gate-desk.glb",
+   "bytes": 17632,
+   "sha256": "d25b85f95e2f5f133f5bc7423425194150965b3a7c84f866d115865eb557c03e",
+   "tris": 256,
+   "size_m": [
+    2.7,
+    2.85,
+    0.9
+   ],
+   "bounds_lo": [
+    -1.25,
+    0.0,
+    -0.45
+   ],
+   "bounds_hi": [
+    1.45,
+    2.85,
+    0.45
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "top",
+    "body",
+    "screens",
+    "sign",
+    "mast"
+   ],
+   "materials": [
+    "paint",
+    "steel-brushed",
+    "screen",
+    "led",
+    "wood"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-info-desk": {
+   "file": "ap-info-desk.glb",
+   "bytes": 95428,
+   "sha256": "70b846024ac540ff45b0cdb52ba7a2180b46cc55c30f5f605463785ffb26292f",
+   "tris": 2148,
+   "size_m": [
+    2.299,
+    1.65,
+    2.626
+   ],
+   "bounds_lo": [
+    -1.313,
+    0.0,
+    -1.313
+   ],
+   "bounds_hi": [
+    0.986,
+    1.65,
+    1.313
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "top",
+    "sign",
+    "post"
+   ],
+   "materials": [
+    "paint",
+    "steel-brushed",
+    "led",
+    "wood"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-lounge-buffet": {
+   "file": "ap-lounge-buffet.glb",
+   "bytes": 22432,
+   "sha256": "ab8f69d5bb6b82fa773dbe55438bf86e84e082b0ff7fa2320d7ebd983105ffbf",
+   "tris": 440,
+   "size_m": [
+    4.6,
+    1.55,
+    1.3
+   ],
+   "bounds_lo": [
+    -2.3,
+    0.0,
+    -0.65
+   ],
+   "bounds_hi": [
+    2.3,
+    1.55,
+    0.65
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "top",
+    "hoods",
+    "trays"
+   ],
+   "materials": [
+    "paint",
+    "glass",
+    "wood",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-lounge-chair": {
+   "file": "ap-lounge-chair.glb",
+   "bytes": 27560,
+   "sha256": "f4a29190e319beff813b87bfa5fae527f4808ea0e6c23cb1be325806837b4e96",
+   "tris": 400,
+   "size_m": [
+    0.86,
+    0.803,
+    0.81
+   ],
+   "bounds_lo": [
+    -0.43,
+    -0.003,
+    -0.41
+   ],
+   "bounds_hi": [
+    0.43,
+    0.8,
+    0.4
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "upholstery",
+    "legs"
+   ],
+   "materials": [
+    "wood",
+    "fabric"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-luggage-trolley": {
+   "file": "ap-luggage-trolley.glb",
+   "bytes": 36496,
+   "sha256": "ed6b52ccc86bd74464292c5853d95d8a75757ff57e65d8c6443361c0dd4089c5",
+   "tris": 580,
+   "size_m": [
+    0.566,
+    0.966,
+    0.968
+   ],
+   "bounds_lo": [
+    -0.283,
+    0.0,
+    -0.496
+   ],
+   "bounds_hi": [
+    0.283,
+    0.966,
+    0.472
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "handle"
+   ],
+   "materials": [
+    "chrome",
+    "plastic"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-planter": {
+   "file": "ap-planter.glb",
+   "bytes": 21240,
+   "sha256": "5f998dc1dc1a92e3ddf7940d34b8b8153981209508064b5c471f025667eb919f",
+   "tris": 532,
+   "size_m": [
+    1.0,
+    1.75,
+    1.0
+   ],
+   "bounds_lo": [
+    -0.5,
+    0.0,
+    -0.5
+   ],
+   "bounds_hi": [
+    0.5,
+    1.75,
+    0.5
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "pot",
+    "foliage",
+    "trunk"
+   ],
+   "materials": [
+    "plant",
+    "stone",
+    "wood"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-sculpture-aviation": {
+   "file": "ap-sculpture-aviation.glb",
+   "bytes": 53704,
+   "sha256": "e46b7d3aa08cce8765e869b07eef5f42242d540d7a6a3ed20aa9c25599bdb4f7",
+   "tris": 1436,
+   "size_m": [
+    1.3,
+    2.6,
+    1.1
+   ],
+   "bounds_lo": [
+    -0.65,
+    0.0,
+    -0.55
+   ],
+   "bounds_hi": [
+    0.65,
+    2.6,
+    0.55
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "wings",
+    "core",
+    "plinth"
+   ],
+   "materials": [
+    "lacquer",
+    "stone",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-security-lane": {
+   "file": "ap-security-lane.glb",
+   "bytes": 51764,
+   "sha256": "c427cb9ed30cd06181c47c70370b19b641309296ec954acc325861586844f21f",
+   "tris": 870,
+   "size_m": [
+    2.3,
+    2.06,
+    6.8
+   ],
+   "bounds_lo": [
+    -0.75,
+    0.0,
+    -3.8
+   ],
+   "bounds_hi": [
+    1.55,
+    2.06,
+    3.0
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "tables",
+    "xray",
+    "belt",
+    "gantry",
+    "trays",
+    "screen"
+   ],
+   "materials": [
+    "rubber",
+    "plastic",
+    "screen",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-shop-front": {
+   "file": "ap-shop-front.glb",
+   "bytes": 26956,
+   "sha256": "2dad7c69adcd91b206f19c73bca2a778d2c0aa2afc34796d6a0b6883a80cd0f4",
+   "tris": 492,
+   "size_m": [
+    4.0,
+    3.6,
+    0.52
+   ],
+   "bounds_lo": [
+    -2.0,
+    0.0,
+    -0.35
+   ],
+   "bounds_hi": [
+    2.0,
+    3.6,
+    0.17
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "portal",
+    "glass",
+    "sign",
+    "wall"
+   ],
+   "materials": [
+    "glass",
+    "wood",
+    "led",
+    "paint"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-stanchion": {
+   "file": "ap-stanchion.glb",
+   "bytes": 11076,
+   "sha256": "325971193b28e16217b3929968bb2d55fe8360b42a0b64f09ef7e6bda7d45da0",
+   "tris": 240,
+   "size_m": [
+    2.16,
+    0.96,
+    0.32
+   ],
+   "bounds_lo": [
+    -0.16,
+    0.0,
+    -0.16
+   ],
+   "bounds_hi": [
+    2.0,
+    0.96,
+    0.16
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "post",
+    "belt"
+   ],
+   "materials": [
+    "rubber",
+    "chrome"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-suitcase-a": {
+   "file": "ap-suitcase-a.glb",
+   "bytes": 31384,
+   "sha256": "3b7db396f59bf3d34312a1dd7ea57dc446fae6537114783c62da64d8164b608b",
+   "tris": 564,
+   "size_m": [
+    0.42,
+    0.905,
+    0.266
+   ],
+   "bounds_lo": [
+    -0.21,
+    0.0,
+    -0.13
+   ],
+   "bounds_hi": [
+    0.21,
+    0.905,
+    0.136
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "shell",
+    "handle",
+    "wheels"
+   ],
+   "materials": [
+    "chrome",
+    "plastic",
+    "rubber"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-suitcase-b": {
+   "file": "ap-suitcase-b.glb",
+   "bytes": 31384,
+   "sha256": "77053584b13b1db6c57c2f850936323d97682d058346db1d1057466a578ac08e",
+   "tris": 564,
+   "size_m": [
+    0.46,
+    0.985,
+    0.286
+   ],
+   "bounds_lo": [
+    -0.23,
+    0.0,
+    -0.14
+   ],
+   "bounds_hi": [
+    0.23,
+    0.985,
+    0.146
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "shell",
+    "handle",
+    "wheels"
+   ],
+   "materials": [
+    "chrome",
+    "plastic",
+    "rubber"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-suitcase-c": {
+   "file": "ap-suitcase-c.glb",
+   "bytes": 31380,
+   "sha256": "c982d40a49a6a2ee5c92db35e98daaf07af5f9d6896409e6fd09fd2a319ab42e",
+   "tris": 564,
+   "size_m": [
+    0.38,
+    0.835,
+    0.246
+   ],
+   "bounds_lo": [
+    -0.19,
+    0.0,
+    -0.12
+   ],
+   "bounds_hi": [
+    0.19,
+    0.835,
+    0.126
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "shell",
+    "handle",
+    "wheels"
+   ],
+   "materials": [
+    "chrome",
+    "plastic",
+    "rubber"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-trash-bin": {
+   "file": "ap-trash-bin.glb",
+   "bytes": 13120,
+   "sha256": "4c8e89f588b09847e238c78ba7f038810c97ecf8f45a058f81616b0749d31b72",
+   "tris": 212,
+   "size_m": [
+    0.9,
+    1.0,
+    0.41
+   ],
+   "bounds_lo": [
+    -0.45,
+    0.0,
+    -0.2
+   ],
+   "bounds_hi": [
+    0.45,
+    1.0,
+    0.21
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "lids"
+   ],
+   "materials": [
+    "steel-brushed",
+    "lacquer"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-travelator": {
+   "file": "ap-travelator.glb",
+   "bytes": 76140,
+   "sha256": "8dcd35906859b71a368b2bf8e21f7b5aee0be54ea285d6c99b90b0421a343246",
+   "tris": 1036,
+   "size_m": [
+    1.6,
+    1.07,
+    6.05
+   ],
+   "bounds_lo": [
+    -0.8,
+    0.0,
+    -3.025
+   ],
+   "bounds_hi": [
+    0.8,
+    1.07,
+    3.025
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "belt",
+    "frame",
+    "balustrade",
+    "handrail"
+   ],
+   "materials": [
+    "glass",
+    "rubber",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-tray": {
+   "file": "ap-tray.glb",
+   "bytes": 11388,
+   "sha256": "5378b0a62512502c82ed1311b0c3335a4b8fe851ffdafa48b41ba32f28eca2fa",
+   "tris": 220,
+   "size_m": [
+    0.624,
+    0.044,
+    0.404
+   ],
+   "bounds_lo": [
+    -0.312,
+    0.0,
+    -0.202
+   ],
+   "bounds_hi": [
+    0.312,
+    0.044,
+    0.202
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "tray"
+   ],
+   "materials": [
+    "plastic"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-vase-cobalt": {
+   "file": "ap-vase-cobalt.glb",
+   "bytes": 22764,
+   "sha256": "d09645dfd493ee9a65ec5fa123ff220d3ac5a7da3802414624b7842671f0a1af",
+   "tris": 660,
+   "size_m": [
+    0.4,
+    0.9,
+    0.398
+   ],
+   "bounds_lo": [
+    -0.2,
+    0.0,
+    -0.199
+   ],
+   "bounds_hi": [
+    0.2,
+    0.9,
+    0.199
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "vase"
+   ],
+   "materials": [
+    "lacquer"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  },
+  "ap-water-dispenser": {
+   "file": "ap-water-dispenser.glb",
+   "bytes": 8624,
+   "sha256": "b08df934ed47f636580ed7d4d231071c71dfe87ef7d12b540c4245b4a2c3c9f2",
+   "tris": 124,
+   "size_m": [
+    0.5,
+    1.1,
+    0.338
+   ],
+   "bounds_lo": [
+    -0.25,
+    0.0,
+    -0.17
+   ],
+   "bounds_hi": [
+    0.25,
+    1.1,
+    0.168
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "taps"
+   ],
+   "materials": [
+    "paint",
+    "steel-brushed"
+   ],
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "f222953c-ee49-4a4a-8d5c-ec4032d13eed",
+   "worker": "Asking635/bomei-blender-worker-3",
+   "kind": "airport_air",
+   "params": {
+    "res": 512,
+    "samples": 16
+   },
+   "worker_sha256": "01a4562ee34edb9b1bb29e9297f61caeb9c090bbbe203d301ad6146df71f79e5",
+   "service_sha256": "88d24857a6d2e5d7b0012bfd92a0112e29ee779be9754ade52964970f1261e53",
+   "result_sha256": "16ff7c204a10fef0b1c9bdf089c7dc95f7a962447aefecaf428c45f2538ed46c",
+   "seconds": 23.5,
+   "gpu_seconds": 0,
+   "failed": []
+  },
+  {
+   "job_id": "f260ac9e-db95-497b-aaa9-97832122d937",
+   "worker": "Asking635/bomei-blender-worker-3",
+   "kind": "airport_hall",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "735f885e0f92d98f00973736c448ef5310e84f891639c190593f8aa611742d15",
+   "service_sha256": "fcadfce7e0af3457fda4a2c4c667764bd33088f4174367efdf0c36f46e9aacbe",
+   "result_sha256": "f49831f48a73850ea7df5c5585f0910d491d727b475a3eec27b839a3d1f65eb2",
+   "seconds": 107.3,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 31,
+  "tris": 37070,
+  "bytes": 1790180
+ }
+}

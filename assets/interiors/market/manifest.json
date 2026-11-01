@@ -1,0 +1,826 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "interiors/market",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "mkt-aisle-sign": {
+   "file": "mkt-aisle-sign.glb",
+   "bytes": 11260,
+   "sha256": "640e0902faed5fd137c16ce2cfb97e989d40919a25ac619f818e7561af14ad0b",
+   "tris": 128,
+   "size_m": [
+    0.7,
+    0.7,
+    0.034
+   ],
+   "bounds_lo": [
+    -0.35,
+    -0.7,
+    -0.017
+   ],
+   "bounds_hi": [
+    0.35,
+    0.0,
+    0.017
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "sign",
+    "rods"
+   ],
+   "materials": [
+    "steel-brushed",
+    "lacquer"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-apple": {
+   "file": "mkt-apple.glb",
+   "bytes": 12236,
+   "sha256": "cb3302d7de73421d698b2131aa4b28909d88ef06d9f71077b4a5f42cea0953ab",
+   "tris": 256,
+   "size_m": [
+    0.086,
+    0.089,
+    0.084
+   ],
+   "bounds_lo": [
+    -0.043,
+    0.0,
+    -0.042
+   ],
+   "bounds_hi": [
+    0.043,
+    0.089,
+    0.042
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "fruit",
+    "leaf"
+   ],
+   "materials": [
+    "sauce",
+    "plant"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-baguette": {
+   "file": "mkt-baguette.glb",
+   "bytes": 18440,
+   "sha256": "5de79e00620d2ad036aefd6541363ae492bafd9e46e482bd0e97fb5de2c71bc4",
+   "tris": 480,
+   "size_m": [
+    0.5,
+    0.068,
+    0.064
+   ],
+   "bounds_lo": [
+    -0.25,
+    -0.002,
+    -0.032
+   ],
+   "bounds_hi": [
+    0.25,
+    0.066,
+    0.032
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "bread"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-banana-bunch": {
+   "file": "mkt-banana-bunch.glb",
+   "bytes": 36408,
+   "sha256": "4c4c7d5e6e8be001919a469826b779771e41c19fa45e34f8a64b1589a95be62a",
+   "tris": 664,
+   "size_m": [
+    0.232,
+    0.071,
+    0.123
+   ],
+   "bounds_lo": [
+    -0.123,
+    0.003,
+    -0.061
+   ],
+   "bounds_hi": [
+    0.109,
+    0.074,
+    0.062
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "bananas",
+    "tips",
+    "stalk"
+   ],
+   "materials": [
+    "food",
+    "plant"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-basket-hand": {
+   "file": "mkt-basket-hand.glb",
+   "bytes": 61444,
+   "sha256": "e9f546400b74c05e3d52e9516b86acd3928f414d54898dea72bb3f1054be4ca0",
+   "tris": 1268,
+   "size_m": [
+    0.4,
+    0.308,
+    0.278
+   ],
+   "bounds_lo": [
+    -0.2,
+    0.0,
+    -0.139
+   ],
+   "bounds_hi": [
+    0.2,
+    0.308,
+    0.139
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "handle"
+   ],
+   "materials": [
+    "plastic"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-bread-rack": {
+   "file": "mkt-bread-rack.glb",
+   "bytes": 27288,
+   "sha256": "c2d5abba5174d134b7f0fed8def766d76adb69debdf5c3f6d9152b7e4d5d1e88",
+   "tris": 480,
+   "size_m": [
+    1.3,
+    1.535,
+    0.55
+   ],
+   "bounds_lo": [
+    -0.65,
+    0.0,
+    -0.275
+   ],
+   "bounds_hi": [
+    0.65,
+    1.535,
+    0.275
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "rack",
+    "rails"
+   ],
+   "materials": [
+    "wood",
+    "steel-brushed"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-bun": {
+   "file": "mkt-bun.glb",
+   "bytes": 9940,
+   "sha256": "5a5b025c83a703498f36353af0e0f824b50c16b0e7a540c0c7f0eda3e47c119c",
+   "tris": 324,
+   "size_m": [
+    0.1,
+    0.034,
+    0.098
+   ],
+   "bounds_lo": [
+    -0.05,
+    0.0,
+    -0.049
+   ],
+   "bounds_hi": [
+    0.05,
+    0.034,
+    0.049
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "bun"
+   ],
+   "materials": [
+    "food"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-can": {
+   "file": "mkt-can.glb",
+   "bytes": 16444,
+   "sha256": "601a4961108f279af898786ebb3af49f32964a39c2e2354eb126f35c50764ab3",
+   "tris": 320,
+   "size_m": [
+    0.072,
+    0.11,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.036,
+    0.11,
+    0.036
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "pack",
+    "rims"
+   ],
+   "materials": [
+    "plastic",
+    "metal"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-cart-corral": {
+   "file": "mkt-cart-corral.glb",
+   "bytes": 28824,
+   "sha256": "65fa300322b53aa1d8826f2647ebb4c22d04b911aa3d26ad6c570b1bd96404eb",
+   "tris": 440,
+   "size_m": [
+    1.024,
+    1.15,
+    2.647
+   ],
+   "bounds_lo": [
+    -0.512,
+    0.0,
+    -1.335
+   ],
+   "bounds_hi": [
+    0.512,
+    1.15,
+    1.312
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "rails",
+    "sign"
+   ],
+   "materials": [
+    "chrome",
+    "lacquer"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-cart-dog": {
+   "file": "mkt-cart-dog.glb",
+   "bytes": 88984,
+   "sha256": "9e38051848a7810ee2025218d02ce60370e60ef3c5caffd148a81734f5bc3712",
+   "tris": 1224,
+   "size_m": [
+    0.454,
+    0.614,
+    0.677
+   ],
+   "bounds_lo": [
+    -0.227,
+    0.0,
+    -0.374
+   ],
+   "bounds_hi": [
+    0.227,
+    0.614,
+    0.303
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "wire",
+    "grip"
+   ],
+   "materials": [
+    "chrome",
+    "plastic"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-checkout": {
+   "file": "mkt-checkout.glb",
+   "bytes": 45324,
+   "sha256": "de30977fd248c726acc0d10dd45a8f6efa37fc6b93fa9c9a97422313ce61d82b",
+   "tris": 684,
+   "size_m": [
+    2.51,
+    1.3,
+    0.911
+   ],
+   "bounds_lo": [
+    -1.16,
+    0.0,
+    -0.45
+   ],
+   "bounds_hi": [
+    1.35,
+    1.3,
+    0.461
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "belt",
+    "steel",
+    "screen",
+    "scan-window",
+    "pos"
+   ],
+   "materials": [
+    "rubber",
+    "paint",
+    "plastic",
+    "glass",
+    "screen",
+    "steel-brushed"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-freezer-chest": {
+   "file": "mkt-freezer-chest.glb",
+   "bytes": 34924,
+   "sha256": "de0c0773b2d70743a64240b2032a3529f0d639ada6314136e25b0c3b5f916c31",
+   "tris": 612,
+   "size_m": [
+    1.8,
+    0.885,
+    0.807
+   ],
+   "bounds_lo": [
+    -0.9,
+    0.0,
+    -0.4
+   ],
+   "bounds_hi": [
+    0.9,
+    0.885,
+    0.407
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "inner",
+    "light",
+    "rails",
+    "lid-a",
+    "lid-b",
+    "lid-a-frame",
+    "lid-b-frame"
+   ],
+   "materials": [
+    "enamel",
+    "paint",
+    "chrome",
+    "glass",
+    "led"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-paper-bag": {
+   "file": "mkt-paper-bag.glb",
+   "bytes": 14168,
+   "sha256": "a929473dec2553c77b24a23e1221dfde7082689f91c8f3250a610e888d349bcd",
+   "tris": 236,
+   "size_m": [
+    0.202,
+    0.364,
+    0.121
+   ],
+   "bounds_lo": [
+    -0.101,
+    0.0,
+    -0.06
+   ],
+   "bounds_hi": [
+    0.101,
+    0.364,
+    0.061
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "bag",
+    "handle"
+   ],
+   "materials": [
+    "paper"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-pet-snack-pouch": {
+   "file": "mkt-pet-snack-pouch.glb",
+   "bytes": 8288,
+   "sha256": "b3700f82743f2510863682c6c69effe8db9265fc65a50de0be9938bc4e1935b1",
+   "tris": 72,
+   "size_m": [
+    0.12,
+    0.18,
+    0.04
+   ],
+   "bounds_lo": [
+    -0.06,
+    0.0,
+    -0.02
+   ],
+   "bounds_hi": [
+    0.06,
+    0.18,
+    0.02
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "pack",
+    "zip"
+   ],
+   "materials": [
+    "plastic"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-produce-crate": {
+   "file": "mkt-produce-crate.glb",
+   "bytes": 45128,
+   "sha256": "93741553e8a8ffd71ebd57dd32b4bb5a1194c05d20dd577ed4a25ab38e596394",
+   "tris": 968,
+   "size_m": [
+    0.6,
+    0.22,
+    0.402
+   ],
+   "bounds_lo": [
+    -0.3,
+    0.0,
+    -0.201
+   ],
+   "bounds_hi": [
+    0.3,
+    0.22,
+    0.201
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "crate"
+   ],
+   "materials": [
+    "wood"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-produce-island": {
+   "file": "mkt-produce-island.glb",
+   "bytes": 34720,
+   "sha256": "d1d9e0f34ee207fe77632054bedb081a73c83976446ce467d81cd4afb3426886",
+   "tris": 596,
+   "size_m": [
+    2.5,
+    1.314,
+    1.23
+   ],
+   "bounds_lo": [
+    -1.25,
+    0.0,
+    -0.63
+   ],
+   "bounds_hi": [
+    1.25,
+    1.314,
+    0.6
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "tiers",
+    "mist-pipe",
+    "trim"
+   ],
+   "materials": [
+    "steel-brushed",
+    "wood",
+    "paint"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-promo-bin": {
+   "file": "mkt-promo-bin.glb",
+   "bytes": 23320,
+   "sha256": "3b08dd87997481a4b40c9890d3ed26adc1df8eef9a305067c1c02c94b4b9b414",
+   "tris": 328,
+   "size_m": [
+    1.0,
+    1.27,
+    0.79
+   ],
+   "bounds_lo": [
+    -0.5,
+    0.02,
+    -0.395
+   ],
+   "bounds_hi": [
+    0.5,
+    1.29,
+    0.395
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "pallet",
+    "bin",
+    "sign",
+    "pole"
+   ],
+   "materials": [
+    "lacquer",
+    "wood",
+    "steel-brushed"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-rice-bag": {
+   "file": "mkt-rice-bag.glb",
+   "bytes": 12988,
+   "sha256": "4bfd4d073ec9adc4cd13fe6c2087f40430296b22c22d67781fd718f833461fa3",
+   "tris": 136,
+   "size_m": [
+    0.28,
+    0.41,
+    0.16
+   ],
+   "bounds_lo": [
+    -0.14,
+    0.01,
+    -0.08
+   ],
+   "bounds_hi": [
+    0.14,
+    0.42,
+    0.08
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "pack"
+   ],
+   "materials": [
+    "plastic"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-scale-produce": {
+   "file": "mkt-scale-produce.glb",
+   "bytes": 15212,
+   "sha256": "a0b37067f0559d21c7d18f5f131cab2e9a4fc103182957ecb19cc51982cde43e",
+   "tris": 194,
+   "size_m": [
+    0.4,
+    0.46,
+    0.344
+   ],
+   "bounds_lo": [
+    -0.2,
+    0.0,
+    -0.17
+   ],
+   "bounds_hi": [
+    0.2,
+    0.46,
+    0.174
+   ],
+   "anchor": "counter-top",
+   "parts": [
+    "body",
+    "platter",
+    "screen",
+    "trim"
+   ],
+   "materials": [
+    "plastic",
+    "steel-brushed",
+    "screen",
+    "lacquer"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-scanner-handheld": {
+   "file": "mkt-scanner-handheld.glb",
+   "bytes": 11952,
+   "sha256": "52c9aaec3506022d9ff947cef3b732f37fca70d4c13811aa44bfb5a424ef2e09",
+   "tris": 160,
+   "size_m": [
+    0.132,
+    0.098,
+    0.05
+   ],
+   "bounds_lo": [
+    -0.044,
+    -0.018,
+    -0.025
+   ],
+   "bounds_hi": [
+    0.088,
+    0.08,
+    0.025
+   ],
+   "anchor": "table-top",
+   "parts": [
+    "body",
+    "lens",
+    "trigger"
+   ],
+   "materials": [
+    "plastic",
+    "led",
+    "lacquer"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-shelf-double": {
+   "file": "mkt-shelf-double.glb",
+   "bytes": 64056,
+   "sha256": "72f2c3442e6651337dd41a2c4f34fe678550f9dc39d2d01aa18e6de0fb84d4c5",
+   "tris": 1060,
+   "size_m": [
+    1.94,
+    1.64,
+    0.6
+   ],
+   "bounds_lo": [
+    -0.97,
+    0.0,
+    -0.3
+   ],
+   "bounds_hi": [
+    0.97,
+    1.64,
+    0.3
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "shelves",
+    "price-rails",
+    "end-caps"
+   ],
+   "materials": [
+    "lacquer",
+    "paint",
+    "plastic",
+    "steel-brushed"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-tissue-pack": {
+   "file": "mkt-tissue-pack.glb",
+   "bytes": 9188,
+   "sha256": "557c9ca2e15f1d5b8c6374068b0591fbbefec60ec18655412656062f3388587e",
+   "tris": 92,
+   "size_m": [
+    0.2,
+    0.1,
+    0.12
+   ],
+   "bounds_lo": [
+    -0.1,
+    0.0,
+    -0.06
+   ],
+   "bounds_hi": [
+    0.1,
+    0.1,
+    0.06
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "pack"
+   ],
+   "materials": [
+    "plastic"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-tofu-block": {
+   "file": "mkt-tofu-block.glb",
+   "bytes": 11132,
+   "sha256": "c6286b120091b64986a488da450cfa879c244f68351fab72d65403eccd5fe022",
+   "tris": 152,
+   "size_m": [
+    0.14,
+    0.046,
+    0.1
+   ],
+   "bounds_lo": [
+    -0.07,
+    0.0,
+    -0.05
+   ],
+   "bounds_hi": [
+    0.07,
+    0.046,
+    0.05
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "tofu",
+    "tray"
+   ],
+   "materials": [
+    "food",
+    "glass"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-tomato": {
+   "file": "mkt-tomato.glb",
+   "bytes": 19816,
+   "sha256": "cadd604febbf0adf32c84fbd7c600d76aafe0f4cd53d7874668e378be1b58ec1",
+   "tris": 496,
+   "size_m": [
+    0.074,
+    0.073,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.037,
+    0.001,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.037,
+    0.074,
+    0.036
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "fruit",
+    "calyx"
+   ],
+   "materials": [
+    "plant",
+    "sauce"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  },
+  "mkt-yogurt-cup": {
+   "file": "mkt-yogurt-cup.glb",
+   "bytes": 12212,
+   "sha256": "ba847d76a4c6a761adb1b4c24f1a178a0a5fd6a0f4085074cf4a59af553af980",
+   "tris": 200,
+   "size_m": [
+    0.072,
+    0.081,
+    0.072
+   ],
+   "bounds_lo": [
+    -0.036,
+    0.0,
+    -0.036
+   ],
+   "bounds_hi": [
+    0.036,
+    0.081,
+    0.036
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "pack",
+    "foil-lid"
+   ],
+   "materials": [
+    "metal",
+    "plastic"
+   ],
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "1e559ab4-e7f3-437d-84a2-3abb35db1482",
+   "worker": "Asking635/bomei-blender-worker-2",
+   "kind": "market",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "01a4562ee34edb9b1bb29e9297f61caeb9c090bbbe203d301ad6146df71f79e5",
+   "service_sha256": "88d24857a6d2e5d7b0012bfd92a0112e29ee779be9754ade52964970f1261e53",
+   "result_sha256": "0360e511bc45ef1f0506ee0bfc402318ba7ed48065a9a6c2e39a22988826f1f5",
+   "seconds": 69.5,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 25,
+  "tris": 11570,
+  "bytes": 673696
+ }
+}

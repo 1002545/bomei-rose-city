@@ -1,0 +1,711 @@
+{
+ "schema": "bomei-env-assets.v1",
+ "group": "park",
+ "generated_by": "scripts/bake/space/envkit_worker.py (Blender 4.5.14 CPU on private worker Spaces, procedural; source copy in source-assets/env/generator)",
+ "units": "metres, +Y up, forward +Z (Blender -Y), origin at the base/pivot given per asset",
+ "loader": "GLTFLoader (three r180). No textures, so KTX2/WebP/meshopt are not needed (the game bundle supports EXT_texture_webp, KHR_texture_basisu, meshopt, draco if a later pass adds textures). Materials use KHR_materials_clearcoat / KHR_materials_sheen, both present in the bundle.",
+ "dog_reference": "Pomeranian: dog.scale 0.55 on pomeranian-refined.glb (seated model 0.68 x 0.99 x 0.78 units); lying footprint in game ~0.55 x 0.40 m, body height ~0.27 m.",
+ "budget": {
+  "total_tris": 25772,
+  "total_bytes": 1421120
+ },
+ "assets": [
+  {
+   "file": "fountain-water.glb",
+   "tris": 480,
+   "bytes": 26848,
+   "sha256": "d34e4ded19614506d4944a6eb27e66db69b7162d702de22da56c6ffe387e7235",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "water-fountain"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -1.12,
+     0.4,
+     -1.12
+    ],
+    "max": [
+     1.12,
+     2.28,
+     1.12
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "water",
+   "clips": [],
+   "anchors": [],
+   "extensions": [],
+   "placement": "Optional water geometry for fountain.glb, same origin: pool surface (y 0.40, with a hole around the column), bowl surface (y 1.18), central jet to y 2.28, 8 falling arcs from the bowl rim into the pool and 6 spray arcs. Alpha-blended (alphaMode BLEND, doubleSided) placeholder material."
+  },
+  {
+   "file": "fountain.glb",
+   "tris": 1748,
+   "bytes": 89384,
+   "sha256": "db075d9cd1c0a3534df7678e643c78d71e2f60e83aa28c85d016cddf815dd031",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 6,
+   "materials": [
+    "stone-polished",
+    "stone",
+    "glaze",
+    "brass-vc"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -1.55,
+     0.0,
+     -1.55
+    ],
+    "max": [
+     1.55,
+     1.615,
+     1.55
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "prop",
+   "clips": [],
+   "anchors": [
+    "spout_main",
+    "water_level_basin",
+    "water_level_bowl",
+    "spout_arc_0",
+    "spout_arc_1",
+    "spout_arc_2",
+    "spout_arc_3",
+    "spout_arc_4",
+    "spout_arc_5",
+    "spout_arc_6",
+    "spout_arc_7"
+   ],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Two-tier fountain (3.1 m across): basin outer radius 1.55, rim top y=0.585, bowl y=1.27, finial top y=1.62. Glazed teal tiled interior + glazed coral finial. Node anchors for particles/audio: spout_main (0,1.56,0), spout_arc_0..7 (bowl rim, r 0.62, y 1.24), water_level_basin (y 0.40), water_level_bowl (y 1.18). Pair with fountain-water.glb or your own shader/particles."
+  },
+  {
+   "file": "lotus-bud.glb",
+   "tris": 704,
+   "bytes": 54132,
+   "sha256": "a328035feab5af45f44fe9ee64a99bc38745ff0a3a9bcbbe1bfbf295bc107e47",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 3,
+   "materials": [
+    "petal",
+    "plant"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.02,
+     -0.001,
+     -0.024
+    ],
+    "max": [
+     0.103,
+     0.956,
+     0.084
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "Closed lotus bud (0.96 m high), stem 0.75 m, same placement (origin 0.2 m below the water)."
+  },
+  {
+   "file": "lotus-flower-half.glb",
+   "tris": 1332,
+   "bytes": 96040,
+   "sha256": "a2a3bb2c4631cd0831b96382af2101954d8a3e8c642777b57ffafe442451dd7d",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 3,
+   "materials": [
+    "petal",
+    "plant"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.071,
+     -0.001,
+     -0.089
+    ],
+    "max": [
+     0.17,
+     0.994,
+     0.141
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "Half-open lotus (0.24 m wide, 1.0 m high), stem 0.80 m, same placement as lotus-flower-open (origin 0.2 m below the water)."
+  },
+  {
+   "file": "lotus-flower-open.glb",
+   "tris": 1332,
+   "bytes": 96036,
+   "sha256": "20ec8383db7c46d493fdbba5af784c452109025e5fb4a49789d8a7f0d3a82270",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 3,
+   "materials": [
+    "petal",
+    "plant"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.13,
+     -0.001,
+     -0.149
+    ],
+    "max": [
+     0.232,
+     1.019,
+     0.215
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "Open lotus on a 0.85 m stem; origin = stem base. Plant the origin about 0.2 m under the water surface (y = water-0.2) so the stem pierces the surface; flower head ~0.36 m wide, total height 1.02 m. 22 petals in 3 layers + yellow stamens + seed pod, glazed pink (clearcoat) gradient."
+  },
+  {
+   "file": "lotus-leaf-flat.glb",
+   "tris": 240,
+   "bytes": 20064,
+   "sha256": "ce0e1e7b0ff99701f1b6387a4e69e4847d40786dcd14e7df4227d518c0abe890",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "plant"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.24,
+     0.0,
+     -0.24
+    ],
+    "max": [
+     0.24,
+     0.055,
+     0.24
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Floating lotus leaf, diameter 0.48, origin at the water surface (y = water level + 0.002), rim lifted 3 cm."
+  },
+  {
+   "file": "lotus-leaf-tall.glb",
+   "tris": 724,
+   "bytes": 55068,
+   "sha256": "457b500542a3e4b44558bc87b15c504ba3720f2b95b41e76e99b1428f06d362e",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 2,
+   "materials": [
+    "plant"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.402,
+     -0.001,
+     -0.37
+    ],
+    "max": [
+     0.238,
+     1.039,
+     0.27
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Standing lotus leaf on a 0.82 m stem (total height 1.04 m, leaf diameter 0.64, shallow cup, tilted, origin = stem base). Plant 0.2 m below the water; 2-3 per pond next to the flowers, rotate randomly about Y."
+  },
+  {
+   "file": "pond-basin-round.glb",
+   "tris": 2584,
+   "bytes": 180024,
+   "sha256": "ab7f28edd04285353eb9def9ec429686df02d179837539d2b5cbb50dae54fc35",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 4,
+   "materials": [
+    "stone",
+    "glaze"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -2.126,
+     -0.5,
+     -2.143
+    ],
+    "max": [
+     2.126,
+     0.275,
+     2.143
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "prop",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Round stone pond: water-side radius 1.8, coping outer radius 2.145, coping top y=0.272, ring wall from y=-0.02 up; glazed teal tile band under the cap and tiled bowl (floor y=-0.5, tiles wall y -0.5..0). Put at ground level (y=0) over a terrain opening of radius >= 1.8; water mesh water-disc sits inside at y=-0.08. Raised kerb is 0.27 m: add a collider ring (r 1.8..2.15)."
+  },
+  {
+   "file": "pond-edge-corner.glb",
+   "tris": 432,
+   "bytes": 37584,
+   "sha256": "0769b46507d5c640e0aae74ca2cab8afb0ac668711b174ba085a827861620d11",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 3,
+   "materials": [
+    "stone",
+    "glaze"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.195,
+     -0.02,
+     -0.185
+    ],
+    "max": [
+     0.71,
+     0.272,
+     0.71
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "modular",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Convex 90 degree corner module for rectangular ponds: arms run along +X and +Z (glTF) from the corner block at the origin, water lies in the (-X, -Z) quadrant, glazed tile band faces the water. Mates end to end with pond-edge-straight."
+  },
+  {
+   "file": "pond-edge-straight.glb",
+   "tris": 404,
+   "bytes": 35092,
+   "sha256": "c06e19dd554dc8d691cce135dd837503b85aa53d0f6b6be46ce9a599c3ad1472",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 3,
+   "materials": [
+    "stone",
+    "glaze"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.594,
+     -0.02,
+     -0.175
+    ],
+    "max": [
+     0.594,
+     0.272,
+     0.195
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "modular",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "1.2 m straight kerb module for rectangular ponds (0.37 wide, 0.272 high). Water side is -Z, glazed tile band faces -Z. Chain end to end along X."
+  },
+  {
+   "file": "rockery-arch.glb",
+   "tris": 2800,
+   "bytes": 78768,
+   "sha256": "f60f35792412b9135a6919e4a0832613fb9bc6ce92bc618a3cd0a8bcace6cc40",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "stone"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -1.408,
+     -0.002,
+     -0.695
+    ],
+    "max": [
+     1.403,
+     1.452,
+     0.697
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "rock",
+   "clips": [],
+   "anchors": [],
+   "extensions": [],
+   "placement": "Rock grotto, 2.8 m wide x 1.4 m deep x 1.45 m high, flat base, with a tunnel running along Z (measured by ray casts: 1.4 m wide at the floor, about 0.6 m high - the dog can walk through). Place across a path or a pond inlet; use two box colliders for the piers (x -1.4..-0.7 and 0.7..1.4)."
+  },
+  {
+   "file": "rockery-strata.glb",
+   "tris": 2400,
+   "bytes": 86632,
+   "sha256": "925e42a4d00792832974577fe22ea7127b1ec1bd6119dc241a50968bf61603a3",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "stone"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -1.077,
+     -0.005,
+     -0.544
+    ],
+    "max": [
+     1.073,
+     1.149,
+     0.542
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "rock",
+   "clips": [],
+   "anchors": [],
+   "extensions": [],
+   "placement": "Layered sandstone mound (黄石 style) 2.15 x 1.09 m footprint, 1.15 m high, terraced ledges with moss on top faces, flat base at y=0. Good as a planting bed or beside the fountain; box collider."
+  },
+  {
+   "file": "rockery-taihu.glb",
+   "tris": 4200,
+   "bytes": 108808,
+   "sha256": "fd2365d06072863ba9a29d633b0d9e92842b8421f6478f6e76899a927c583b59",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "stone"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.532,
+     0.002,
+     -0.34
+    ],
+    "max": [
+     0.534,
+     1.488,
+     0.341
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "rock",
+   "clips": [],
+   "anchors": [],
+   "extensions": [],
+   "placement": "Tall scholar rock (太湖石) with three through-holes and wrinkled folds, 1.5 m high, flat base at y=0. Put at the pond edge or in a bed; face the large hole toward the viewer path. Footprint 1.07 x 0.68 m; use a cylinder collider (r~0.4). Cool blue-grey with warm patches, vertex-colour AO."
+  },
+  {
+   "file": "stone-bridge.glb",
+   "tris": 3352,
+   "bytes": 244312,
+   "sha256": "1a6d5933853553f5b911a8d97a6668864221a8993112a8f7b24d9d4924092d23",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 6,
+   "materials": [
+    "stone",
+    "glaze"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -1.584,
+     -0.28,
+     -0.475
+    ],
+    "max": [
+     1.584,
+     1.21,
+     0.475
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "prop",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Small arched stone bridge: spans X (3.17 m long), 0.95 m wide (walkable ~0.7 m between parapets), deck crest y~0.86, parapet top ~1.2, post caps top 1.21, arch opening 2.1 m wide x 0.66 m high, abutments reach y=-0.28 so ends can sink into the bank. Four glazed coral post caps. Ramp slope at the ends about 20 deg. Place across a stream 0.9-1.8 m wide with the water surface at y=0; use a ramp collider on the deck."
+  },
+  {
+   "file": "water-disc.glb",
+   "tris": 400,
+   "bytes": 29304,
+   "sha256": "bf46e3c2ecc2d24f926136e707393644806ff60d223a2ff9a8fb92d26569fd3b",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "water.001"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -1.78,
+     -0.08,
+     -1.78
+    ],
+    "max": [
+     1.78,
+     -0.08,
+     1.78
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "water",
+   "clips": [],
+   "anchors": [],
+   "extensions": [],
+   "placement": "Optional water mesh for pond-basin-round: flat disc radius 1.78 at y=-0.08, planar UV 0..1, alpha-blended (alphaMode BLEND, doubleSided). Replace its material with the game water shader/particles; keep the geometry as the mask."
+  },
+  {
+   "file": "water-rect.glb",
+   "tris": 512,
+   "bytes": 13516,
+   "sha256": "3618b76e7d6daf1a7a1d26f7be2107d7ed40cfe38a3bf96b65f97fe1ac341736",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "water.001"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -1.0,
+     0.0,
+     -1.0
+    ],
+    "max": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "water",
+   "clips": [],
+   "anchors": [],
+   "extensions": [],
+   "placement": "2 x 2 m flat water tile at y=0, 16x16 grid with planar UV 0..1 for shader displacement; tile or scale for rectangular ponds/streams. Alpha-blended placeholder material."
+  },
+  {
+   "file": "waterlily-flower-pink.glb",
+   "tris": 888,
+   "bytes": 69660,
+   "sha256": "e8da6df27a446ff0eb70c8dd7b4cbc21abc5f375d8b5c534b71ccdbe49e2f069",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 3,
+   "materials": [
+    "petal",
+    "plant"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.085,
+     0.004,
+     -0.087
+    ],
+    "max": [
+     0.09,
+     0.085,
+     0.09
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "Pink water-lily flower (睡莲花), 25 pointed petals, ~0.2 m wide; origin at the water surface, sits on a pad cluster."
+  },
+  {
+   "file": "waterlily-flower-white.glb",
+   "tris": 888,
+   "bytes": 69664,
+   "sha256": "4bfc710b4fa986b8ddd15da6b9796241bfa6e9774cdea62bfa7b52153bf5cd54",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 3,
+   "materials": [
+    "petal",
+    "plant"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.085,
+     0.004,
+     -0.087
+    ],
+    "max": [
+     0.088,
+     0.085,
+     0.088
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "White water-lily flower, same geometry as the pink one with cream-white petals; origin at the water surface."
+  },
+  {
+   "file": "waterlily-pad-a.glb",
+   "tris": 176,
+   "bytes": 15092,
+   "sha256": "7d73e83997fc4d3f3982fa94f278068a1f880f336a5276c255ba60e87ca5f0da",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "plant-wet"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.17,
+     -0.004,
+     -0.17
+    ],
+    "max": [
+     0.168,
+     0.029,
+     0.17
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Water-lily pad (睡莲叶) diameter 0.34 with a V notch; origin at the water surface. Scatter with random yaw."
+  },
+  {
+   "file": "waterlily-pad-b.glb",
+   "tris": 176,
+   "bytes": 15092,
+   "sha256": "25399f8e0dd68bb4e8aa0bd8f602253b1041c95051fd84346fa31f98d92aec5e",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 1,
+   "materials": [
+    "plant-wet"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.24,
+     -0.004,
+     -0.24
+    ],
+    "max": [
+     0.235,
+     0.029,
+     0.24
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "plant",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat"
+   ],
+   "placement": "Larger water-lily pad diameter 0.48 with a wider notch; origin at the water surface."
+  }
+ ]
+}

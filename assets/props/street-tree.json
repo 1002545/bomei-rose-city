@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/street-v26/tree-multiview.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92821,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 1564944,
+    "number_of_vertices": 673935,
+    "time": {
+      "remove background": 3.4391913414001465,
+      "shape generation": 7.566160202026367,
+      "export to trimesh": 0.36013054847717285,
+      "total": 11.368204116821289
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 23266,
+  "vertices": 31105,
+  "bounds": [
+    [
+      -0.9523117110757076,
+      -0.9449211284402831,
+      -0.9666555900726049
+    ],
+    [
+      0.9707003831863403,
+      0.9206893614025535,
+      0.9303633388149439
+    ]
+  ],
+  "imageBounds": [
+    [
+      53,
+      12,
+      617,
+      555
+    ],
+    [
+      48,
+      2,
+      617,
+      547
+    ],
+    [
+      69,
+      11,
+      604,
+      553
+    ],
+    [
+      45,
+      2,
+      603,
+      547
+    ]
+  ],
+  "sha256": "38cdd983e6ba4c16bf6f82a54ca469c127172c7d2db1a4326b040c435a1b5abc"
+}

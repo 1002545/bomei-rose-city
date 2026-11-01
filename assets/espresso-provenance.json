@@ -1,0 +1,15 @@
+{
+  "source_model": "tencent/Hunyuan3D-2/hunyuan3d-dit-v2-0",
+  "reference": "espresso-reference.png",
+  "seed": 92724,
+  "steps": 30,
+  "octree_resolution": 256,
+  "method": "ImageGen reference -> Hunyuan3D shape inference -> duplicate/degenerate cleanup -> mesh decimation -> PBR material finishing",
+  "original": {
+    "vertices": 291970,
+    "faces": 1085476
+  },
+  "runtime_vertices": 39992,
+  "runtime_faces": 80000,
+  "texture_inference": false
+}

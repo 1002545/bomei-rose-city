@@ -1,0 +1,10 @@
+{
+  "generator": "Hugging Face ZeroGPU FLUX.1-schnell reference -> Hunyuan3D-2mv shape_generation",
+  "seed": 8315,
+  "faces": 11988,
+  "source_faces": 735920,
+  "source_sha256": "0cc48a6de83ab2bccb89fd11d61e87958cd613ed4cce2eef7c6e20e3da121ac7",
+  "sha256": "60c57aa91d03fa9dab5751088d36f10db2ba7d1bdf16f1fd78c9c39d77db679e",
+  "game_face": "CanvasTexture draws exact live time over generated metal clock housing",
+  "watertight": true
+}

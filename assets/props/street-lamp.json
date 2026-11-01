@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/street-v26/streetlamp-multiview.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92822,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 124512,
+    "number_of_vertices": 37518,
+    "time": {
+      "remove background": 3.713197946548462,
+      "shape generation": 6.859580993652344,
+      "export to trimesh": 0.0169680118560791,
+      "total": 10.59221625328064
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 18000,
+  "vertices": 11328,
+  "bounds": [
+    [
+      -0.23426150650903046,
+      -0.9984293391167227,
+      -0.24214902425608434
+    ],
+    [
+      0.19490850301588972,
+      0.9592586096530076,
+      0.2015788095624808
+    ]
+  ],
+  "imageBounds": [
+    [
+      230,
+      8,
+      383,
+      612
+    ],
+    [
+      228,
+      9,
+      387,
+      615
+    ],
+    [
+      230,
+      8,
+      382,
+      612
+    ],
+    [
+      226,
+      9,
+      383,
+      615
+    ]
+  ],
+  "sha256": "92803dd0cbfd8dd71c3cda61fad2401b76c062a5252e0a47805413061283ab73"
+}

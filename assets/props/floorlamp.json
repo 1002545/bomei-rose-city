@@ -1,0 +1,68 @@
+{
+  "reference": "docs/asset-references/interior-v27/floorlamp.jpg",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92823,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 97808,
+    "number_of_vertices": 43474,
+    "time": {
+      "remove background": 3.365877389907837,
+      "shape generation": 6.568739652633667,
+      "export to trimesh": 0.016721725463867188,
+      "total": 9.954728603363037
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 24000,
+  "vertices": 14869,
+  "bounds": [
+    [
+      -0.31839306915953297,
+      -0.9983358319099863,
+      -0.3129419584065184
+    ],
+    [
+      0.2792746905004718,
+      0.9582367412613736,
+      0.27448433713215903
+    ]
+  ],
+  "imageBounds": [
+    [
+      225,
+      14,
+      402,
+      599
+    ],
+    [
+      225,
+      14,
+      402,
+      600
+    ],
+    [
+      240,
+      14,
+      387,
+      599
+    ],
+    [
+      239,
+      14,
+      387,
+      600
+    ]
+  ],
+  "sha256": "f77acf05737923d2a99075e4677b616d993bff8af849fa0fede266ee358f72ba"
+}

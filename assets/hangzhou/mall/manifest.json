@@ -1,0 +1,911 @@
+{
+ "schema": "bomei-setkit-manifest.v1",
+ "scene": "hangzhou/mall",
+ "generator": "setkit fixed CPU Blender service (scripts/bake/space/setkit_*.py), procedural; no ZeroGPU, no image-to-3D",
+ "conventions": "metres; glTF +Y up, front = +Z; floor-standing origin = floor centre unless anchor says otherwise; node names <part>__<material>; vertex colour COLOR_0, PBR factors, no textures; packaging/board parts carry UV 0..1",
+ "assets": {
+  "mall-atrium-rail": {
+   "file": "mall-atrium-rail.glb",
+   "bytes": 7952,
+   "sha256": "6f16071b8192ec70c4475b00e1c43f5b369e2ad993a3790d54792666b3f74fe1",
+   "tris": 166,
+   "size_m": [
+    3.05,
+    1.1,
+    0.08
+   ],
+   "bounds_lo": [
+    -1.525,
+    0.0,
+    -0.04
+   ],
+   "bounds_hi": [
+    1.525,
+    1.1,
+    0.04
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "glass",
+    "rail"
+   ],
+   "materials": [
+    "glass",
+    "brass"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-bag-handbag": {
+   "file": "mall-bag-handbag.glb",
+   "bytes": 14568,
+   "sha256": "5230b6e6b9f66f455f4400187327e0935d08573fe34c172ea87f55c38ecf3e7e",
+   "tris": 228,
+   "size_m": [
+    0.31,
+    0.348,
+    0.147
+   ],
+   "bounds_lo": [
+    -0.155,
+    0.0,
+    -0.07
+   ],
+   "bounds_hi": [
+    0.155,
+    0.348,
+    0.077
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "body",
+    "clasp"
+   ],
+   "materials": [
+    "leather",
+    "brass"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-bag-tote": {
+   "file": "mall-bag-tote.glb",
+   "bytes": 15136,
+   "sha256": "a7db63f64e6e0b13093ca7e063b0214087765687f938243367fc685d0e16a200",
+   "tris": 200,
+   "size_m": [
+    0.38,
+    0.458,
+    0.145
+   ],
+   "bounds_lo": [
+    -0.19,
+    0.0,
+    -0.07
+   ],
+   "bounds_hi": [
+    0.19,
+    0.458,
+    0.075
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "body",
+    "handles"
+   ],
+   "materials": [
+    "leather"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-bowtie": {
+   "file": "mall-bowtie.glb",
+   "bytes": 9332,
+   "sha256": "e24fc516c175c449eee76d83ee99b323a04c901881a5563b79b6c2cfea13d19c",
+   "tris": 264,
+   "size_m": [
+    0.13,
+    0.04,
+    0.02
+   ],
+   "bounds_lo": [
+    -0.065,
+    -0.02,
+    -0.01
+   ],
+   "bounds_hi": [
+    0.065,
+    0.02,
+    0.01
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "tie"
+   ],
+   "materials": [
+    "fabric"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-counter-cashier": {
+   "file": "mall-counter-cashier.glb",
+   "bytes": 28692,
+   "sha256": "97da78263d23bb2bceb267466d50766aa33eaed9d84d2bfdc67e55fbf8754ca2",
+   "tris": 564,
+   "size_m": [
+    1.9,
+    1.029,
+    0.74
+   ],
+   "bounds_lo": [
+    -0.95,
+    0.0,
+    -0.37
+   ],
+   "bounds_hi": [
+    0.95,
+    1.029,
+    0.37
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "body",
+    "top",
+    "ribbon"
+   ],
+   "materials": [
+    "plaster",
+    "fabric",
+    "marble"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-display-case-round": {
+   "file": "mall-display-case-round.glb",
+   "bytes": 44992,
+   "sha256": "df804ac3419d7e5d18e926229df398ad3e659cabbab11e8e1acca7a06d64d52c",
+   "tris": 1168,
+   "size_m": [
+    1.0,
+    1.23,
+    1.0
+   ],
+   "bounds_lo": [
+    -0.5,
+    0.0,
+    -0.5
+   ],
+   "bounds_hi": [
+    0.5,
+    1.23,
+    0.5
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "base",
+    "glass",
+    "trim",
+    "light"
+   ],
+   "materials": [
+    "lacquer",
+    "glass",
+    "led",
+    "brass"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-eyewear-tower": {
+   "file": "mall-eyewear-tower.glb",
+   "bytes": 60476,
+   "sha256": "3d514bc52661f43e44688b063b03206e21a84f36440098f6eb79901afd802941",
+   "tris": 1360,
+   "size_m": [
+    0.68,
+    1.8,
+    0.6
+   ],
+   "bounds_lo": [
+    -0.34,
+    0.0,
+    -0.3
+   ],
+   "bounds_hi": [
+    0.34,
+    1.8,
+    0.3
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "base",
+    "rotor"
+   ],
+   "materials": [
+    "lacquer"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-fitting-room": {
+   "file": "mall-fitting-room.glb",
+   "bytes": 29188,
+   "sha256": "0ded4f3ee6f0d5781f6082c82209e91e2fca747486c030a2396a649b15bc0716",
+   "tris": 572,
+   "size_m": [
+    1.8,
+    2.6,
+    1.8
+   ],
+   "bounds_lo": [
+    -0.9,
+    0.0,
+    -0.9
+   ],
+   "bounds_hi": [
+    0.9,
+    2.6,
+    0.9
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "walls",
+    "bench",
+    "mirror",
+    "trim",
+    "cushion"
+   ],
+   "materials": [
+    "wood",
+    "fabric",
+    "mirror",
+    "brass",
+    "plaster"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-gift-box": {
+   "file": "mall-gift-box.glb",
+   "bytes": 17368,
+   "sha256": "dd0f5cd77b5cdd3ac3de1edb8176d842044f1e8354a22fcca878828cbe49a45a",
+   "tris": 440,
+   "size_m": [
+    0.21,
+    0.161,
+    0.21
+   ],
+   "bounds_lo": [
+    -0.105,
+    -0.001,
+    -0.105
+   ],
+   "bounds_hi": [
+    0.105,
+    0.16,
+    0.105
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "box",
+    "ribbon"
+   ],
+   "materials": [
+    "paper",
+    "fabric"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-loom-display": {
+   "file": "mall-loom-display.glb",
+   "bytes": 52828,
+   "sha256": "1412919ab155803da59d8e8647040395482c6329e3e86ddc2ca89e55ecc52eea",
+   "tris": 876,
+   "size_m": [
+    1.38,
+    1.8,
+    0.9
+   ],
+   "bounds_lo": [
+    -0.69,
+    0.0,
+    -0.45
+   ],
+   "bounds_hi": [
+    0.69,
+    1.8,
+    0.45
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "frame",
+    "threads",
+    "cloth"
+   ],
+   "materials": [
+    "fabric",
+    "wood"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-mannequin": {
+   "file": "mall-mannequin.glb",
+   "bytes": 13264,
+   "sha256": "fc6e611ea058ce51cbbbbb17916e7aef065d3a693bf6bb9292dfa228484b46c7",
+   "tris": 352,
+   "size_m": [
+    0.44,
+    1.5,
+    0.44
+   ],
+   "bounds_lo": [
+    -0.22,
+    0.0,
+    -0.22
+   ],
+   "bounds_hi": [
+    0.22,
+    1.5,
+    0.22
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "torso",
+    "stand"
+   ],
+   "materials": [
+    "brass",
+    "plaster"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-ottoman-round": {
+   "file": "mall-ottoman-round.glb",
+   "bytes": 15048,
+   "sha256": "30e78af52c5b1a8cc4e8a28dcf1d99e267df627e3ef51edc952a361ee8731836",
+   "tris": 360,
+   "size_m": [
+    0.8,
+    0.43,
+    0.796
+   ],
+   "bounds_lo": [
+    -0.4,
+    0.0,
+    -0.398
+   ],
+   "bounds_hi": [
+    0.4,
+    0.43,
+    0.398
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "seat",
+    "base"
+   ],
+   "materials": [
+    "brass",
+    "fabric"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-perfume": {
+   "file": "mall-perfume.glb",
+   "bytes": 5276,
+   "sha256": "9dfbf00ad5122a01b1065713e05c687131ed03f9ab53cb802313ba2b290aa3f7",
+   "tris": 92,
+   "size_m": [
+    0.06,
+    0.12,
+    0.04
+   ],
+   "bounds_lo": [
+    -0.03,
+    0.0,
+    -0.02
+   ],
+   "bounds_hi": [
+    0.03,
+    0.12,
+    0.02
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "bottle",
+    "cap"
+   ],
+   "materials": [
+    "amber-glass",
+    "brass"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-perfume-dome": {
+   "file": "mall-perfume-dome.glb",
+   "bytes": 17568,
+   "sha256": "9f1d236ab23400bb4ba8ccfd89c724c298a49cbc074c55d4925dd0b8581f750f",
+   "tris": 452,
+   "size_m": [
+    0.66,
+    1.39,
+    0.66
+   ],
+   "bounds_lo": [
+    -0.33,
+    0.0,
+    -0.33
+   ],
+   "bounds_hi": [
+    0.33,
+    1.39,
+    0.33
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "dome",
+    "stand",
+    "amber-bottle"
+   ],
+   "materials": [
+    "amber-glass",
+    "glass",
+    "ceramic"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-scarf-folded": {
+   "file": "mall-scarf-folded.glb",
+   "bytes": 11460,
+   "sha256": "7c7b5784908b87cd4c74ee4d2f29f6f919659a25325251db4fe85230513d5361",
+   "tris": 220,
+   "size_m": [
+    0.304,
+    0.078,
+    0.304
+   ],
+   "bounds_lo": [
+    -0.152,
+    0.001,
+    -0.152
+   ],
+   "bounds_hi": [
+    0.152,
+    0.079,
+    0.152
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "scarf"
+   ],
+   "materials": [
+    "fabric"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-scarf-hung": {
+   "file": "mall-scarf-hung.glb",
+   "bytes": 10092,
+   "sha256": "1468a73bfea833f7cfbcf925f960dc1c829f7937d82aa2e850012598ac357e25",
+   "tris": 264,
+   "size_m": [
+    0.4,
+    0.508,
+    0.039
+   ],
+   "bounds_lo": [
+    -0.2,
+    -0.5,
+    -0.02
+   ],
+   "bounds_hi": [
+    0.2,
+    0.008,
+    0.019
+   ],
+   "anchor": "hang-top",
+   "parts": [
+    "scarf",
+    "bar"
+   ],
+   "materials": [
+    "brass",
+    "fabric"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-scholar-rock-cobalt": {
+   "file": "mall-scholar-rock-cobalt.glb",
+   "bytes": 53912,
+   "sha256": "9cb5849f5a110f9074bf7c1c1b8beb9edc47820933c528741ef18812464c664b",
+   "tris": 2160,
+   "size_m": [
+    0.749,
+    1.387,
+    0.616
+   ],
+   "bounds_lo": [
+    -0.382,
+    0.072,
+    -0.323
+   ],
+   "bounds_hi": [
+    0.367,
+    1.459,
+    0.293
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "rock"
+   ],
+   "materials": [
+    "lacquer"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-shelf-leather": {
+   "file": "mall-shelf-leather.glb",
+   "bytes": 44240,
+   "sha256": "b0c710790af5c86530a84f1b67c1a11553c32914bdc9f920a98859b632d76985",
+   "tris": 924,
+   "size_m": [
+    2.44,
+    2.2,
+    0.4
+   ],
+   "bounds_lo": [
+    -1.22,
+    0.0,
+    -0.2
+   ],
+   "bounds_hi": [
+    1.22,
+    2.2,
+    0.2
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "frame",
+    "panels"
+   ],
+   "materials": [
+    "wood",
+    "leather"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-shoe-loafer": {
+   "file": "mall-shoe-loafer.glb",
+   "bytes": 7668,
+   "sha256": "47cb5c5531235dd107f6dfd7683a949165fbc0665b636a1fff65c8c286941add",
+   "tris": 108,
+   "size_m": [
+    0.086,
+    0.125,
+    0.27
+   ],
+   "bounds_lo": [
+    -0.043,
+    0.0,
+    -0.135
+   ],
+   "bounds_hi": [
+    0.043,
+    0.125,
+    0.135
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "sole",
+    "upper"
+   ],
+   "materials": [
+    "rubber",
+    "leather"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-shoe-pump": {
+   "file": "mall-shoe-pump.glb",
+   "bytes": 8600,
+   "sha256": "c59eb0f31ecef6fcca0ad314a27c9b207cbf6926d3a6eada1a05537f21f867d3",
+   "tris": 120,
+   "size_m": [
+    0.086,
+    0.133,
+    0.27
+   ],
+   "bounds_lo": [
+    -0.043,
+    -0.009,
+    -0.135
+   ],
+   "bounds_hi": [
+    0.043,
+    0.124,
+    0.135
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "sole",
+    "upper"
+   ],
+   "materials": [
+    "rubber",
+    "leather"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-shoe-sneaker": {
+   "file": "mall-shoe-sneaker.glb",
+   "bytes": 10168,
+   "sha256": "aa96046dbe00802bf581df1f988d888fb9e673d263e7bf727f1f3807bbeb9445",
+   "tris": 152,
+   "size_m": [
+    0.086,
+    0.125,
+    0.27
+   ],
+   "bounds_lo": [
+    -0.043,
+    0.0,
+    -0.135
+   ],
+   "bounds_hi": [
+    0.043,
+    0.125,
+    0.135
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "sole",
+    "upper",
+    "lace"
+   ],
+   "materials": [
+    "paint",
+    "rubber",
+    "leather"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-shoe-step": {
+   "file": "mall-shoe-step.glb",
+   "bytes": 10216,
+   "sha256": "ed40df2529177fe95fb2745539f21e7de19f21f922c078d984e552f0ef4a40ab",
+   "tris": 168,
+   "size_m": [
+    1.6,
+    0.9,
+    0.761
+   ],
+   "bounds_lo": [
+    -0.8,
+    0.0,
+    -0.45
+   ],
+   "bounds_hi": [
+    0.8,
+    0.9,
+    0.311
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "steps",
+    "kick"
+   ],
+   "materials": [
+    "mirror",
+    "lacquer"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-shopping-bag": {
+   "file": "mall-shopping-bag.glb",
+   "bytes": 10464,
+   "sha256": "e3ab5e7b4f3cc0dcf6a990c65fa938dfcbbf92e2dc27a45910cae5bf47d276a2",
+   "tris": 136,
+   "size_m": [
+    0.3,
+    0.504,
+    0.124
+   ],
+   "bounds_lo": [
+    -0.15,
+    0.0,
+    -0.06
+   ],
+   "bounds_hi": [
+    0.15,
+    0.504,
+    0.064
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "bag",
+    "handles"
+   ],
+   "materials": [
+    "paper",
+    "fabric"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-sunglasses": {
+   "file": "mall-sunglasses.glb",
+   "bytes": 28484,
+   "sha256": "11811688537ad36e5b45dc735e268914a93df8198e905d011e4a83519933a151",
+   "tris": 584,
+   "size_m": [
+    0.138,
+    0.06,
+    0.135
+   ],
+   "bounds_lo": [
+    -0.069,
+    0.0,
+    -0.131
+   ],
+   "bounds_hi": [
+    0.069,
+    0.06,
+    0.004
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "frame",
+    "lenses"
+   ],
+   "materials": [
+    "lacquer",
+    "glass-tint"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-trunk": {
+   "file": "mall-trunk.glb",
+   "bytes": 12696,
+   "sha256": "6236141a1a7db7b341df529fe1d472cec4a003d965d5e2491e08ded6af1c79da",
+   "tris": 196,
+   "size_m": [
+    0.61,
+    0.3,
+    0.378
+   ],
+   "bounds_lo": [
+    -0.305,
+    0.0,
+    -0.183
+   ],
+   "bounds_hi": [
+    0.305,
+    0.3,
+    0.195
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "body",
+    "fittings"
+   ],
+   "materials": [
+    "leather",
+    "brass"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-trunk-tower": {
+   "file": "mall-trunk-tower.glb",
+   "bytes": 43916,
+   "sha256": "c1b0338b9d20830c8116ec8166ceb6e7dfd5af3a479c6b7c350b509c1d2ac317",
+   "tris": 784,
+   "size_m": [
+    0.91,
+    1.44,
+    0.515
+   ],
+   "bounds_lo": [
+    -0.455,
+    0.0,
+    -0.253
+   ],
+   "bounds_hi": [
+    0.455,
+    1.44,
+    0.262
+   ],
+   "anchor": "floor-center",
+   "parts": [
+    "trunks",
+    "fittings"
+   ],
+   "materials": [
+    "brass",
+    "leather"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-watch": {
+   "file": "mall-watch.glb",
+   "bytes": 17092,
+   "sha256": "d6b4270231fdaa5661bdd7e1f443c4d6f7df4a40120e7ebc69d0f5224b59523e",
+   "tris": 296,
+   "size_m": [
+    0.1,
+    0.157,
+    0.1
+   ],
+   "bounds_lo": [
+    -0.05,
+    0.0,
+    -0.05
+   ],
+   "bounds_hi": [
+    0.05,
+    0.157,
+    0.05
+   ],
+   "anchor": "base-centre",
+   "parts": [
+    "case",
+    "dial",
+    "cushion"
+   ],
+   "materials": [
+    "steel-brushed",
+    "fabric",
+    "paint"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  },
+  "mall-watch-wall": {
+   "file": "mall-watch-wall.glb",
+   "bytes": 70672,
+   "sha256": "adc22bf641cb409cc77394d9fad6b6902664ac2a0d82dca479a4cd8131eb5213",
+   "tris": 1280,
+   "size_m": [
+    3.0,
+    2.4,
+    0.28
+   ],
+   "bounds_lo": [
+    -1.5,
+    0.0,
+    -0.15
+   ],
+   "bounds_hi": [
+    1.5,
+    2.4,
+    0.13
+   ],
+   "anchor": "wall-centre",
+   "parts": [
+    "panel",
+    "niche-light",
+    "accent"
+   ],
+   "materials": [
+    "lacquer",
+    "led",
+    "steel-brushed"
+   ],
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070"
+  }
+ },
+ "jobs": [
+  {
+   "job_id": "d6fadd4b-8378-43c1-9603-a3ac33125070",
+   "worker": "Asking635/bomei-blender-worker-2",
+   "kind": "hz_mall",
+   "params": {
+    "res": 384,
+    "samples": 16
+   },
+   "worker_sha256": "735f885e0f92d98f00973736c448ef5310e84f891639c190593f8aa611742d15",
+   "service_sha256": "fcadfce7e0af3457fda4a2c4c667764bd33088f4174367efdf0c36f46e9aacbe",
+   "result_sha256": "22812809cb2d9186de2da15cd8bc48f75606679791507a69a7308add0caa89d7",
+   "seconds": 101.0,
+   "gpu_seconds": 0,
+   "failed": []
+  }
+ ],
+ "totals": {
+  "assets": 28,
+  "tris": 14486,
+  "bytes": 671368
+ }
+}

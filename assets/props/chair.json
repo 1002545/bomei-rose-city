@@ -1,0 +1,68 @@
+{
+  "reference": "views-chair.png",
+  "geometry": {
+    "model": {
+      "shapegen": "tencent/Hunyuan3D-2mv/hunyuan3d-dit-v2-mv-turbo",
+      "texgen": "tencent/Hunyuan3D-2"
+    },
+    "params": {
+      "caption": null,
+      "steps": 30,
+      "guidance_scale": 5,
+      "seed": 92826,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000
+    },
+    "number_of_faces": 1013796,
+    "number_of_vertices": 278018,
+    "time": {
+      "remove background": 3.673022985458374,
+      "shape generation": 7.531932353973389,
+      "export to trimesh": 0.14957976341247559,
+      "total": 11.357154607772827
+    }
+  },
+  "surface": "Four-view normal-weighted texture projection, UV-baked locally; not HF texture synthesis",
+  "triangles": 64999,
+  "vertices": 37404,
+  "bounds": [
+    [
+      -0.9999058420579561,
+      -0.998886279983161,
+      -0.9682594264117652
+    ],
+    [
+      0.9597348272516296,
+      0.9588327080168717,
+      0.9371025259517353
+    ]
+  ],
+  "imageBounds": [
+    [
+      57,
+      49,
+      556,
+      552
+    ],
+    [
+      77,
+      34,
+      559,
+      543
+    ],
+    [
+      80,
+      42,
+      573,
+      554
+    ],
+    [
+      62,
+      26,
+      562,
+      542
+    ]
+  ],
+  "sha256": "f3490823af485d1d11d07341e4e4919bdc9a1c6b1305ee26ef1328d380135a69"
+}

@@ -1,0 +1,207 @@
+{
+ "schema": "bomei-env-assets.v1",
+ "group": "beach",
+ "generated_by": "scripts/bake/space/envkit_worker.py (Blender 4.5.14 CPU on private worker Spaces, procedural; source copy in source-assets/env/generator)",
+ "units": "metres, +Y up, forward +Z (Blender -Y), origin at the base/pivot given per asset",
+ "loader": "GLTFLoader (three r180). No textures, so KTX2/WebP/meshopt are not needed (the game bundle supports EXT_texture_webp, KHR_texture_basisu, meshopt, draco if a later pass adds textures). Materials use KHR_materials_clearcoat / KHR_materials_sheen, both present in the bundle.",
+ "dog_reference": "Pomeranian: dog.scale 0.55 on pomeranian-refined.glb (seated model 0.68 x 0.99 x 0.78 units); lying footprint in game ~0.55 x 0.40 m, body height ~0.27 m.",
+ "budget": {
+  "total_tris": 6076,
+  "total_bytes": 466572
+ },
+ "assets": [
+  {
+   "file": "beach-lounger.glb",
+   "tris": 2624,
+   "bytes": 113176,
+   "sha256": "33d03f4ec93a8296efc082fd2a378425b6a5296074e9c354902ff7bcf5def100",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 4,
+   "materials": [
+    "enamel",
+    "wood",
+    "fabric",
+    "glaze"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.334,
+     0.0,
+     -0.549
+    ],
+    "max": [
+     0.334,
+     0.724,
+     0.648
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "prop",
+   "clips": [],
+   "anchors": [
+    "anchor_rest",
+    "anchor_head"
+   ],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "Dog-sized sun lounger (0.67 x 1.20 m, pad top y=0.351). Backrest toward -Z, foot end +Z. Pad top is flat for 0.72 m then the back pad reclines 38 deg. Use as a 'beach-rest' activity: height 0.351, pose = node anchor_rest (x 0, z +0.255), long axis along Z (head end toward the backrest, node anchor_head). In-game dog (baseScale 0.55) lies in ~0.55 x 0.40 m, so it fits with margin; glazed coral bolster + feet are the saturated accent. Place on dry sand a few steps from the shore, facing the sea (foot end toward +Z of the lounger = rotate yaw so +Z points to the sea)."
+  },
+  {
+   "file": "beach-towel.glb",
+   "tris": 140,
+   "bytes": 13040,
+   "sha256": "ad4c8a072ab87a4e0e0acaf295e0f7ee6ccde4c10a3953be5b7c6821031b08dc",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 2,
+   "materials": [
+    "fabric"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.21,
+     0.005,
+     -0.4
+    ],
+    "max": [
+     0.21,
+     0.016,
+     0.4
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "prop",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_sheen"
+   ],
+   "placement": "Striped towel 0.42 x 0.80 m including fringe (0.70 m body), origin at its centre on the surface (about 0.011 m thick). Lay on the lounger pad at (x 0, y 0.351, z +0.285) or on the sand (y 0.004). Two meshes (towel + fringe), one material."
+  },
+  {
+   "file": "beach-umbrella.glb",
+   "tris": 968,
+   "bytes": 44644,
+   "sha256": "3cf86ce9e0ff25f7e70f16c16f9344801c9475225817e9b43840cbc077ccf05a",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 5,
+   "materials": [
+    "brass-vc",
+    "stone",
+    "fabric",
+    "glaze"
+   ],
+   "skins": 0,
+   "joints": 0,
+   "bounds_m": {
+    "min": [
+     -0.822,
+     -0.12,
+     -0.822
+    ],
+    "max": [
+     0.822,
+     1.659,
+     0.822
+    ]
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "prop",
+   "clips": [],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "Small matching parasol (canopy radius 0.82, finial top y=1.66, ground spike goes 0.12 m below y=0). Put 0.5-0.7 m beside the lounger head end; slight lean (rotation about Z up to 10 deg) toward the sun. Rim clearance 1.25 m: fine for the dog, scale x1.4 if it must match the 2.3 m human parasols already on the beach."
+  },
+  {
+   "file": "seagull.glb",
+   "tris": 2344,
+   "bytes": 295712,
+   "sha256": "fd18ede66d47b9ac1b8505046002ebfbca03eee4bf14df2223dd68791e559e61",
+   "textures": 0,
+   "texture_note": "none: PBR factors + COLOR_0 vertex colours",
+   "meshes": 2,
+   "materials": [
+    "gull-gloss",
+    "plumage-sheet"
+   ],
+   "skins": 1,
+   "joints": 23,
+   "bounds_m": {
+    "min": [
+     -0.617,
+     0.001,
+     -0.285
+    ],
+    "max": [
+     0.617,
+     0.472,
+     0.399
+    ],
+    "note": "bind (spread-wing) pose measured with three.js Box3; standing pose is about 0.55 wide x 0.47 high"
+   },
+   "scale": "1 unit = 1 metre, authored at final size (scale 1.0)",
+   "kind": "rigged",
+   "clips": [
+    {
+     "name": "fly_flap",
+     "duration_s": 0.8,
+     "fps": 30,
+     "frames": 24,
+     "loop": true
+    },
+    {
+     "name": "glide",
+     "duration_s": 2,
+     "fps": 30,
+     "frames": 60,
+     "loop": true
+    },
+    {
+     "name": "land",
+     "duration_s": 1.2,
+     "fps": 30,
+     "frames": 36,
+     "loop": false
+    },
+    {
+     "name": "idle",
+     "duration_s": 3,
+     "fps": 30,
+     "frames": 90,
+     "loop": true
+    },
+    {
+     "name": "walk",
+     "duration_s": 0.8,
+     "fps": 30,
+     "frames": 24,
+     "loop": true
+    },
+    {
+     "name": "takeoff",
+     "duration_s": 1,
+     "fps": 30,
+     "frames": 30,
+     "loop": false
+    }
+   ],
+   "anchors": [],
+   "extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_sheen"
+   ],
+   "placement": "One shared rig for the whole flock. Origin = foot-contact point, faces +Z, standing height 0.40-0.47 m, wingspan 1.23 m (scale 0.9-1.15 per bird for variety). Bind pose is the spread T-pose: always play a clip. Clips are in place (no travel): fly_flap (loop 0.8 s) / glide (loop 2.0 s) / idle (loop 3.0 s) / walk (loop 0.8 s, about 0.35 m/s at scale 1) / land (one-shot 1.2 s, root y 0.25 -> 0, ends exactly on idle frame 0) / takeoff (one-shot 1.0 s, starts on idle frame 0, root y 0 -> 0.25, ends on fly_flap frame 0). Flight clips keep root y = +0.25 so blending with land/takeoff has no pop; move the group by speed yourself. Flock of 8-12: 2 skinned meshes (2 draw calls) x 23 joints x ~2.3k tris per bird; clone with SkeletonUtils.clone, offset mixer.time per bird, bone sampling can be skipped beyond ~25 m."
+  }
+ ]
+}

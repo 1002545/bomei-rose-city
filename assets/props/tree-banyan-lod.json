@@ -1,0 +1,57 @@
+{
+  "source": {
+    "path": "source-assets/plants-v60/banyan/hf-trellis-1/asset-master.glb",
+    "sha256": "f847c0a82474f3f075e101e50ef6f22aa480d132e2f3dd4335f68f8603a4932d",
+    "bytes": 8383088
+  },
+  "runtime": {
+    "path": "source-assets/plants-v60/banyan/runtime-7k.glb",
+    "sha256": "1b46aaefaeded804bedcba1ee0af7d271adf8d6a327a5b4cfa5cf0283f3e6466",
+    "bytes": 1167228,
+    "triangles": 11338
+  },
+  "method": "Native PBR/UV exact-attribute cleanup + official meshoptimizer.simplifyWithAttributes index-only reduction, no smoothing, no texture rebaking.",
+  "library": {
+    "name": "meshoptimizer",
+    "version": "1.2.0",
+    "source": "https://github.com/zeux/meshoptimizer/tree/master/js",
+    "workspace_prefix": ".sites-runtime/meshopt-tools",
+    "license": "MIT"
+  },
+  "kind": "palm",
+  "reports": [
+    {
+      "source_vertices": 204543,
+      "source_triangles": 99392,
+      "removed_degenerate_triangles": 40,
+      "repaired_zero_normals": 0,
+      "unused_zero_normals_discarded": 17,
+      "exact_attribute_welded_vertices": 24,
+      "locked_feature_vertices": 0,
+      "target_triangles": 7000,
+      "runtime_vertices": 12072,
+      "runtime_triangles": 11338,
+      "meshoptimizer_approximate_relative_error": 0.00995749980211258,
+      "max_relative_error": 0.01,
+      "attribute_weights": [
+        0.1,
+        0.1,
+        0.1,
+        0.15,
+        0.15
+      ],
+      "flags": [
+        "Permissive"
+      ],
+      "sloppy": false,
+      "position_and_uv_coordinates_preserved": true,
+      "normal_repair_rule": "Zero normals on referenced vertices use largest-area incident oriented triangle; unused zero-normal vertices are discarded."
+    }
+  ],
+  "pbr_materials_sha256": "ec8f8e3850303c6e6275cb3c6d3040c304ca6aeb807c1643c3caca14744ece4e",
+  "embedded_images_unchanged_sha256": [
+    "bf6200a21b88bef11a56c41a68a38dfdfa6995b8662e15ff2005f3361ff05df9",
+    "03f2c801c9f4249f10cfb7299f90a80f918015d4238f326d912ede5b0d9ec740"
+  ],
+  "visual_review_status": "unreviewed candidate, compare all four views with original master before promotion"
+}

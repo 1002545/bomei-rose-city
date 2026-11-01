@@ -1,0 +1,57 @@
+{
+  "source": {
+    "path": "source-assets/plants-v60/bamboo/hf-trellis-1/asset-master.glb",
+    "sha256": "389b35494394b48c25d4fabfae9e7986e9768ef0fadf3b6c3ef5c7c68289444f",
+    "bytes": 6722220
+  },
+  "runtime": {
+    "path": "source-assets/plants-v60/bamboo/runtime-7k.glb",
+    "sha256": "f260524741352515d67bddee35d886bad4565646fd3d1fef7f1acc0f723c996a",
+    "bytes": 1473172,
+    "triangles": 6652
+  },
+  "method": "Native PBR/UV exact-attribute cleanup + official meshoptimizer.simplifyWithAttributes index-only reduction, no smoothing, no texture rebaking.",
+  "library": {
+    "name": "meshoptimizer",
+    "version": "1.2.0",
+    "source": "https://github.com/zeux/meshoptimizer/tree/master/js",
+    "workspace_prefix": ".sites-runtime/meshopt-tools",
+    "license": "MIT"
+  },
+  "kind": "palm",
+  "reports": [
+    {
+      "source_vertices": 141224,
+      "source_triangles": 89506,
+      "removed_degenerate_triangles": 30,
+      "repaired_zero_normals": 4,
+      "unused_zero_normals_discarded": 7,
+      "exact_attribute_welded_vertices": 14,
+      "locked_feature_vertices": 0,
+      "target_triangles": 7000,
+      "runtime_vertices": 8266,
+      "runtime_triangles": 6652,
+      "meshoptimizer_approximate_relative_error": 0.005073506385087967,
+      "max_relative_error": 0.01,
+      "attribute_weights": [
+        0.1,
+        0.1,
+        0.1,
+        0.15,
+        0.15
+      ],
+      "flags": [
+        "Permissive"
+      ],
+      "sloppy": false,
+      "position_and_uv_coordinates_preserved": true,
+      "normal_repair_rule": "Zero normals on referenced vertices use largest-area incident oriented triangle; unused zero-normal vertices are discarded."
+    }
+  ],
+  "pbr_materials_sha256": "ec8f8e3850303c6e6275cb3c6d3040c304ca6aeb807c1643c3caca14744ece4e",
+  "embedded_images_unchanged_sha256": [
+    "d52f58b439378b9f34d13944446040a9c0248f28e4c9798f49aab32ce841f755",
+    "9d30621a4448439df6b2ca7cf0296d8950d1c0151b6cb8a53af7e2a20e397bcf"
+  ],
+  "visual_review_status": "unreviewed candidate, compare all four views with original master before promotion"
+}
